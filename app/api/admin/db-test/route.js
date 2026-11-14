@@ -1,19 +1,17 @@
 import { NextResponse } from 'next/server';
 import { testDbConnection } from '@/lib/db';
+import { verifySession } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-export async function GET(request) {
+export async function GET() {
   try {
-    const { searchParams } = new URL(request.url);
-    const password = searchParams.get('password');
-
-    // Secure Admin Password Verification
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin12345';
-    if (password !== adminPassword) {
+    // Secure Session Authorization Check
+    const session = verifySession();
+    if (!session.authenticated) {
       return NextResponse.json(
-        { success: false, error: 'Unauthorized: Invalid administrator credentials' },
+        { success: false, error: 'Unauthorized: Administrator session required' },
         { status: 401 }
       );
     }
@@ -24,7 +22,7 @@ export async function GET(request) {
       data: testResult,
     });
   } catch (error) {
-    console.error('[DB Test Endpoint Error]:', error);
+    console.error('[DB Test Endpoint Error]:', error.message || error);
     return NextResponse.json(
       { success: false, error: 'Failed to run database diagnostic' },
       { status: 500 }

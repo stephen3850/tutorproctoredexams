@@ -1,6 +1,10 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import { verifySession } from '@/lib/auth';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 const CONTENT_DIR = path.join(process.cwd(), 'content');
 
@@ -44,7 +48,6 @@ export async function GET(request) {
       const json = JSON.parse(fileData);
       return NextResponse.json({ success: true, data: json });
     } catch (readErr) {
-      // If file doesn't exist yet, return empty object
       return NextResponse.json({ success: true, data: {} });
     }
   } catch (error) {
@@ -54,14 +57,17 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
-    const body = await request.json();
-    const { file, data, password } = body;
-
-    // Secure Admin Password Verification
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin12345';
-    if (password !== adminPassword) {
-      return NextResponse.json({ success: false, error: 'Unauthorized: Invalid administrator credentials' }, { status: 401 });
+    // Server-Side HttpOnly Session Authorization Check
+    const session = verifySession();
+    if (!session.authenticated) {
+      return NextResponse.json(
+        { success: false, error: 'Unauthorized: Administrator session required' },
+        { status: 401 }
+      );
     }
+
+    const body = await request.json();
+    const { file, data } = body;
 
     if (!file || !data) {
       return NextResponse.json({ success: false, error: 'Missing file or data payload' }, { status: 400 });
@@ -78,7 +84,7 @@ export async function POST(request) {
 
     return NextResponse.json({ success: true, message: 'Content saved successfully to persistent storage' });
   } catch (error) {
-    console.error('[Content API Error]:', error);
+    console.error('[Content API Error]:', error.message || error);
     return NextResponse.json({ success: false, error: 'Failed to save content file' }, { status: 500 });
   }
 }

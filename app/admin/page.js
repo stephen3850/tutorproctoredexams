@@ -154,35 +154,58 @@ export default function CustomAdminCmsPage() {
   const [editingItemType, setEditingItemType] = useState(''); // 'blog', 'service', 'faq', 'settings', 'inquiry', 'page', 'navigation', 'certification', 'platform', 'resource', 'partnership'
   const [editFormData, setEditFormData] = useState({});
 
-  // Check stored auth session on mount
+  // Check server-side HttpOnly session on mount
   useEffect(() => {
-    const savedAuth = localStorage.getItem('cms_admin_authenticated');
-    if (savedAuth === 'true') {
-      setIsAuthenticated(true);
-      fetchContentData();
-      fetchMediaLibrary();
-    }
+    const checkSession = async () => {
+      try {
+        const res = await fetch('/api/auth/session');
+        const json = await res.json();
+        if (json.authenticated) {
+          setIsAuthenticated(true);
+          fetchContentData();
+          fetchMediaLibrary();
+        } else {
+          setIsAuthenticated(false);
+        }
+      } catch (err) {
+        setIsAuthenticated(false);
+      }
+    };
+    checkSession();
   }, []);
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    const correctPass = 'admin12345'; // Default CMS Password
-    if (adminPasswordInput === correctPass) {
-      setIsAuthenticated(true);
-      localStorage.setItem('cms_admin_authenticated', 'true');
-      localStorage.setItem('cms_admin_pass', adminPasswordInput);
-      setLoginError('');
-      fetchContentData();
-      fetchMediaLibrary();
-    } else {
-      setLoginError('Invalid password. Default password is: admin12345');
+    setLoginError('');
+    try {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: adminPasswordInput }),
+      });
+
+      const json = await res.json();
+      if (json.success) {
+        setIsAuthenticated(true);
+        setAdminPasswordInput('');
+        setLoginError('');
+        fetchContentData();
+        fetchMediaLibrary();
+      } else {
+        setLoginError(json.error || 'Invalid administrator credentials');
+      }
+    } catch (err) {
+      setLoginError('Authentication service error');
     }
   };
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+    } catch (err) {
+      // Ignore
+    }
     setIsAuthenticated(false);
-    localStorage.removeItem('cms_admin_authenticated');
-    localStorage.removeItem('cms_admin_pass');
   };
 
   // Fetch all JSON content from API
@@ -303,10 +326,8 @@ export default function CustomAdminCmsPage() {
 
     setUploadingImage(true);
     try {
-      const currentPass = localStorage.getItem('cms_admin_pass') || 'admin12345';
       const formData = new FormData();
       formData.append('file', file);
-      formData.append('password', currentPass);
 
       const res = await fetch('/api/admin/upload', {
         method: 'POST',
@@ -336,8 +357,7 @@ export default function CustomAdminCmsPage() {
     if (!confirm(`Are you sure you want to delete image "${filename}" from server storage?`)) return;
 
     try {
-      const currentPass = localStorage.getItem('cms_admin_pass') || 'admin12345';
-      const res = await fetch(`/api/admin/upload?filename=${encodeURIComponent(filename)}&password=${encodeURIComponent(currentPass)}`, {
+      const res = await fetch(`/api/admin/upload?filename=${encodeURIComponent(filename)}`, {
         method: 'DELETE',
       });
       const json = await res.json();
@@ -357,14 +377,12 @@ export default function CustomAdminCmsPage() {
     setLoading(true);
     setSaveStatus('');
     try {
-      const currentPass = localStorage.getItem('cms_admin_pass') || 'admin12345';
       const res = await fetch('/api/admin/content', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           file: fileName,
           data: dataPayload,
-          password: currentPass,
         }),
       });
 
@@ -1034,11 +1052,11 @@ export default function CustomAdminCmsPage() {
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
               <label className="block text-xs font-bold text-purple-200 mb-1.5 uppercase tracking-wider">
-                Admin Password
+                Administrator Password
               </label>
               <input
                 type="password"
-                placeholder="Enter CMS Password (Default: admin12345)"
+                placeholder="Enter Administrator Password"
                 value={adminPasswordInput}
                 onChange={(e) => setAdminPasswordInput(e.target.value)}
                 className="w-full px-4 py-3 rounded-xl bg-[#130924] border border-purple-800/60 text-white placeholder-purple-400/50 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
@@ -1054,14 +1072,15 @@ export default function CustomAdminCmsPage() {
 
             <button
               type="submit"
-              className="w-full py-3.5 px-6 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-black text-sm shadow-xl transition-all tracking-wide"
+              className="w-full py-3.5 px-6 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-black text-sm shadow-xl transition-all tracking-wide cursor-pointer"
             >
               Sign In to CMS Dashboard
             </button>
           </form>
 
-          <div className="text-center text-[11px] text-purple-400/60 border-t border-purple-900/40 pt-4">
-            Default Password: <code className="bg-[#130924] px-2 py-0.5 rounded text-purple-300 font-mono">admin12345</code>
+          <div className="text-center text-[11px] text-purple-400/60 border-t border-purple-900/40 pt-4 flex items-center justify-center gap-1.5">
+            <ShieldCheck className="w-3.5 h-3.5 text-purple-400" />
+            <span>Protected by Server-Side Session Authentication</span>
           </div>
         </div>
       </div>

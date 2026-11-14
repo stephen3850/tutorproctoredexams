@@ -1,6 +1,10 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import { verifySession } from '@/lib/auth';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 // Define persistent upload directory
 const UPLOAD_DIR = process.env.UPLOAD_DIR || path.join(process.cwd(), 'public', 'uploads');
@@ -16,8 +20,13 @@ async function ensureUploadDir() {
 }
 
 // GET: List all uploaded media files
-export async function GET(request) {
+export async function GET() {
   try {
+    const session = verifySession();
+    if (!session.authenticated) {
+      return NextResponse.json({ success: false, error: 'Unauthorized: Session required' }, { status: 401 });
+    }
+
     await ensureUploadDir();
     const filenames = await fs.readdir(UPLOAD_DIR);
 
@@ -51,16 +60,15 @@ export async function GET(request) {
 // POST: Upload a new image file
 export async function POST(request) {
   try {
+    const session = verifySession();
+    if (!session.authenticated) {
+      return NextResponse.json({ success: false, error: 'Unauthorized: Session required' }, { status: 401 });
+    }
+
     await ensureUploadDir();
 
     const formData = await request.formData();
     const file = formData.get('file');
-    const password = formData.get('password');
-
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin12345';
-    if (password !== adminPassword) {
-      return NextResponse.json({ success: false, error: 'Unauthorized: Invalid password' }, { status: 401 });
-    }
 
     if (!file || typeof file === 'string') {
       return NextResponse.json({ success: false, error: 'No valid file attached' }, { status: 400 });
@@ -107,7 +115,7 @@ export async function POST(request) {
       filename: finalFilename,
     });
   } catch (error) {
-    console.error('[Upload API Error]:', error);
+    console.error('[Upload API Error]:', error.message || error);
     return NextResponse.json({ success: false, error: 'File upload failed' }, { status: 500 });
   }
 }
@@ -115,14 +123,13 @@ export async function POST(request) {
 // DELETE: Remove an uploaded image file
 export async function DELETE(request) {
   try {
+    const session = verifySession();
+    if (!session.authenticated) {
+      return NextResponse.json({ success: false, error: 'Unauthorized: Session required' }, { status: 401 });
+    }
+
     const { searchParams } = new URL(request.url);
     const filename = searchParams.get('filename');
-    const password = searchParams.get('password');
-
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin12345';
-    if (password !== adminPassword) {
-      return NextResponse.json({ success: false, error: 'Unauthorized: Invalid password' }, { status: 401 });
-    }
 
     if (!filename) {
       return NextResponse.json({ success: false, error: 'Filename parameter missing' }, { status: 400 });
