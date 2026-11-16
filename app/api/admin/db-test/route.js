@@ -7,13 +7,9 @@ export const revalidate = 0;
 
 export async function GET() {
   try {
-    // Secure Session Authorization Check
     const session = verifySession();
     if (!session.authenticated) {
-      return NextResponse.json(
-        { success: false, error: 'Unauthorized: Administrator session required' },
-        { status: 401 }
-      );
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     const testResult = await testDbConnection();

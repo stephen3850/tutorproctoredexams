@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import {
   ShieldCheck,
   CheckCircle2,
@@ -55,7 +55,7 @@ export default function StartSystemModal({ isOpen, onClose, onComplete }) {
     );
   };
 
-  const runSystemSequence = async () => {
+  const runSystemSequence = useCallback(async () => {
     setRunning(true);
     setIsFinished(false);
     setHasEssentialError(false);
@@ -156,13 +156,13 @@ export default function StartSystemModal({ isOpen, onClose, onComplete }) {
       }
       return latestItems;
     });
-  };
+  }, [isOpen]);
 
   useEffect(() => {
     if (isOpen) {
       runSystemSequence();
     }
-  }, [isOpen]);
+  }, [isOpen, runSystemSequence]);
 
   if (!isOpen) return null;
 

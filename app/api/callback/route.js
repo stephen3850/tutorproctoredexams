@@ -32,10 +32,13 @@ export async function GET(request) {
       return new NextResponse('Failed to obtain access token from GitHub', { status: 400 });
     }
 
-    const script = `
-      <!DOCTYPE html>
-      <html>
-      <body>
+    const script = `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GitHub Authorization Callback</title>
+</head>
+<body>
       <script>
         (function() {
           function receiveMessage(e) {

@@ -131,7 +131,7 @@ export default function TermsOfServicePage() {
               <span className="text-[#2563EB]">1.</span> Acceptance of Terms
             </h2>
             <p className="text-slate-700 text-xs sm:text-sm leading-relaxed">
-              By accessing, browsing, inquiring about study materials, or engaging educational services through <strong>TUTOR PROCTORED EXAMS</strong> ("we", "our", "us", or "the Platform"), you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service, our Privacy Policy, and our Academic & Platform Disclaimer.
+              By accessing, browsing, inquiring about study materials, or engaging educational services through <strong>TUTOR PROCTORED EXAMS</strong> (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;, or &quot;the Platform&quot;), you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service, our Privacy Policy, and our Academic &amp; Platform Disclaimer.
             </p>
             <p className="text-slate-600 text-xs leading-relaxed font-medium">
               If you do not agree to these Terms in full, you must discontinue using our website and services immediately.
@@ -199,7 +199,7 @@ export default function TermsOfServicePage() {
             </p>
             <ul className="space-y-2 text-xs font-medium text-slate-700 list-disc pl-5">
               <li>Providing accurate, truthful contact and course information during inquiries.</li>
-              <li>Complying fully with their university's, college's, or testing body's code of academic conduct.</li>
+              <li>Complying fully with their university&apos;s, college&apos;s, or testing body&apos;s code of academic conduct.</li>
               <li>Adhering to official certification board examination rules (PMI, CompTIA, SHRM, AAPC, NHA, PTCB).</li>
               <li>Ensuring their computer hardware, operating system, and internet connection satisfy testing requirements.</li>
             </ul>

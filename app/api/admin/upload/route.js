@@ -24,7 +24,7 @@ export async function GET() {
   try {
     const session = verifySession();
     if (!session.authenticated) {
-      return NextResponse.json({ success: false, error: 'Unauthorized: Session required' }, { status: 401 });
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     await ensureUploadDir();
@@ -62,7 +62,7 @@ export async function POST(request) {
   try {
     const session = verifySession();
     if (!session.authenticated) {
-      return NextResponse.json({ success: false, error: 'Unauthorized: Session required' }, { status: 401 });
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     await ensureUploadDir();
@@ -125,7 +125,7 @@ export async function DELETE(request) {
   try {
     const session = verifySession();
     if (!session.authenticated) {
-      return NextResponse.json({ success: false, error: 'Unauthorized: Session required' }, { status: 401 });
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     const { searchParams } = new URL(request.url);

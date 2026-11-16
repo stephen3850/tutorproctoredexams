@@ -1,26 +1,3 @@
 {
-  "inquiries": [
-    {
-      "id": "inq-101",
-      "date": "2025-03-01 14:32",
-      "fullName": "Sarah Jenkins",
-      "email": "sarah.j@example.com",
-      "phone": "+1 (555) 234-5678",
-      "service": "1-on-1 Online Tutoring",
-      "subject": "Need help with Organic Chemistry midterm",
-      "message": "Hello, I am looking for a 1-on-1 tutor for my upcoming Organic Chemistry exam. Please share available schedules.",
-      "status": "New"
-    },
-    {
-      "id": "inq-102",
-      "date": "2025-03-02 09:15",
-      "fullName": "Michael Ross",
-      "email": "m.ross@example.com",
-      "phone": "+1 (555) 876-5432",
-      "service": "PMP Certification Prep",
-      "subject": "PMP Exam Revision Materials",
-      "message": "Hi team, I am preparing for the PMI PMP exam next month. I need the ECO domain study notes and mock questions.",
-      "status": "Responded"
-    }
-  ]
+  "inquiries": []
 }

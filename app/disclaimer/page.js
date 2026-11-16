@@ -197,7 +197,7 @@ export default function DisclaimerPage() {
               Student Responsibility
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed font-medium">
-              Every student remains fully responsible for adhering to their university's, institution's, or testing body's code of academic conduct and exam policies.
+              Every student remains fully responsible for adhering to their university&apos;s, institution&apos;s, or testing body&apos;s code of academic conduct and exam policies.
             </p>
           </div>
         </div>

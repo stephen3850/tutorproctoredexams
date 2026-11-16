@@ -34,6 +34,12 @@ function sanitizeFilename(requestedFile) {
 
 export async function GET(request) {
   try {
+    // 1. Server-side session verification MUST happen FIRST before reading any file
+    const session = verifySession();
+    if (!session.authenticated) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
     const { searchParams } = new URL(request.url);
     const requestedFile = searchParams.get('file') || 'blog.json';
     const safeFile = sanitizeFilename(requestedFile);
@@ -57,13 +63,10 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
-    // Server-Side HttpOnly Session Authorization Check
+    // 1. Server-side session verification MUST happen FIRST before reading request payload or files
     const session = verifySession();
     if (!session.authenticated) {
-      return NextResponse.json(
-        { success: false, error: 'Unauthorized: Administrator session required' },
-        { status: 401 }
-      );
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     const body = await request.json();
