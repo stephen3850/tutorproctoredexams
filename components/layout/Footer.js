@@ -48,15 +48,15 @@ export default function Footer() {
 
             {/* Social Media Links */}
             <div className="pt-2 flex items-center gap-3">
-              <span className="text-xs text-slate-300 font-semibold drop-shadow-sm">Follow Us:</span>
+              <span className="text-xs text-white font-bold drop-shadow-md">Follow Us:</span>
               <a
                 href={process.env.NEXT_PUBLIC_TIKTOK_URL || '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
-                className="w-8 h-8 rounded-lg bg-white/10 hover:bg-[#FE2C55] text-white flex items-center justify-center transition-all shadow-sm group"
+                className="w-9 h-9 rounded-lg bg-[#000000] hover:bg-[#111111] border border-slate-700/90 hover:border-[#FE2C55] text-white hover:text-[#FE2C55] flex items-center justify-center transition-all shadow-md group"
               >
-                <svg className="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
                   <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.68a6.34 6.34 0 0 0 10.86 4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.04z" />
                 </svg>
               </a>
