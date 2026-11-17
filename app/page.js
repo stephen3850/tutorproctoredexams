@@ -321,13 +321,13 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-8 space-y-6">
               <Badge variant="blue" className="bg-[#2563EB] text-white border-blue-400 px-3.5 py-1 text-xs shadow-md">
-                Ethical Academic Support & Certification Guidance
+                Global Educational Support &amp; Exam Readiness
               </Badge>
 
               <TypewriterHeroHeadline text="Your Academic and Exams Success Starts With The Right Approach" />
 
               <p className="text-sm sm:text-base lg:text-lg text-slate-100 leading-relaxed max-w-2xl text-balance drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)] font-medium">
-                Discover professional tutoring, structured exam preparation, practice resources, and certification guidance designed to help you pass your exams.
+                Online proctored examinations are digitally monitored tests administered remotely using webcams, audio feeds, and secure software to verify candidate identity and preserve academic integrity. At <strong>TUTOR PROCTORED EXAMS</strong>, we empower students internationally with professional 1-on-1 tutoring, structured examination preparation, comprehensive study guidance, and pre-test technical support. Whether you are preparing for online proctored exams or navigating assessment platforms such as ProctorU, Proctorio, Respondus LockDown Browser, Examplify, or Honorlock, our educational specialists ensure you build the subject mastery and system readiness to achieve your goals independently.
               </p>
 
               {/* Action Buttons */}
@@ -346,7 +346,7 @@ export default function HomePage() {
               {/* Trust Intro Line */}
               <div className="pt-6 flex items-center gap-3 text-xs sm:text-sm text-white font-semibold border-t border-white/30 drop-shadow-md">
                 <ShieldCheck className="w-5 h-5 text-[#356AE6] shrink-0" />
-                <span>Ethical Academic Tutoring • Software Compatibility Guidance • Global Reach</span>
+                <span>Global Academic Tutoring • Proctoring Software Guidance • International Student Support</span>
               </div>
             </div>
 
@@ -372,25 +372,25 @@ export default function HomePage() {
                     <div className="w-5 h-5 rounded-full border border-white/50 bg-white/10 flex items-center justify-center shrink-0">
                       <CheckCircle2 className="w-3.5 h-3.5 text-white" />
                     </div>
-                    <span className="drop-shadow-sm">1-on-1 Subject Coaching & Concept Reviews</span>
+                    <span className="drop-shadow-sm">1-on-1 Tutoring &amp; Subject Concept Mastery</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="w-5 h-5 rounded-full border border-white/50 bg-white/10 flex items-center justify-center shrink-0">
                       <CheckCircle2 className="w-3.5 h-3.5 text-white" />
                     </div>
-                    <span className="drop-shadow-sm">Proctoring Software System Checks</span>
+                    <span className="drop-shadow-sm">Technical Setup for ProctorU, Proctorio &amp; Respondus</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="w-5 h-5 rounded-full border border-white/50 bg-white/10 flex items-center justify-center shrink-0">
                       <CheckCircle2 className="w-3.5 h-3.5 text-white" />
                     </div>
-                    <span className="drop-shadow-sm">PMP, CompTIA, AAPC & CPC Exam Prep</span>
+                    <span className="drop-shadow-sm">Study Guidance for Online Proctored Exams</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <div className="w-5 h-5 rounded-full border border-white/50 bg-white/10 flex items-center justify-center shrink-0">
                       <CheckCircle2 className="w-3.5 h-3.5 text-white" />
                     </div>
-                    <span className="drop-shadow-sm">Independent Student Mastery Focus</span>
+                    <span className="drop-shadow-sm">Global Support for University &amp; Certification Candidates</span>
                   </li>
                 </ul>
 
