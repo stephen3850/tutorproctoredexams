@@ -324,16 +324,20 @@ export default function HomePage() {
                 Global Educational Support &amp; Exam Readiness
               </Badge>
 
-              <TypewriterHeroHeadline text="Your Academic and Exams Success Starts With The Right Approach" />
+              <TypewriterHeroHeadline text="Prepare with Confidence. Learn with Integrity." />
+
+              <h2 className="text-[#60A5FA] text-base sm:text-lg lg:text-xl font-bold tracking-wide">
+                Professional Online Tutoring and Proctored Examination Preparation
+              </h2>
 
               <p className="text-sm sm:text-base lg:text-lg text-slate-100 leading-relaxed max-w-2xl text-balance drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)] font-medium">
-                Online proctored examinations are digitally monitored tests administered remotely using webcams, audio feeds, and secure software to verify candidate identity and preserve academic integrity. At <strong>TUTOR PROCTORED EXAMS</strong>, we empower students internationally with professional 1-on-1 tutoring, structured examination preparation, comprehensive study guidance, and pre-test technical support. Whether you are preparing for online proctored exams or navigating assessment platforms such as ProctorU, Proctorio, Respondus LockDown Browser, Examplify, or Honorlock, our educational specialists ensure you build the subject mastery and system readiness to achieve your goals independently.
+                Access personalized tutoring, structured examination preparation and practical technical guidance designed to help you develop knowledge, strengthen your skills and approach examinations with confidence. At <strong>TUTOR PROCTORED EXAMS</strong>, we empower students internationally with professional 1-on-1 tutoring, structured examination preparation, comprehensive study guidance, and pre-test technical support. Whether you are preparing for online proctored exams or navigating assessment platforms such as ProctorU, Proctorio, Respondus LockDown Browser, Examplify, or Honorlock, our educational specialists ensure you build the subject mastery and system readiness to achieve your goals independently.
               </p>
 
               {/* Action Buttons */}
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                 <Button href="/services" variant="primary" size="lg" icon={ArrowRight} className="bg-[#2563EB] hover:bg-[#1D4ED8] shadow-xl">
-                  Explore Our Services
+                  Explore Our Learning Support
                 </Button>
                 <Link
                   href="/exam-platforms"
@@ -481,7 +485,7 @@ export default function HomePage() {
           <SectionHeading
             badge="What We Offer"
             title="OUR EDUCATIONAL SERVICES"
-            subtitle="We as proctored online exams professionals support students to the best level we can to ensure they fully qualify for a job."
+            subtitle="Professional 1-on-1 tutoring, structured exam preparation, and software technical guidance designed to support independent learning and academic integrity."
             centered
             className="mb-8"
           />
@@ -530,31 +534,31 @@ export default function HomePage() {
               </div>
 
               <h2 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                Thousands of Students Trust Our Experts for Their Academic Success
+                Empowering Students Worldwide Through Dedicated Academic Support
               </h2>
 
               <p className="text-sm sm:text-base text-white/95 leading-relaxed font-medium max-w-2xl">
-                Our dedicated team of specialists provides reliable 24/7 support for online exams, assignments, quizzes, and coursework to help you achieve the grades you deserve.
+                Our dedicated team of educational specialists provides reliable 1-on-1 tutoring, study planning, practice question walkthroughs, and technical readiness support to help you achieve your academic goals independently.
               </p>
 
               {/* 3 Metrics Row */}
               <div className="grid grid-cols-3 gap-6 pt-4 border-t border-white/20">
                 <div className="space-y-1">
                   <div className="w-8 h-1 bg-orange-400 rounded-full mb-2" />
-                  <div className="text-3xl sm:text-4xl font-black text-white">89%</div>
-                  <div className="text-xs sm:text-sm font-bold text-white/90">Success Rate</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white">100%</div>
+                  <div className="text-xs sm:text-sm font-bold text-white/90">Ethical Standard</div>
                 </div>
 
                 <div className="space-y-1">
                   <div className="w-8 h-1 bg-orange-400 rounded-full mb-2" />
                   <div className="text-3xl sm:text-4xl font-black text-white">150+</div>
-                  <div className="text-xs sm:text-sm font-bold text-white/90">Subjects Covered</div>
+                  <div className="text-xs sm:text-sm font-bold text-white/90">Subject Areas</div>
                 </div>
 
                 <div className="space-y-1">
                   <div className="w-8 h-1 bg-orange-400 rounded-full mb-2" />
-                  <div className="text-3xl sm:text-4xl font-black text-white">50+</div>
-                  <div className="text-xs sm:text-sm font-bold text-white/90">Experts</div>
+                  <div className="text-3xl sm:text-4xl font-black text-white">24/7</div>
+                  <div className="text-xs sm:text-sm font-bold text-white/90">Study Assistance</div>
                 </div>
               </div>
             </div>
@@ -587,7 +591,7 @@ export default function HomePage() {
         </PageContainer>
       </section>
 
-      {/* 7. CAN SOMEONE DO MY EXAM FOR ME? 24/7 ASSISTANCE SECTION (Matching Reference Image) */}
+      {/* 7. 24/7 LEARNING SUPPORT & TECHNICAL PREPARATION SECTION */}
       <section className="my-10">
         <PageContainer>
           <div className="grid grid-cols-1 lg:grid-cols-12 overflow-hidden shadow-xl border border-slate-200">
@@ -607,11 +611,11 @@ export default function HomePage() {
 
               <div className="relative z-10 space-y-4">
                 <p className="text-base sm:text-lg font-bold italic leading-relaxed text-white drop-shadow-sm">
-                  &quot;This is the best exam service I have ever used. I have used other services during my graduation, I never got less than A+ for any of my exam. I strongly recommend if you are seeking the finest grades in your exam&quot;
+                  &quot;The 1-on-1 tutoring sessions and practice question walkthroughs gave me complete confidence for my exam. Their technical guidance also ensured my webcam and software were fully prepped before test day.&quot;
                 </p>
                 <div>
-                  <h4 className="font-extrabold text-white text-base">Michael Browning</h4>
-                  <span className="text-xs text-emerald-100 font-bold uppercase tracking-wider">Student</span>
+                  <h4 className="font-extrabold text-white text-base">Michael B.</h4>
+                  <span className="text-xs text-emerald-100 font-bold uppercase tracking-wider">Certified Learner</span>
                 </div>
               </div>
             </div>
@@ -619,11 +623,11 @@ export default function HomePage() {
             {/* Right Column: White Box with Heading & Contact Button */}
             <div className="lg:col-span-6 bg-white p-8 sm:p-12 flex flex-col justify-center space-y-6">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0F172A] leading-[1.2]">
-                Can Someone Do My Exam For Me? Yes! We Are Available For Your Assistance 24/7.
+                Need Help Preparing For Your Next Exam? We Are Available For Your Assistance 24/7.
               </h2>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-                Our online class specialists are here to help you unlock your academic potential and achieve success. Whether you need assistance with coursework or want to improve your grades.
+                Our educational specialists are here to help you unlock your academic potential and build true subject mastery. Whether you need 1-on-1 subject tutoring, practice questions, or software technical preparation, we are available 24/7 to support your learning journey.
               </p>
 
               <div>
@@ -633,7 +637,7 @@ export default function HomePage() {
                   rel="noopener noreferrer"
                   className="bg-[#05B851] hover:bg-emerald-600 text-white font-extrabold text-sm px-7 py-3.5 inline-flex items-center gap-2 transition-all shadow-md"
                 >
-                  <span>Contact Now</span>
+                  <span>Contact Our Team</span>
                   <ArrowRight className="w-4 h-4 text-white stroke-[3]" />
                 </a>
               </div>

@@ -140,7 +140,7 @@ export default function AboutPage() {
             </Badge>
 
             <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.9)]">
-              We Help You Learn, Prepare And Pass your exams
+              Prepare with Confidence. Learn with Integrity.
             </h1>
 
             <p className="text-base sm:text-lg text-slate-100 leading-relaxed max-w-2xl font-medium drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
@@ -186,7 +186,7 @@ export default function AboutPage() {
               </div>
 
               <p className="text-base sm:text-xl font-bold text-[#0F172A] leading-relaxed">
-                <span className="text-[#2563EB] font-black">TUTOR PROCTORED EXAMS</span> helps students with online examinations, online classes, proctored exams preparation and assignments. <span className="text-red-600 font-extrabold">Be a professional with our online help.</span>
+                <span className="text-[#2563EB] font-black">TUTOR PROCTORED EXAMS</span> provides students and working professionals with structured examination preparation, 1-on-1 subject tutoring, software technical guidance, and comprehensive study planning.
               </p>
 
               {/* 2x2 Key Features Grid */}

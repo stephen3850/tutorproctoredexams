@@ -135,6 +135,11 @@
           "pageLocation": "/about"
         },
         {
+          "question": "Do you complete examinations on behalf of students?",
+          "answer": "No. We do not impersonate students, access examinations on their behalf or complete graded assessments for them. Our services focus on legitimate tutoring, preparation and technical guidance that respect academic integrity.",
+          "pageLocation": "/about"
+        },
+        {
           "question": "Does your technical guidance bypass proctoring software?",
           "answer": "No. We do NOT bypass, disable, hack, or modify proctoring software. Our technical guidance is 100% legitimate and focused solely on hardware compatibility, privacy settings, and official installation guidelines.",
           "pageLocation": "/about"
