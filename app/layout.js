@@ -1,4 +1,5 @@
 import './globals.css';
+import { Outfit } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import CookieConsent from '@/components/ui/CookieConsent';
@@ -7,6 +8,13 @@ import GoogleAnalytics from '@/components/seo/GoogleAnalytics';
 import GoogleTagManager from '@/components/seo/GoogleTagManager';
 import GoogleAdSense from '@/components/seo/GoogleAdSense';
 import { SITE_CONFIG } from '@/lib/utils';
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-outfit',
+  display: 'swap',
+});
 
 export const metadata = {
   metadataBase: new URL(SITE_CONFIG.domain),
@@ -70,8 +78,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="flex flex-col min-h-screen bg-brand-bg text-brand-text font-sans antialiased">
+    <html lang="en" className={outfit.variable}>
+      <body className={`${outfit.className} flex flex-col min-h-screen bg-brand-bg text-brand-text font-sans antialiased`}>
         <GoogleAnalytics />
         <GoogleTagManager />
         <GoogleAdSense />

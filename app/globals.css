@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -25,7 +25,7 @@
 
   html {
     scroll-behavior: smooth;
-    font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: 'Outfit', var(--font-outfit), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     -webkit-text-size-adjust: 100%;
   }
 
@@ -37,6 +37,8 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Outfit', var(--font-outfit), sans-serif;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -46,7 +48,11 @@
   h1, h2, h3, h4, h5, h6 {
     color: var(--color-navy);
     letter-spacing: -0.02em;
-    font-weight: 700;
+    font-family: 'Outfit', var(--font-outfit), sans-serif;
+  }
+
+  .font-light-heading {
+    font-weight: 300;
   }
 }
 
