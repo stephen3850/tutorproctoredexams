@@ -7,7 +7,6 @@ Disallow: /
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
 
 Sitemap: https://tutorproctoredexams.com/sitemap.xml
