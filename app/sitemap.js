@@ -27,32 +27,32 @@ export default async function sitemap() {
     { url: '/cookie-policy', priority: 0.3, changeFrequency: 'yearly' },
   ];
 
-  const blogRoutes = Object.keys(BLOG_ARTICLES || {}).map((slug) => ({
-    url: `/blog/${slug}`,
+  const blogRoutes = Object.values(BLOG_ARTICLES || {}).map((article) => ({
+    url: `/blog/${article.slug}`,
     priority: 0.8,
     changeFrequency: 'weekly',
   }));
 
-  const serviceRoutes = Object.keys(SERVICES_DATA || {}).map((slug) => ({
-    url: `/services/${slug}`,
+  const serviceRoutes = Object.values(SERVICES_DATA || {}).map((service) => ({
+    url: `/services/${service.slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const platformRoutes = Object.keys(PLATFORMS_DATA || {}).map((slug) => ({
-    url: `/exam-platforms/${slug}`,
+  const platformRoutes = Object.values(PLATFORMS_DATA || {}).map((platform) => ({
+    url: `/exam-platforms/${platform.slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const certificationRoutes = Object.keys(CERTIFICATIONS_DATA || {}).map((slug) => ({
-    url: `/certifications/${slug}`,
+  const certificationRoutes = Object.values(CERTIFICATIONS_DATA || {}).map((cert) => ({
+    url: `/certifications/${cert.slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const studyResourceRoutes = Object.keys(STUDY_RESOURCES_DATA || {}).map((slug) => ({
-    url: `/study-resources/${slug}`,
+  const studyResourceRoutes = Object.values(STUDY_RESOURCES_DATA || {}).map((resource) => ({
+    url: `/study-resources/${resource.slug}`,
     priority: 0.8,
     changeFrequency: 'weekly',
   }));
@@ -74,7 +74,10 @@ export default async function sitemap() {
     lastModified: page.modified || now,
   }));
 
-  // Deduplicate and filter out admin/api routes
+  // Disallowed path patterns
+  const disallowedPrefixes = ['/admin', '/api', '/services/one-to-one-tutoring', '/services/professional-certification-preparation'];
+
+  // Deduplicate and filter out admin/api/redirect routes
   const routeMap = new Map();
 
   [
@@ -87,7 +90,7 @@ export default async function sitemap() {
     ...wpPostRoutes,
     ...wpPageRoutes,
   ].forEach((route) => {
-    if (!route.url || route.url.startsWith('/admin') || route.url.startsWith('/api')) {
+    if (!route.url || disallowedPrefixes.some((prefix) => route.url === prefix || route.url.startsWith(`${prefix}/`))) {
       return;
     }
     routeMap.set(route.url, {

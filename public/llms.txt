@@ -1,0 +1,43 @@
+# TUTOR PROCTORED EXAMS (https://tutorproctoredexams.com)
+
+> Premier online tutoring, structured examination preparation, professional certification coaching, and proctoring software technical guidance platform.
+
+## Overview & Purpose
+TUTOR PROCTORED EXAMS is a professional educational support platform serving undergraduate students, adult learners, and working professionals worldwide. We provide ethical 1-on-1 virtual instruction, syllabus-aligned exam preparation, curated revision resources, and software technical pre-checks designed to help candidates build genuine subject mastery and test independently with confidence.
+
+## Who Our Services Are For
+- **College & University Students:** Needing 1-on-1 academic tutoring, study planning, or midterm/final exam preparation.
+- **Certification Candidates:** Preparing for high-stakes professional exams (PMP, CompTIA Security+, AAPC CPC, NHA CCMA, SHRM, Real Estate, CNA, CPhT).
+- **Proctored Test Takers:** Needing legitimate pre-exam hardware compatibility checks, webcam/microphone setup guidance, or browser troubleshooting for Respondus LockDown Browser, Examplify, Honorlock, ProctorU, or Proctorio.
+
+## Core Educational Services
+- **1-on-1 Online Tutoring:** Personalized virtual instruction across STEM, business, healthcare, nursing, computer science, and humanities.
+- **Academic Exam Preparation:** Structured revision schedules, time management coaching, and concept walkthroughs for midterms and finals.
+- **Practice Questions & Mock Tests:** Timed mock exam sets with comprehensive answer rationales and distractor breakdowns.
+- **Professional Certification Prep:** Domain coaching aligned with current exam content outlines (ECO) for PMP, CompTIA, AAPC CPC, CCMA, and nursing credentials.
+- **Study Planning & Revision Support:** Customized daily time-blocking, active recall, and spaced repetition roadmaps.
+- **Software Technical Guidance:** Pre-test hardware checks, OS privacy setting adjustments, camera/microphone permission verification, and network diagnostics.
+
+## Academic Integrity Commitment
+TUTOR PROCTORED EXAMS strictly adheres to academic integrity and university codes of conduct.
+- We **DO NOT** impersonate students, take examinations on their behalf, or complete graded assessments for them.
+- We **DO NOT** offer cheating tools or bypass proctoring software.
+- All services focus on legitimate instruction, study preparation, and system compatibility pre-checks to support independent learning.
+
+## Key Public URLs
+- Homepage: https://tutorproctoredexams.com/
+- Educational Services: https://tutorproctoredexams.com/services
+- 1-on-1 Tutoring: https://tutorproctoredexams.com/services/one-on-one-tutoring
+- Academic Exam Prep: https://tutorproctoredexams.com/services/academic-exam-preparation
+- Practice Questions & Mock Tests: https://tutorproctoredexams.com/services/practice-questions-mock-tests
+- Professional Certification Prep: https://tutorproctoredexams.com/services/professional-certification-prep
+- Software Technical Guidance: https://tutorproctoredexams.com/services/software-technical-guidance
+- Examination Platforms Directory: https://tutorproctoredexams.com/exam-platforms
+- Certifications Directory: https://tutorproctoredexams.com/certifications
+- Study Resources Library: https://tutorproctoredexams.com/study-resources
+- Blog & Guides: https://tutorproctoredexams.com/blog
+- Frequently Asked Questions: https://tutorproctoredexams.com/faq
+- Contact & Inquiries: https://tutorproctoredexams.com/contact
+- Academic Disclaimer: https://tutorproctoredexams.com/disclaimer
+- Dynamic Sitemap: https://tutorproctoredexams.com/sitemap.xml
+- Robots Rules: https://tutorproctoredexams.com/robots.txt

@@ -24,6 +24,8 @@ import Badge from '@/components/ui/Badge';
 import FaqAccordion from '@/components/ui/FaqAccordion';
 import TypewriterHeroHeadline from '@/components/ui/TypewriterHeroHeadline';
 import ProcessStepsSequentialReveal from '@/components/ui/ProcessStepsSequentialReveal';
+import JsonLd from '@/components/seo/JsonLd';
+import { SITE_CONFIG } from '@/lib/utils';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -139,7 +141,7 @@ export default function HomePage() {
       description: 'Direct instruction with qualified subject specialists focused on identifying knowledge gaps and clarifying complex concepts.',
       icon: Users,
       badge: 'Personalized Learning',
-      href: '/services/one-to-one-tutoring',
+      href: '/services/one-on-one-tutoring',
     },
     {
       title: 'Academic Exam Preparation',
@@ -160,7 +162,7 @@ export default function HomePage() {
       description: 'Targeted domain review, question strategy, and practice modules for PMP, CompTIA, AAPC, CPC, and CCMA credentials.',
       icon: Award,
       badge: 'Career Credentials',
-      href: '/services/professional-certification-preparation',
+      href: '/services/professional-certification-prep',
     },
     {
       title: 'Study Planning & Revision Support',
@@ -304,8 +306,43 @@ export default function HomePage() {
     },
   ];
 
+  const jsonLdData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'EducationalOrganization',
+        '@id': `${SITE_CONFIG.domain}/#organization`,
+        name: SITE_CONFIG.name,
+        url: SITE_CONFIG.domain,
+        description: SITE_CONFIG.description,
+        email: SITE_CONFIG.contactEmail,
+        knowsAbout: [
+          'Academic Tutoring',
+          'Exam Preparation',
+          'Professional Certifications',
+          'Proctoring Software Technical Guidance',
+          'PMP Certification',
+          'CompTIA Security+',
+          'AAPC Medical Coding',
+        ],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE_CONFIG.domain}/#website`,
+        url: SITE_CONFIG.domain,
+        name: SITE_CONFIG.name,
+        description: SITE_CONFIG.description,
+        publisher: {
+          '@id': `${SITE_CONFIG.domain}/#organization`,
+        },
+      },
+    ],
+  };
+
   return (
     <div className="space-y-10 sm:space-y-14 pb-10">
+      <JsonLd data={jsonLdData} />
+
       {/* 1. HERO SECTION WITH STUDENTS.JPG BACKGROUND */}
       <section className="relative text-white pt-12 pb-16 lg:pt-16 lg:pb-20 overflow-hidden bg-[#0F172A]">
         {/* Fully Visible Background Image: students .jpg */}

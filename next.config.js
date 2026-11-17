@@ -13,6 +13,20 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/services/one-to-one-tutoring',
+        destination: '/services/one-on-one-tutoring',
+        permanent: true,
+      },
+      {
+        source: '/services/professional-certification-preparation',
+        destination: '/services/professional-certification-prep',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
