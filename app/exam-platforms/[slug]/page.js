@@ -208,15 +208,25 @@ export default async function PlatformDetailPage({ params }) {
           )}
         </div>
 
-        {/* 3. ETHICAL TECHNICAL GUIDANCE DISCLAIMER */}
+        {/* 3. ETHICAL TECHNICAL GUIDANCE DISCLAIMER & SERVICE CROSS-LINK */}
         <div className="bg-brand-bg border border-brand-border rounded-2xl p-8 my-10 space-y-4 text-center max-w-3xl mx-auto shadow-sm">
           <ShieldCheck className="w-10 h-10 text-brand-blue mx-auto" />
           <h3 className="text-xl font-bold text-brand-navy">
-            100% Ethical & Legitimate Technical Advice
+            100% Ethical &amp; Legitimate Technical Advice
           </h3>
           <p className="text-xs sm:text-sm text-brand-muted leading-relaxed">
             Our software technical guidance covers hardware setup, webcam/microphone permission checks, operating system updates, and resolving background process conflicts prior to test day. We strictly do NOT bypass, disable, hack, or compromise examination security software.
           </p>
+
+          <div className="pt-2">
+            <Link
+              href="/services/software-technical-guidance"
+              className="px-5 py-2.5 bg-brand-blue hover:bg-brand-navy text-white text-xs font-bold rounded-xl inline-flex items-center gap-2 shadow-sm transition-all"
+            >
+              <span>Explore Software Technical Guidance Service</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
       </PageContainer>
     </div>

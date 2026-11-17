@@ -378,6 +378,26 @@ export default function CertificationDetailPage({ params }) {
             <FaqAccordion items={cert.faqs} />
           </div>
         )}
+
+        {/* 6. SERVICE CROSS-LINK BANNER */}
+        <div className="bg-brand-bg border border-brand-border rounded-2xl p-8 my-10 space-y-4 text-center max-w-3xl mx-auto shadow-sm">
+          <Award className="w-10 h-10 text-brand-blue mx-auto" />
+          <h3 className="text-xl font-bold text-brand-navy">
+            Looking for 1-on-1 Certification Coaching?
+          </h3>
+          <p className="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            Our Professional Certification Prep program connects you with certified tutors for domain-by-domain syllabus walkthroughs, scenario question coaching, and customized revision schedules.
+          </p>
+          <div className="pt-2">
+            <Link
+              href="/services/professional-certification-prep"
+              className="px-5 py-2.5 bg-brand-blue hover:bg-brand-navy text-white text-xs font-bold rounded-xl inline-flex items-center gap-2 shadow-sm transition-all"
+            >
+              <span>Explore Professional Certification Prep Service</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+        </div>
       </PageContainer>
     </div>
   );
