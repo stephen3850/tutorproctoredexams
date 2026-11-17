@@ -304,6 +304,22 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* 5.5 EDITORIAL & ACADEMIC STANDARDS */}
+        <div className="bg-white border border-brand-border rounded-2xl p-8 sm:p-10 space-y-4 my-10 shadow-sm">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-brand-lightBlue text-brand-blue flex items-center justify-center shrink-0">
+              <GraduationCap className="w-6 h-6" />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold text-brand-navy">Editorial &amp; Academic Expertise</h2>
+              <span className="text-xs text-brand-muted font-medium">Subject Specialist Content Review</span>
+            </div>
+          </div>
+          <p className="text-sm text-brand-muted leading-relaxed">
+            All educational articles, software technical guides, and study materials published by <strong>TUTOR PROCTORED EXAMS</strong> are prepared and reviewed by qualified subject specialists, credentialed tutors, and technical advisors. We regularly update our technical compatibility guides to reflect official vendor documentation from Respondus Inc., ExamSoft/Turnitin, Honorlock Inc., Meazure Learning, Proctorio, PMI, CompTIA, AAPC, and ATI Testing.
+          </p>
+        </div>
+
         {/* 6. OUR COMMITMENT TO ACADEMIC INTEGRITY (LIGHT RED / CRIMSON BACKGROUND) */}
         <div id="integrity" className="bg-[#991B1B] text-white rounded-2xl p-6 sm:p-8 space-y-4 shadow-xl my-10 border border-red-500/30">
           <div className="flex items-center gap-3">
