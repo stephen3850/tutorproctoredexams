@@ -63,6 +63,9 @@ export const metadata = {
   alternates: {
     canonical: SITE_CONFIG.domain,
   },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
 };
 
 export default function RootLayout({ children }) {
