@@ -326,11 +326,11 @@ export default function HomePage() {
 
               <TypewriterHeroHeadline text="Prepare with Confidence. Learn with Integrity." />
 
-              <h2 className="text-[#60A5FA] text-base sm:text-lg lg:text-xl font-bold tracking-wide">
+              <h2 className="text-[#60A5FA] text-xs sm:text-sm lg:text-base font-bold tracking-wide">
                 Professional Online Tutoring and Proctored Examination Preparation
               </h2>
 
-              <p className="text-sm sm:text-base lg:text-lg text-slate-100 leading-relaxed max-w-2xl text-balance drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)] font-medium">
+              <p className="text-xs sm:text-sm text-slate-100 leading-relaxed max-w-2xl text-balance drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)] font-normal">
                 Access personalized tutoring, structured examination preparation and practical technical guidance designed to help you develop knowledge, strengthen your skills and approach examinations with confidence. At <strong>TUTOR PROCTORED EXAMS</strong>, we empower students internationally with professional 1-on-1 tutoring, structured examination preparation, comprehensive study guidance, and pre-test technical support. Whether you are preparing for online proctored exams or navigating assessment platforms such as ProctorU, Proctorio, Respondus LockDown Browser, Examplify, or Honorlock, our educational specialists ensure you build the subject mastery and system readiness to achieve your goals independently.
               </p>
 
