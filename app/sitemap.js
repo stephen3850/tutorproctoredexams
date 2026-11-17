@@ -2,6 +2,7 @@ import { SITE_CONFIG } from '@/lib/utils';
 import { PLATFORMS_DATA } from '@/lib/data/platformsData';
 import { CERTIFICATIONS_DATA } from '@/lib/data/certificationsData';
 import { SERVICES_DATA } from '@/lib/data/servicesData';
+import { STUDY_RESOURCES_DATA } from '@/lib/data/studyResourcesData';
 import { BLOG_ARTICLES } from '@/lib/data/blogData';
 import { getWpPosts, getWpPages } from '@/lib/wordpress';
 
@@ -26,31 +27,37 @@ export default async function sitemap() {
     { url: '/cookie-policy', priority: 0.3, changeFrequency: 'yearly' },
   ];
 
-  const blogRoutes = Object.keys(BLOG_ARTICLES).map((slug) => ({
+  const blogRoutes = Object.keys(BLOG_ARTICLES || {}).map((slug) => ({
     url: `/blog/${slug}`,
     priority: 0.8,
     changeFrequency: 'weekly',
   }));
 
-  const serviceRoutes = Object.keys(SERVICES_DATA).map((slug) => ({
+  const serviceRoutes = Object.keys(SERVICES_DATA || {}).map((slug) => ({
     url: `/services/${slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const platformRoutes = Object.keys(PLATFORMS_DATA).map((slug) => ({
+  const platformRoutes = Object.keys(PLATFORMS_DATA || {}).map((slug) => ({
     url: `/exam-platforms/${slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const certificationRoutes = Object.keys(CERTIFICATIONS_DATA).map((slug) => ({
+  const certificationRoutes = Object.keys(CERTIFICATIONS_DATA || {}).map((slug) => ({
     url: `/certifications/${slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  // Fetch published WordPress routes
+  const studyResourceRoutes = Object.keys(STUDY_RESOURCES_DATA || {}).map((slug) => ({
+    url: `/study-resources/${slug}`,
+    priority: 0.8,
+    changeFrequency: 'weekly',
+  }));
+
+  // Fetch published WordPress routes if configured
   const wpPosts = await getWpPosts();
   const wpPostRoutes = (wpPosts || []).map((post) => ({
     url: `/blog/${post.slug}`,
@@ -67,7 +74,7 @@ export default async function sitemap() {
     lastModified: page.modified || now,
   }));
 
-  // Deduplicate routes by URL
+  // Deduplicate and filter out admin/api routes
   const routeMap = new Map();
 
   [
@@ -76,11 +83,15 @@ export default async function sitemap() {
     ...serviceRoutes,
     ...platformRoutes,
     ...certificationRoutes,
+    ...studyResourceRoutes,
     ...wpPostRoutes,
     ...wpPageRoutes,
   ].forEach((route) => {
+    if (!route.url || route.url.startsWith('/admin') || route.url.startsWith('/api')) {
+      return;
+    }
     routeMap.set(route.url, {
-      url: route.url ? `${baseUrl}${route.url}` : baseUrl,
+      url: `${baseUrl}${route.url}`,
       lastModified: route.lastModified || now,
       changeFrequency: route.changeFrequency,
       priority: route.priority,

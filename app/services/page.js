@@ -23,6 +23,7 @@ import ContentCard from '@/components/ui/ContentCard';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import { getServicesContent } from '@/lib/contentLoader';
+import { SITE_CONFIG } from '@/lib/utils';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -43,6 +44,9 @@ export const metadata = {
     'HESI A2 tutoring',
     'ATI TEAS prep',
   ],
+  alternates: {
+    canonical: `${SITE_CONFIG.domain}/services`,
+  },
 };
 
 export default function ServicesHubPage() {

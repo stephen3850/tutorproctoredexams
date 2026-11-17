@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import { getPlatformsContent } from '@/lib/contentLoader';
+import { SITE_CONFIG } from '@/lib/utils';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -26,6 +27,9 @@ export const metadata = {
     'ATI TEAS prep',
     'Mock tests and practice exams',
   ],
+  alternates: {
+    canonical: `${SITE_CONFIG.domain}/exam-platforms`,
+  },
 };
 
 export default function ExamPlatformsDirectoryPage() {

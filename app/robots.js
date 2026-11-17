@@ -6,11 +6,15 @@ export default function robots() {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/'],
+        disallow: ['/api/', '/_next/', '/admin/'],
       },
       {
         userAgent: 'OAI-SearchBot',
         allow: '/',
+      },
+      {
+        userAgent: 'GPTBot',
+        disallow: ['/'],
       },
     ],
     sitemap: `${SITE_CONFIG.domain}/sitemap.xml`,

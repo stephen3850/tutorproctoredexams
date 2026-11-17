@@ -15,6 +15,7 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import Badge from '@/components/ui/Badge';
 import { getStudyResourcesContent } from '@/lib/contentLoader';
+import { SITE_CONFIG } from '@/lib/utils';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -31,6 +32,9 @@ export const metadata = {
     'AAPC coding guides',
     'CNA clinical skill checklists',
   ],
+  alternates: {
+    canonical: `${SITE_CONFIG.domain}/study-resources`,
+  },
 };
 
 export default function StudyResourcesDirectoryPage() {

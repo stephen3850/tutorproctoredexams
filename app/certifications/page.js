@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import { getCertificationsContent } from '@/lib/contentLoader';
+import { SITE_CONFIG } from '@/lib/utils';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -27,6 +28,9 @@ export const metadata = {
     'CNA exam prep',
     'CPhT pharmacy tech prep',
   ],
+  alternates: {
+    canonical: `${SITE_CONFIG.domain}/certifications`,
+  },
 };
 
 export default function CertificationsDirectoryPage() {
