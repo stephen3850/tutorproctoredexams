@@ -4,8 +4,12 @@ import React from 'react';
 import { SITE_CONFIG } from '@/lib/utils';
 
 export default function WhatsAppButton() {
-  // Configurable WhatsApp phone number (defaulting to user provided digits or env)
-  const rawNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '447366830256';
+  const envNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
+  const rawNumber =
+    envNumber && envNumber !== '254711882470'
+      ? envNumber
+      : SITE_CONFIG.whatsappNumber || '447366830256';
+
   // Clean non-digit characters
   const cleanNumber = rawNumber.replace(/\D/g, '');
 
