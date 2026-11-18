@@ -142,7 +142,7 @@ export default async function PlatformDetailPage({ params }) {
 
             <div className="pt-2 flex flex-wrap items-center gap-4">
               <a
-                href="https://wa.me/254711882470"
+                href={SITE_CONFIG.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-6 py-3 rounded-xl font-extrabold text-sm shadow-lg flex items-center gap-2 transition-all inline-flex"

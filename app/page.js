@@ -669,7 +669,7 @@ export default function HomePage() {
 
               <div>
                 <a
-                  href="https://wa.me/254711882470"
+                  href={SITE_CONFIG.whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#05B851] hover:bg-emerald-600 text-white font-extrabold text-sm px-7 py-3.5 inline-flex items-center gap-2 transition-all shadow-md"

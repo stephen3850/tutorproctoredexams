@@ -209,7 +209,7 @@ export default function Header() {
               </div>
               <span className="text-white/60">|</span>
               <a
-                href="https://wa.me/254711882470"
+                href={SITE_CONFIG.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white font-extrabold transition-colors inline-flex items-center gap-1.5 underline underline-offset-2 hover:text-emerald-200"
@@ -241,7 +241,7 @@ export default function Header() {
               </div>
               <span className="text-white/60">|</span>
               <a
-                href="https://wa.me/254711882470"
+                href={SITE_CONFIG.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white font-extrabold transition-colors inline-flex items-center gap-1.5 underline underline-offset-2 hover:text-emerald-200"
@@ -534,7 +534,7 @@ export default function Header() {
           {/* RIGHT ACTION BUTTON: GET STARTED (LINKS TO WHATSAPP) */}
           <div className="hidden sm:flex items-center shrink-0">
             <a
-              href="https://wa.me/254711882470"
+              href={SITE_CONFIG.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-5 py-2.5 rounded-lg font-bold text-xs sm:text-sm shadow-sm hover:shadow transition-all duration-200 flex items-center gap-2 whitespace-nowrap"
@@ -663,7 +663,7 @@ export default function Header() {
 
           <div className="pt-4 border-t border-slate-200 flex flex-col gap-3">
             <a
-              href="https://wa.me/254711882470"
+              href={SITE_CONFIG.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white py-3 px-6 rounded-lg font-bold text-sm shadow-sm text-center flex items-center justify-center gap-2"

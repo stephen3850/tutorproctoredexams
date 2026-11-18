@@ -169,7 +169,7 @@ export default async function ServiceDetailPage({ params }) {
 
             <div className="pt-2 flex flex-wrap items-center gap-4">
               <a
-                href="https://wa.me/254711882470"
+                href={SITE_CONFIG.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white px-6 py-3 rounded-xl font-extrabold text-sm shadow-lg flex items-center gap-2 transition-all inline-flex"
@@ -325,7 +325,7 @@ export default async function ServiceDetailPage({ params }) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
             <a
-              href="https://wa.me/254711882470"
+              href={SITE_CONFIG.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-emerald-950 px-6 py-3 rounded-xl font-extrabold text-xs sm:text-sm shadow-lg flex items-center gap-2 transition-all inline-flex hover:bg-emerald-50"

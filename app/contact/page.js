@@ -287,12 +287,12 @@ export default function ContactPage() {
                   <div>
                     <span className="text-xs uppercase tracking-wider text-brand-muted font-bold block">WhatsApp Support</span>
                     <a
-                      href="https://wa.me/254711882470"
+                      href={SITE_CONFIG.whatsappLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-xs sm:text-sm font-bold text-emerald-400 hover:underline"
                     >
-                      +254 711 882470 (WhatsApp Direct)
+                      {SITE_CONFIG.whatsappDisplay} (WhatsApp Direct)
                     </a>
                   </div>
                 </div>

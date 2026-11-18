@@ -125,7 +125,7 @@ export default function StartSystemModal({ isOpen, onClose, onComplete }) {
             updateItemStatus(item.id, 'failed', 'API endpoint request failed');
           }
         } else if (item.id === 'whatsapp_widget') {
-          const num = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '254711882470';
+          const num = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '447366830256';
           updateItemStatus(item.id, 'operational', `Active WhatsApp Target: +${num}`);
         } else if (item.id === 'analytics') {
           const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;

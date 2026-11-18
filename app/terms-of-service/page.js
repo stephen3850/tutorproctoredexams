@@ -340,7 +340,7 @@ export default function TermsOfServicePage() {
               </a>
 
               <a
-                href="https://wa.me/254711882470"
+                href={SITE_CONFIG.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-emerald-800/80 text-white border-2 border-white/90 font-extrabold text-xs sm:text-sm px-6 py-3 rounded-xl shadow-md hover:bg-white hover:text-emerald-950 transition-all inline-flex items-center gap-2"

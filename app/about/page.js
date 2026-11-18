@@ -363,7 +363,7 @@ export default function AboutPage() {
               Explore Our Services
             </Button>
             <a
-              href="https://wa.me/254711882470"
+              href={SITE_CONFIG.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 rounded-xl border-2 border-white/90 bg-emerald-800/80 text-white font-extrabold text-xs sm:text-sm hover:bg-white hover:text-emerald-950 transition-all shadow-md inline-flex items-center justify-center gap-2"
