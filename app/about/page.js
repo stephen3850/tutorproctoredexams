@@ -168,8 +168,8 @@ export default function AboutPage() {
               />
               {/* Floating Bottom Badge */}
               <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md border border-slate-200 p-3.5 rounded-2xl shadow-xl flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white shrink-0 shadow-md">
-                  <GraduationCap className="w-5 h-5 text-white" />
+                <div className="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white shrink-0 shadow-md overflow-hidden">
+                  <img src="/tutor logo.jpg" alt="TUTOR PROCTORED EXAMS Logo" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h4 className="font-extrabold text-sm text-[#0F172A] leading-tight">Academic Excellence</h4>

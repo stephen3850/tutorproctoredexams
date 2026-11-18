@@ -13,8 +13,8 @@ export const metadata = {
 export default function NotFoundPage() {
   return (
     <PageContainer className="py-16 sm:py-24 space-y-8 text-center max-w-2xl mx-auto">
-      <div className="w-16 h-16 rounded-2xl bg-brand-lightBlue text-brand-blue flex items-center justify-center mx-auto shadow-sm">
-        <GraduationCap className="w-8 h-8" />
+      <div className="w-16 h-16 rounded-2xl bg-brand-lightBlue text-brand-blue flex items-center justify-center mx-auto shadow-sm overflow-hidden">
+        <img src="/tutor logo.jpg" alt="TUTOR PROCTORED EXAMS Logo" className="w-full h-full object-cover" />
       </div>
 
       <div className="space-y-3">

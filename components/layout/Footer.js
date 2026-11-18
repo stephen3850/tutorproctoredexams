@@ -23,8 +23,8 @@ export default function Footer() {
           {/* Brand Info Column */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-lg bg-brand-blue flex items-center justify-center text-white shadow-md">
-                <GraduationCap className="w-6 h-6" />
+              <div className="w-10 h-10 rounded-lg bg-brand-blue flex items-center justify-center text-white shadow-md overflow-hidden">
+                <img src="/tutor logo.jpg" alt="TUTOR PROCTORED EXAMS Logo" className="w-full h-full object-cover" />
               </div>
               <span className="font-extrabold text-xl text-white tracking-tight drop-shadow-md">
                 TUTOR PROCTORED EXAMS

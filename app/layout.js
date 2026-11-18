@@ -39,6 +39,11 @@ export const metadata = {
   authors: [{ name: SITE_CONFIG.name }],
   creator: SITE_CONFIG.name,
   publisher: SITE_CONFIG.name,
+  icons: {
+    icon: '/tutor logo.jpg',
+    shortcut: '/tutor logo.jpg',
+    apple: '/tutor logo.jpg',
+  },
   formatDetection: {
     email: false,
     address: false,

@@ -271,8 +271,8 @@ export default function Header() {
             className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-blue-600 rounded-lg p-1"
             aria-label="TUTOR PROCTORED EXAMS Home Page"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#0F172A] flex items-center justify-center text-white shadow-sm group-hover:bg-[#2563EB] transition-colors duration-200 shrink-0">
-              <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6 text-white" aria-hidden="true" />
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#0F172A] flex items-center justify-center text-white shadow-sm group-hover:bg-[#2563EB] transition-colors duration-200 shrink-0 overflow-hidden">
+              <img src="/tutor logo.jpg" alt="TUTOR PROCTORED EXAMS Logo" className="w-full h-full object-cover" />
             </div>
 
             <div className="hidden sm:block h-6 w-[1px] bg-slate-200 mx-0.5 shrink-0" />
