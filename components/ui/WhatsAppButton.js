@@ -4,14 +4,7 @@ import React from 'react';
 import { SITE_CONFIG } from '@/lib/utils';
 
 export default function WhatsAppButton() {
-  const envNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
-  const rawNumber =
-    envNumber && envNumber !== '254711882470'
-      ? envNumber
-      : SITE_CONFIG.whatsappNumber || '447366830256';
-
-  // Clean non-digit characters
-  const cleanNumber = rawNumber.replace(/\D/g, '');
+  const cleanNumber = '447366830256';
 
   const defaultMessage = encodeURIComponent(
     'Hello! I would like to inquire about tutoring and exam preparation support.'
