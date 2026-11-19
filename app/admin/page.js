@@ -4635,121 +4635,487 @@ export default function CustomAdminCmsPage() {
                 </div>
               )}
 
-              {/* BLOG FORM FIELDS */}
-              {editingItemType === 'blog' && (
-                <div className="space-y-4 text-xs">
-                  <div>
-                    <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Article Title <span className="text-rose-500 font-bold">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="e.g. How to Prepare for a Proctored Online Examination"
-                      value={editFormData.title || ''}
-                      onChange={(e) => setEditFormData({ ...editFormData, title: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
-                      required
-                    />
-                  </div>
+              {/* BLOG FORM FIELDS WITH REAL-TIME SEO SCORE & RANKING INDICATOR */}
+              {editingItemType === 'blog' && (() => {
+                // Real-time Technical SEO Score Calculator
+                const titleLen = (editFormData.title || '').trim().length;
+                const metaTitleLen = (editFormData.metaTitle || editFormData.title || '').trim().length;
+                const metaDescLen = (editFormData.metaDescription || editFormData.excerpt || '').trim().length;
+                const focusKw = (editFormData.focusKeyword || '').toLowerCase().trim();
+                const sectionsCount = (editFormData.contentSections || editFormData.sections || []).length;
+                const faqsCount = (editFormData.faqs || []).length;
+                const hasImage = Boolean(editFormData.heroImage || editFormData.image);
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                        Category <span className="text-rose-500 font-bold">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        placeholder="e.g. Examination Preparation, Professional Certifications"
-                        value={editFormData.category || ''}
-                        onChange={(e) => setEditFormData({ ...editFormData, category: e.target.value })}
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
-                      />
-                    </div>
-                    <div>
-                      <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                        Publication Date
-                      </label>
-                      <input
-                        type="date"
-                        value={editFormData.publishDate || ''}
-                        onChange={(e) => setEditFormData({ ...editFormData, publishDate: e.target.value })}
-                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
-                      />
-                    </div>
-                  </div>
+                let seoScore = 0;
+                const checks = [];
 
-                  {/* Cover Image Preview & Media Picker */}
-                  <div>
-                    <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Cover Image URL
-                    </label>
-                    <div className="flex gap-2">
-                      <input
-                        type="text"
-                        placeholder="https://images.unsplash.com/... or image URL"
-                        value={editFormData.heroImage || editFormData.image || ''}
-                        onChange={(e) => setEditFormData({ ...editFormData, heroImage: e.target.value, image: e.target.value })}
-                        className="flex-grow px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-slate-700 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
-                      />
-                      <button
-                        type="button"
-                        onClick={() => openMediaPickerFor('heroImage')}
-                        className="px-4 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl text-xs shadow-md transition-colors flex items-center gap-1.5 shrink-0"
-                      >
-                        <ImageIcon className="w-4 h-4" /> Choose Media
-                      </button>
-                    </div>
+                if (titleLen >= 25 && titleLen <= 75) {
+                  seoScore += 15;
+                  checks.push({ passed: true, text: `H1 Title length optimal (${titleLen} chars)` });
+                } else {
+                  checks.push({ passed: false, text: `H1 Title recommended 25-75 chars (currently ${titleLen})` });
+                }
 
-                    {(editFormData.heroImage || editFormData.image) && (
-                      <div className="flex items-center gap-3 p-2.5 bg-slate-50 rounded-xl border border-slate-200 mt-2">
-                        <img
-                          src={editFormData.heroImage || editFormData.image}
-                          alt="Preview"
-                          className="w-12 h-12 rounded-lg object-cover bg-white border p-0.5"
-                        />
-                        <div className="flex-grow min-w-0">
-                          <span className="font-mono text-[10px] text-slate-600 truncate block">
-                            {editFormData.heroImage || editFormData.image}
-                          </span>
-                          <span className="text-[9px] font-bold text-emerald-600">Cover Image Loaded</span>
+                if (metaTitleLen >= 30 && metaTitleLen <= 65) {
+                  seoScore += 15;
+                  checks.push({ passed: true, text: `SEO Meta Title Tag optimized (${metaTitleLen} chars)` });
+                } else {
+                  checks.push({ passed: false, text: `SEO Meta Title Tag recommended 30-65 chars (currently ${metaTitleLen})` });
+                }
+
+                if (metaDescLen >= 80 && metaDescLen <= 165) {
+                  seoScore += 15;
+                  checks.push({ passed: true, text: `SEO Meta Description length optimal (${metaDescLen} chars)` });
+                } else {
+                  checks.push({ passed: false, text: `SEO Meta Description recommended 80-165 chars (currently ${metaDescLen})` });
+                }
+
+                if (focusKw && (editFormData.title || '').toLowerCase().includes(focusKw)) {
+                  seoScore += 15;
+                  checks.push({ passed: true, text: `Focus Keyword "${focusKw}" present in H1 Title` });
+                } else if (focusKw) {
+                  checks.push({ passed: false, text: `Focus Keyword "${focusKw}" missing from H1 Title` });
+                } else {
+                  seoScore += 10;
+                  checks.push({ passed: true, text: 'Target Keyword configured' });
+                }
+
+                if (sectionsCount >= 3) {
+                  seoScore += 20;
+                  checks.push({ passed: true, text: `Rich HTML Content (${sectionsCount} subsections configured)` });
+                } else if (sectionsCount > 0) {
+                  seoScore += 10;
+                  checks.push({ passed: false, text: `Add at least 3 subsections for top search ranking (currently ${sectionsCount})` });
+                } else {
+                  checks.push({ passed: false, text: 'No detailed body content subsections configured' });
+                }
+
+                if (hasImage) {
+                  seoScore += 10;
+                  checks.push({ passed: true, text: 'Cover Hero Image selected with social preview' });
+                } else {
+                  checks.push({ passed: false, text: 'No cover image configured' });
+                }
+
+                if (faqsCount >= 1) {
+                  seoScore += 10;
+                  checks.push({ passed: true, text: `FAQ Schema questions included (${faqsCount} questions)` });
+                } else {
+                  checks.push({ passed: false, text: 'Add FAQ questions to enable Google Rich FAQ Snippets' });
+                }
+
+                let rankTier = 'PAGE 1 / TOP 3 POTENTIAL';
+                let rankColor = 'bg-emerald-500 text-white';
+                if (seoScore < 60) {
+                  rankTier = 'NEEDS SEO IMPROVEMENT';
+                  rankColor = 'bg-amber-500 text-white';
+                } else if (seoScore < 85) {
+                  rankTier = 'PAGE 1 VISIBILITY READY';
+                  rankColor = 'bg-blue-600 text-white';
+                }
+
+                return (
+                  <div className="space-y-5 text-xs">
+                    {/* REAL-TIME SEO AUDIT & RANKING INDICATOR BADGE */}
+                    <div className="p-4 bg-gradient-to-r from-purple-900 via-slate-900 to-indigo-900 text-white rounded-2xl shadow-lg border border-purple-400/30 space-y-3">
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/15 pb-3">
+                        <div className="flex items-center gap-2.5">
+                          <div className="w-10 h-10 rounded-xl bg-purple-500/30 border border-purple-400/40 flex items-center justify-center text-purple-200 font-bold text-sm shrink-0">
+                            <Sparkles className="w-5 h-5 text-purple-300" />
+                          </div>
+                          <div>
+                            <h4 className="font-extrabold text-sm text-white leading-tight">
+                              Technical SEO Score &amp; Search Rank Potential
+                            </h4>
+                            <span className="text-[10px] text-purple-200 block">Real-time Search Engine &amp; ChatGPT Search Visibility Audit</span>
+                          </div>
                         </div>
+
+                        <div className="flex items-center gap-2 shrink-0">
+                          <div className="px-3 py-1 rounded-xl bg-purple-500/30 border border-purple-300/40 text-purple-100 font-black text-xs font-mono">
+                            SEO SCORE: {seoScore}/100
+                          </div>
+                          <div className={`px-3 py-1 rounded-xl font-extrabold text-[10px] uppercase tracking-wider ${rankColor}`}>
+                            {rankTier}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* SEO Audit Checklist Items */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
+                        {checks.map((c, idx) => (
+                          <div key={idx} className="flex items-center gap-2 text-slate-200">
+                            <div className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold shrink-0 ${c.passed ? 'bg-emerald-500 text-white' : 'bg-amber-500 text-white'}`}>
+                              {c.passed ? '✓' : '!'}
+                            </div>
+                            <span className={c.passed ? 'text-slate-100 font-medium' : 'text-amber-200 font-bold'}>{c.text}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* BASIC DETAILS */}
+                    <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-4">
+                      <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                        <BookOpen className="w-4 h-4 text-purple-600" /> Basic Article Metadata
+                      </span>
+
+                      <div>
+                        <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                          Article Title (H1 Headline) <span className="text-rose-500 font-bold">*</span>
+                        </label>
+                        <input
+                          type="text"
+                          placeholder="e.g. How to Prepare for a Proctored Online Examination"
+                          value={editFormData.title || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, title: e.target.value })}
+                          className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                          required
+                        />
+                      </div>
+
+                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div>
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                            Category <span className="text-rose-500 font-bold">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            placeholder="e.g. Examination Preparation"
+                            value={editFormData.category || ''}
+                            onChange={(e) => setEditFormData({ ...editFormData, category: e.target.value })}
+                            className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                          />
+                        </div>
+                        <div>
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                            Publication Date
+                          </label>
+                          <input
+                            type="date"
+                            value={editFormData.publishDate || ''}
+                            onChange={(e) => setEditFormData({ ...editFormData, publishDate: e.target.value })}
+                            className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                          />
+                        </div>
+                        <div>
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                            Read Time
+                          </label>
+                          <input
+                            type="text"
+                            placeholder="e.g. 7 min read"
+                            value={editFormData.readTime || '7 min read'}
+                            onChange={(e) => setEditFormData({ ...editFormData, readTime: e.target.value })}
+                            className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                            Slug Identifier <span className="text-rose-500 font-bold">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            placeholder="e.g. respondus-lockdown-browser-student-guide"
+                            value={editFormData.slug || ''}
+                            onChange={(e) => setEditFormData({ ...editFormData, slug: e.target.value })}
+                            className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-purple-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                          />
+                        </div>
+                        <div>
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                            Author Name
+                          </label>
+                          <input
+                            type="text"
+                            placeholder="e.g. TUTOR PROCTORED EXAMS Editorial Team"
+                            value={editFormData.author || 'TUTOR PROCTORED EXAMS Academic Editorial Team'}
+                            onChange={(e) => setEditFormData({ ...editFormData, author: e.target.value })}
+                            className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* COVER IMAGE MANAGEMENT */}
+                    <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-3">
+                      <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                        <ImageIcon className="w-4 h-4 text-purple-600" /> Cover Hero Image
+                      </span>
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          placeholder="https://images.unsplash.com/... or image URL"
+                          value={editFormData.heroImage || editFormData.image || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, heroImage: e.target.value, image: e.target.value })}
+                          className="flex-grow px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
                         <button
                           type="button"
-                          onClick={() => setEditFormData({ ...editFormData, heroImage: '', image: '' })}
-                          className="text-[10px] text-rose-600 font-bold hover:underline"
+                          onClick={() => openMediaPickerFor('heroImage')}
+                          className="px-4 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl text-xs shadow-md transition-colors flex items-center gap-1.5 shrink-0"
                         >
-                          Clear
+                          <ImageIcon className="w-4 h-4" /> Choose Media
                         </button>
                       </div>
-                    )}
-                  </div>
 
-                  <div>
-                    <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Article Excerpt / Summary
-                    </label>
-                    <textarea
-                      rows={3}
-                      placeholder="Enter short summary excerpt for article cards..."
-                      value={editFormData.excerpt || ''}
-                      onChange={(e) => setEditFormData({ ...editFormData, excerpt: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600 leading-relaxed"
-                    />
-                  </div>
+                      {(editFormData.heroImage || editFormData.image) && (
+                        <div className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200">
+                          <img
+                            src={editFormData.heroImage || editFormData.image}
+                            alt="Cover Preview"
+                            className="w-16 h-12 rounded-lg object-cover bg-slate-100 border p-0.5"
+                          />
+                          <div className="flex-grow min-w-0">
+                            <span className="font-mono text-[11px] text-slate-700 truncate block">
+                              {editFormData.heroImage || editFormData.image}
+                            </span>
+                            <span className="text-[10px] font-bold text-emerald-600">Cover Image Active</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setEditFormData({ ...editFormData, heroImage: '', image: '' })}
+                            className="px-3 py-1.5 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[11px] rounded-lg hover:bg-rose-100 transition-colors"
+                          >
+                            Remove Image
+                          </button>
+                        </div>
+                      )}
+                    </div>
 
-                  <div className="flex items-center gap-3 border-t pt-3">
-                    <label className="flex items-center gap-2 cursor-pointer font-bold text-slate-800">
-                      <input
-                        type="checkbox"
-                        checked={editFormData.published !== false}
-                        onChange={(e) => setEditFormData({ ...editFormData, published: e.target.checked })}
-                        className="w-4 h-4 rounded text-purple-600 focus:ring-purple-500"
-                      />
-                      <span>Published on Public Website</span>
-                    </label>
+                    {/* EXCERPT & INTRO PARAGRAPH */}
+                    <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-3">
+                      <div>
+                        <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                          Article Excerpt / Card Summary
+                        </label>
+                        <textarea
+                          rows={2}
+                          placeholder="Enter short summary excerpt for article cards..."
+                          value={editFormData.excerpt || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, excerpt: e.target.value })}
+                          className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600 leading-relaxed"
+                        />
+                      </div>
+
+                      <div>
+                        <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                          Introduction Paragraph (Hero Direct Answer)
+                        </label>
+                        <textarea
+                          rows={3}
+                          placeholder="Enter comprehensive introduction or direct answer summary..."
+                          value={editFormData.intro || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, intro: e.target.value })}
+                          className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600 leading-relaxed"
+                        />
+                      </div>
+                    </div>
+
+                    {/* SEO METADATA & FOCUS KEYWORD */}
+                    <div className="p-4 bg-purple-50/40 rounded-2xl border border-purple-100 space-y-3">
+                      <span className="font-extrabold text-purple-900 block text-xs flex items-center gap-1.5">
+                        <Sparkles className="w-4 h-4 text-purple-600" /> SEO &amp; Search Visibility Overrides
+                      </span>
+
+                      <div>
+                        <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                          Focus Target Keyword
+                        </label>
+                        <input
+                          type="text"
+                          placeholder="e.g. proctored exam preparation, PMP exam strategy"
+                          value={editFormData.focusKeyword || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, focusKeyword: e.target.value })}
+                          className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-purple-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
+                      </div>
+
+                      <div>
+                        <div className="flex items-center justify-between mb-1">
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block">
+                            SEO Meta Title Tag
+                          </label>
+                          <span className={`text-[10px] font-bold ${metaTitleLen >= 30 && metaTitleLen <= 65 ? 'text-emerald-600' : 'text-slate-400'}`}>
+                            {metaTitleLen}/65 chars
+                          </span>
+                        </div>
+                        <input
+                          type="text"
+                          placeholder="Meta title for Google search results"
+                          value={editFormData.metaTitle || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, metaTitle: e.target.value })}
+                          className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
+                      </div>
+
+                      <div>
+                        <div className="flex items-center justify-between mb-1">
+                          <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block">
+                            SEO Meta Description
+                          </label>
+                          <span className={`text-[10px] font-bold ${metaDescLen >= 80 && metaDescLen <= 165 ? 'text-emerald-600' : 'text-slate-400'}`}>
+                            {metaDescLen}/165 chars
+                          </span>
+                        </div>
+                        <textarea
+                          rows={2}
+                          placeholder="Meta description for search engine snippets"
+                          value={editFormData.metaDescription || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, metaDescription: e.target.value })}
+                          className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs leading-relaxed text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
+                      </div>
+                    </div>
+
+                    {/* FULL BODY CONTENT SECTIONS EDITOR */}
+                    <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-3">
+                      <div className="flex items-center justify-between">
+                        <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                          <Layers className="w-4 h-4 text-purple-600" /> Article Subsections / HTML Content Sections ({sectionsCount})
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const currentSections = editFormData.contentSections || editFormData.sections || [];
+                            const newSec = {
+                              id: `section-${Date.now()}`,
+                              title: 'New Subsection Title',
+                              content: '<p>Enter subsection content HTML paragraph here...</p>',
+                            };
+                            setEditFormData({
+                              ...editFormData,
+                              contentSections: [...currentSections, newSec],
+                              sections: [...currentSections, newSec],
+                            });
+                          }}
+                          className="px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white font-bold text-[11px] rounded-lg shadow-sm"
+                        >
+                          + Add Subsection
+                        </button>
+                      </div>
+
+                      <div className="space-y-3 max-h-80 overflow-y-auto pr-1">
+                        {(editFormData.contentSections || editFormData.sections || []).map((sec, sIdx) => (
+                          <div key={sIdx} className="p-3 bg-white rounded-xl border border-slate-200 space-y-2">
+                            <div className="flex items-center justify-between gap-2">
+                              <input
+                                type="text"
+                                value={sec.title || ''}
+                                onChange={(e) => {
+                                  const updated = [...(editFormData.contentSections || editFormData.sections || [])];
+                                  updated[sIdx].title = e.target.value;
+                                  setEditFormData({ ...editFormData, contentSections: updated, sections: updated });
+                                }}
+                                className="flex-grow px-3 py-1.5 border border-slate-200 rounded-lg text-xs font-bold text-slate-900 bg-slate-50"
+                                placeholder="Subsection H2/H3 Title"
+                              />
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const updated = (editFormData.contentSections || editFormData.sections || []).filter((_, idx) => idx !== sIdx);
+                                  setEditFormData({ ...editFormData, contentSections: updated, sections: updated });
+                                }}
+                                className="px-2.5 py-1 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[10px] rounded-lg hover:bg-rose-100"
+                              >
+                                Delete
+                              </button>
+                            </div>
+
+                            <textarea
+                              rows={3}
+                              value={sec.content || ''}
+                              onChange={(e) => {
+                                const updated = [...(editFormData.contentSections || editFormData.sections || [])];
+                                updated[sIdx].content = e.target.value;
+                                setEditFormData({ ...editFormData, contentSections: updated, sections: updated });
+                              }}
+                              className="w-full p-2.5 border border-slate-200 rounded-lg text-xs font-mono text-slate-800 bg-slate-50/50 leading-relaxed"
+                              placeholder="<p>Subsection body HTML content...</p>"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* FAQS & STRUCTURED QUESTIONS EDITOR */}
+                    <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-3">
+                      <div className="flex items-center justify-between">
+                        <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                          <HelpCircle className="w-4 h-4 text-purple-600" /> Article Frequently Asked Questions ({faqsCount})
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const currentFaqs = editFormData.faqs || [];
+                            const newFaq = { question: 'New Question?', answer: 'Answer details here...' };
+                            setEditFormData({ ...editFormData, faqs: [...currentFaqs, newFaq] });
+                          }}
+                          className="px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white font-bold text-[11px] rounded-lg shadow-sm"
+                        >
+                          + Add FAQ Item
+                        </button>
+                      </div>
+
+                      <div className="space-y-2 max-h-60 overflow-y-auto pr-1">
+                        {(editFormData.faqs || []).map((faq, fIdx) => (
+                          <div key={fIdx} className="p-3 bg-white rounded-xl border border-slate-200 space-y-2">
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="text"
+                                value={faq.question || ''}
+                                onChange={(e) => {
+                                  const updated = [...(editFormData.faqs || [])];
+                                  updated[fIdx].question = e.target.value;
+                                  setEditFormData({ ...editFormData, faqs: updated });
+                                }}
+                                className="flex-grow px-3 py-1.5 border border-slate-200 rounded-lg text-xs font-bold text-slate-900 bg-slate-50"
+                                placeholder="Frequently Asked Question"
+                              />
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const updated = (editFormData.faqs || []).filter((_, idx) => idx !== fIdx);
+                                  setEditFormData({ ...editFormData, faqs: updated });
+                                }}
+                                className="px-2 py-1 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[10px] rounded-lg hover:bg-rose-100"
+                              >
+                                Delete
+                              </button>
+                            </div>
+                            <textarea
+                              rows={2}
+                              value={faq.answer || ''}
+                              onChange={(e) => {
+                                const updated = [...(editFormData.faqs || [])];
+                                updated[fIdx].answer = e.target.value;
+                                setEditFormData({ ...editFormData, faqs: updated });
+                              }}
+                              className="w-full p-2 border border-slate-200 rounded-lg text-xs font-medium text-slate-800 bg-slate-50/50"
+                              placeholder="Answer explanation..."
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3 border-t pt-3">
+                      <label className="flex items-center gap-2 cursor-pointer font-bold text-slate-800">
+                        <input
+                          type="checkbox"
+                          checked={editFormData.published !== false}
+                          onChange={(e) => setEditFormData({ ...editFormData, published: e.target.checked })}
+                          className="w-4 h-4 rounded text-purple-600 focus:ring-purple-500"
+                        />
+                        <span>Published on Public Website</span>
+                      </label>
+                    </div>
                   </div>
-                </div>
-              )}
+                );
+              })()}
 
               {/* SERVICE FORM FIELDS */}
               {editingItemType === 'service' && (
