@@ -339,7 +339,11 @@ export default function CustomAdminCmsPage() {
         setSaveStatus(`Image uploaded: ${json.filename}`);
         fetchMediaLibrary();
         if (mediaPickerTargetField) {
-          setEditFormData((prev) => ({ ...prev, [mediaPickerTargetField]: json.url }));
+          setEditFormData((prev) => ({
+            ...prev,
+            [mediaPickerTargetField]: json.url,
+            ...(mediaPickerTargetField === 'heroImage' ? { image: json.url } : {}),
+          }));
           setIsMediaPickerOpen(false);
         }
       } else {
@@ -412,7 +416,11 @@ export default function CustomAdminCmsPage() {
   // Select Image from Media Picker
   const selectMediaImage = (url) => {
     if (mediaPickerTargetField) {
-      setEditFormData((prev) => ({ ...prev, [mediaPickerTargetField]: url }));
+      setEditFormData((prev) => ({
+        ...prev,
+        [mediaPickerTargetField]: url,
+        ...(mediaPickerTargetField === 'heroImage' ? { image: url } : {}),
+      }));
     }
     setIsMediaPickerOpen(false);
   };
@@ -3537,78 +3545,6 @@ export default function CustomAdminCmsPage() {
         )}
       </main>
 
-      {/* MEDIA LIBRARY & IMAGE PICKER MODAL */}
-      {isMediaPickerOpen && (
-        <div className="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 max-w-3xl w-full shadow-2xl space-y-6 my-8">
-            <div className="flex items-center justify-between border-b pb-4">
-              <h2 className="text-lg font-black text-slate-900 flex items-center gap-2">
-                <ImageIcon className="w-5 h-5 text-purple-600" />
-                <span>Media Library & Image Upload</span>
-              </h2>
-              <button onClick={() => setIsMediaPickerOpen(false)} className="p-1 rounded-lg text-slate-400 hover:bg-slate-100">
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            {/* UPLOAD NEW IMAGE DROPZONE */}
-            <div className="p-6 border-2 border-dashed border-purple-300 bg-purple-50/50 rounded-2xl text-center space-y-3">
-              <UploadCloud className="w-10 h-10 text-purple-600 mx-auto" />
-              <div>
-                <span className="font-extrabold text-sm text-slate-900 block">Upload New Image File</span>
-                <span className="text-xs text-slate-500">Supports PNG, JPG, WEBP, SVG, GIF (Max file size: 5MB)</span>
-              </div>
-
-              <label className="inline-block px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs rounded-xl cursor-pointer shadow-md transition-colors">
-                {uploadingImage ? 'Uploading Image...' : 'Choose File to Upload'}
-                <input
-                  type="file"
-                  accept="image/*,.svg"
-                  onChange={handleUploadImageFile}
-                  className="hidden"
-                  disabled={uploadingImage}
-                />
-              </label>
-            </div>
-
-            {/* MEDIA GALLERY GRID */}
-            <div className="space-y-2">
-              <span className="font-extrabold text-xs text-slate-700 block">Server Storage Gallery ({mediaLibrary.length} files)</span>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-h-64 overflow-y-auto p-1">
-                {mediaLibrary.map((item) => (
-                  <div key={item.filename} className="group border border-slate-200 rounded-xl p-2 bg-slate-50 hover:border-purple-500 flex flex-col justify-between space-y-2">
-                    <div className="h-20 bg-white rounded-lg border flex items-center justify-center p-1 overflow-hidden">
-                      <img src={item.url} alt={item.filename} className="max-h-full max-w-full object-contain" />
-                    </div>
-                    <span className="font-mono text-[10px] text-slate-600 truncate block">{item.filename}</span>
-                    <div className="flex items-center justify-between pt-1 border-t">
-                      <button
-                        onClick={() => selectMediaImage(item.url)}
-                        className="text-[10px] font-bold text-purple-700 hover:underline inline-flex items-center gap-1"
-                      >
-                        <Check className="w-3 h-3" /> Select
-                      </button>
-                      <button
-                        onClick={() => handleDeleteMediaImage(item.filename)}
-                        className="text-[10px] font-bold text-rose-600 hover:underline"
-                      >
-                        Delete
-                      </button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="flex justify-end pt-4 border-t">
-              <button onClick={() => setIsMediaPickerOpen(false)} className="px-4 py-2 border rounded-xl text-xs font-bold text-slate-600">
-                Close Media Library
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* EDITING / VIEWING MODAL */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-slate-900/70 backdrop-blur-md z-50 flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
@@ -5384,6 +5320,78 @@ export default function CustomAdminCmsPage() {
                   )}
                 </button>
               )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MEDIA LIBRARY & IMAGE PICKER MODAL (TOP Z-INDEX OVERLAY) */}
+      {isMediaPickerOpen && (
+        <div className="fixed inset-0 bg-slate-950/80 backdrop-blur-md z-[100] flex items-center justify-center p-4 overflow-y-auto animate-in fade-in duration-200">
+          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 max-w-3xl w-full shadow-2xl space-y-6 my-8">
+            <div className="flex items-center justify-between border-b pb-4">
+              <h2 className="text-lg font-black text-slate-900 flex items-center gap-2">
+                <ImageIcon className="w-5 h-5 text-purple-600" />
+                <span>Media Library &amp; Image Upload</span>
+              </h2>
+              <button onClick={() => setIsMediaPickerOpen(false)} className="p-1 rounded-lg text-slate-400 hover:bg-slate-100">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* UPLOAD NEW IMAGE DROPZONE */}
+            <div className="p-6 border-2 border-dashed border-purple-300 bg-purple-50/50 rounded-2xl text-center space-y-3">
+              <UploadCloud className="w-10 h-10 text-purple-600 mx-auto" />
+              <div>
+                <span className="font-extrabold text-sm text-slate-900 block">Upload New Image File</span>
+                <span className="text-xs text-slate-500">Supports PNG, JPG, WEBP, SVG, GIF (Max file size: 5MB)</span>
+              </div>
+
+              <label className="inline-block px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs rounded-xl cursor-pointer shadow-md transition-colors">
+                {uploadingImage ? 'Uploading Image...' : 'Choose File to Upload'}
+                <input
+                  type="file"
+                  accept="image/*,.svg"
+                  onChange={handleUploadImageFile}
+                  className="hidden"
+                  disabled={uploadingImage}
+                />
+              </label>
+            </div>
+
+            {/* MEDIA GALLERY GRID */}
+            <div className="space-y-2">
+              <span className="font-extrabold text-xs text-slate-700 block">Server Storage Gallery ({mediaLibrary.length} files)</span>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-h-64 overflow-y-auto p-1">
+                {mediaLibrary.map((item) => (
+                  <div key={item.filename} className="group border border-slate-200 rounded-xl p-2 bg-slate-50 hover:border-purple-500 flex flex-col justify-between space-y-2">
+                    <div className="h-20 bg-white rounded-lg border flex items-center justify-center p-1 overflow-hidden">
+                      <img src={item.url} alt={item.filename} className="max-h-full max-w-full object-contain" />
+                    </div>
+                    <span className="font-mono text-[10px] text-slate-600 truncate block">{item.filename}</span>
+                    <div className="flex items-center justify-between pt-1 border-t">
+                      <button
+                        onClick={() => selectMediaImage(item.url)}
+                        className="text-[10px] font-bold text-purple-700 hover:underline inline-flex items-center gap-1"
+                      >
+                        <Check className="w-3 h-3" /> Select
+                      </button>
+                      <button
+                        onClick={() => handleDeleteMediaImage(item.filename)}
+                        className="text-[10px] font-bold text-rose-600 hover:underline"
+                      >
+                        Delete
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex justify-end pt-4 border-t">
+              <button onClick={() => setIsMediaPickerOpen(false)} className="px-4 py-2 border rounded-xl text-xs font-bold text-slate-600">
+                Close Media Library
+              </button>
             </div>
           </div>
         </div>
