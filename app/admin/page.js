@@ -4754,37 +4754,51 @@ export default function CustomAdminCmsPage() {
               {/* SERVICE FORM FIELDS */}
               {editingItemType === 'service' && (
                 <div className="space-y-4 text-xs">
-                  <div>
-                    <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Service Program Title <span className="text-rose-500 font-bold">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="e.g. 1-on-1 Online Tutoring, Academic Exam Preparation"
-                      value={editFormData.title || ''}
-                      onChange={(e) => setEditFormData({ ...editFormData, title: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
-                      required
-                    />
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
+                        Service Program Title <span className="text-rose-500 font-bold">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="e.g. 1-on-1 Online Tutoring, Academic Exam Preparation"
+                        value={editFormData.title || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, title: e.target.value })}
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
+                        Category <span className="text-rose-500 font-bold">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="e.g. Academic Support, Examination Support"
+                        value={editFormData.category || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, category: e.target.value })}
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      />
+                    </div>
                   </div>
 
                   <div>
                     <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Category <span className="text-rose-500 font-bold">*</span>
+                      Slug Identifier <span className="text-rose-500 font-bold">*</span>
                     </label>
                     <input
                       type="text"
-                      placeholder="e.g. Academic Support, Examination Support"
-                      value={editFormData.category || ''}
-                      onChange={(e) => setEditFormData({ ...editFormData, category: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      placeholder="e.g. one-on-one-tutoring, academic-exam-prep"
+                      value={editFormData.slug || ''}
+                      onChange={(e) => setEditFormData({ ...editFormData, slug: e.target.value })}
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-purple-700 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
                     />
                   </div>
 
                   {/* Hero Image Preview & Media Picker */}
                   <div>
                     <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Hero Image URL
+                      Service Cover / Hero Image URL
                     </label>
                     <div className="flex gap-2">
                       <input
@@ -4812,14 +4826,14 @@ export default function CustomAdminCmsPage() {
                         />
                         <div className="flex-grow min-w-0">
                           <span className="font-mono text-[10px] text-slate-600 truncate block">{editFormData.heroImage}</span>
-                          <span className="text-[9px] font-bold text-emerald-600">Hero Image Loaded</span>
+                          <span className="text-[9px] font-bold text-emerald-600">Hero Image Active</span>
                         </div>
                         <button
                           type="button"
                           onClick={() => setEditFormData({ ...editFormData, heroImage: '' })}
-                          className="text-[10px] text-rose-600 font-bold hover:underline"
+                          className="px-3 py-1 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[10px] rounded-lg hover:bg-rose-100"
                         >
-                          Clear
+                          Clear Image
                         </button>
                       </div>
                     )}
@@ -4849,6 +4863,52 @@ export default function CustomAdminCmsPage() {
                       onChange={(e) => setEditFormData({ ...editFormData, overview: e.target.value })}
                       className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600 leading-relaxed"
                     />
+                  </div>
+
+                  <div>
+                    <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
+                      Target Audience / Who This Is For
+                    </label>
+                    <textarea
+                      rows={2}
+                      placeholder="Enter target audience details..."
+                      value={editFormData.targetAudience || ''}
+                      onChange={(e) => setEditFormData({ ...editFormData, targetAudience: e.target.value })}
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600 leading-relaxed"
+                    />
+                  </div>
+
+                  {/* SEO METADATA OVERRIDES */}
+                  <div className="border-t pt-4 space-y-3 bg-purple-50/40 p-4 rounded-2xl border border-purple-100">
+                    <span className="font-extrabold text-purple-900 block text-xs flex items-center gap-1.5">
+                      <Sparkles className="w-4 h-4 text-purple-600" /> SEO Metadata Overrides
+                    </span>
+
+                    <div>
+                      <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                        SEO Meta Title Tag
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Meta title for Google search results"
+                        value={editFormData.metaTitle || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, metaTitle: e.target.value })}
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      />
+                    </div>
+
+                    <div>
+                      <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+                        SEO Meta Description
+                      </label>
+                      <textarea
+                        rows={2}
+                        placeholder="Meta description for search engine snippets"
+                        value={editFormData.metaDescription || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, metaDescription: e.target.value })}
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs leading-relaxed text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      />
+                    </div>
                   </div>
 
                   <div className="flex items-center gap-3 border-t pt-3">
