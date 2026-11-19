@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import { revalidatePath } from 'next/cache';
 import { verifySession } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
@@ -30,6 +31,43 @@ function sanitizeFilename(requestedFile) {
     return null;
   }
   return safeName;
+}
+
+// Map content JSON filenames to public Next.js routes for cache revalidation
+function triggerRouteRevalidation(filename) {
+  try {
+    revalidatePath('/');
+    if (filename === 'navigation.json' || filename === 'settings.json' || filename === 'pages.json') {
+      revalidatePath('/', 'layout');
+      revalidatePath('/about');
+      revalidatePath('/services');
+      revalidatePath('/exam-platforms');
+      revalidatePath('/certifications');
+      revalidatePath('/study-resources');
+      revalidatePath('/blog');
+      revalidatePath('/faq');
+      revalidatePath('/contact');
+    } else if (filename === 'services.json') {
+      revalidatePath('/services');
+      revalidatePath('/services/[slug]', 'page');
+    } else if (filename === 'blog.json') {
+      revalidatePath('/blog');
+      revalidatePath('/blog/[slug]', 'page');
+    } else if (filename === 'certifications.json') {
+      revalidatePath('/certifications');
+      revalidatePath('/certifications/[slug]', 'page');
+    } else if (filename === 'platforms.json') {
+      revalidatePath('/exam-platforms');
+      revalidatePath('/exam-platforms/[slug]', 'page');
+    } else if (filename === 'study-resources.json') {
+      revalidatePath('/study-resources');
+      revalidatePath('/study-resources/[slug]', 'page');
+    } else if (filename === 'faqs.json') {
+      revalidatePath('/faq');
+    }
+  } catch (err) {
+    console.error('[Revalidation Error]:', err.message || err);
+  }
 }
 
 export async function GET(request) {
@@ -87,7 +125,15 @@ export async function POST(request) {
     await fs.mkdir(CONTENT_DIR, { recursive: true });
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
 
-    return NextResponse.json({ success: true, message: 'Content saved successfully to persistent storage' });
+    // Trigger instant cache revalidation for live website routes
+    triggerRouteRevalidation(safeFile);
+
+    return NextResponse.json({
+      success: true,
+      message: 'Content saved and live routes revalidated successfully',
+      file: safeFile,
+      savedAt: new Date().toISOString(),
+    });
   } catch (error) {
     console.error('[Content API Error]:', error.message || error);
     return NextResponse.json({ success: false, error: 'Failed to save content file' }, { status: 500 });

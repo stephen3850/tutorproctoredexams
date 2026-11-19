@@ -1275,6 +1275,34 @@ export default function CustomAdminCmsPage() {
             />
           </div>
         </div>
+
+        {/* GOOGLE SEARCH SNIPPET PREVIEW CARD */}
+        <div className="p-4 bg-white rounded-2xl border border-slate-200 space-y-2.5 shadow-sm">
+          <div className="flex items-center justify-between border-b pb-2">
+            <span className="font-extrabold text-slate-800 text-xs flex items-center gap-1.5">
+              <Globe className="w-4 h-4 text-purple-600" /> Google Search Snippet Preview
+            </span>
+            <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+              Google SERP Display
+            </span>
+          </div>
+
+          <div className="p-3.5 bg-slate-50/80 rounded-xl border border-slate-200/90 space-y-1 font-sans">
+            <div className="text-[11px] font-medium text-slate-600 flex items-center gap-1 truncate">
+              <span className="text-slate-900 font-bold">https://tutorproctoredexams.com</span>
+              <span className="text-slate-400">›</span>
+              <span className="text-slate-700 font-mono text-[10px]">{slug || 'page'}</span>
+            </div>
+
+            <h3 className="text-sm font-bold text-blue-800 hover:underline cursor-pointer leading-snug line-clamp-1">
+              {metaTitle || title || 'Page Title Placeholder'}
+            </h3>
+
+            <p className="text-xs text-slate-600 leading-relaxed line-clamp-2">
+              {metaDescription || 'Add a compelling meta description to improve click-through rates on search engine result pages.'}
+            </p>
+          </div>
+        </div>
       </div>
     );
   };
