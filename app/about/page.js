@@ -20,6 +20,10 @@ import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import JsonLd from '@/components/seo/JsonLd';
 import { SITE_CONFIG } from '@/lib/utils';
+import { getPagesContent } from '@/lib/contentLoader';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export const metadata = {
   title: 'About Us | TUTOR PROCTORED EXAMS',
@@ -110,6 +114,17 @@ export default function AboutPage() {
     },
   ];
 
+  const pages = getPagesContent();
+  const pageData = pages['about'] || {};
+
+  const heroImage = pageData.heroImage || 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1920&q=80';
+  const badgeText = pageData.badge || 'ABOUT US';
+  const heroHeadline = pageData.title || 'Prepare with Confidence. Learn with Integrity.';
+  const heroSubtitle = pageData.subtitle || 'Personalized tutoring, examination preparation and professional learning support to help you reach your goals.';
+  const sectionImage1 = pageData.sectionImage1 || '/students.jpg';
+  const ctaPrimaryText = pageData.ctaPrimaryText || 'Explore Our Services';
+  const ctaPrimaryLink = pageData.ctaPrimaryLink || '/services';
+
   return (
     <div className="space-y-10 sm:space-y-14 pt-2 pb-16">
       <JsonLd data={jsonLdData} />
@@ -123,8 +138,7 @@ export default function AboutPage() {
           <div
             className="absolute inset-0 z-0 bg-cover bg-center opacity-75"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1920&q=80')",
+              backgroundImage: `url('${heroImage}')`,
             }}
           ></div>
 
@@ -136,20 +150,20 @@ export default function AboutPage() {
               variant="blue"
               className="bg-[#2563EB] text-white border-blue-400 px-3.5 py-1 text-xs shadow-md font-bold"
             >
-              ABOUT US
+              {badgeText}
             </Badge>
 
             <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.9)]">
-              Prepare with Confidence. Learn with Integrity.
+              {heroHeadline}
             </h1>
 
             <p className="text-base sm:text-lg text-slate-100 leading-relaxed max-w-2xl font-medium drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
-              Personalized tutoring, examination preparation and professional learning support to help you reach your goals.
+              {heroSubtitle}
             </p>
 
             <div className="pt-4 flex flex-wrap gap-4">
-              <Button href="/services" variant="primary" size="lg" icon={ArrowRight} className="bg-[#2563EB] hover:bg-[#1D4ED8] shadow-xl">
-                Explore Our Services
+              <Button href={ctaPrimaryLink} variant="primary" size="lg" icon={ArrowRight} className="bg-[#2563EB] hover:bg-[#1D4ED8] shadow-xl">
+                {ctaPrimaryText}
               </Button>
             </div>
           </div>
@@ -162,7 +176,7 @@ export default function AboutPage() {
             {/* Left Image Card Column */}
             <div className="lg:col-span-5 relative h-80 sm:h-96 rounded-3xl overflow-hidden shadow-lg group">
               <img
-                src="/students.jpg"
+                src={sectionImage1}
                 alt="Students Studying Together"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
