@@ -34,18 +34,20 @@ function sanitizeFilename(requestedFile) {
 
 export async function GET(request) {
   try {
-    // 1. Server-side session verification MUST happen FIRST before reading any file
-    const session = verifySession();
-    if (!session.authenticated) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
     const { searchParams } = new URL(request.url);
     const requestedFile = searchParams.get('file') || 'blog.json';
     const safeFile = sanitizeFilename(requestedFile);
 
     if (!safeFile) {
       return NextResponse.json({ success: false, error: 'Invalid content file requested' }, { status: 400 });
+    }
+
+    // Require authentication only for sensitive inquiries file
+    if (safeFile === 'inquiries.json') {
+      const session = verifySession();
+      if (!session.authenticated) {
+        return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+      }
     }
 
     const filePath = path.join(CONTENT_DIR, safeFile);
@@ -63,7 +65,7 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
-    // 1. Server-side session verification MUST happen FIRST before reading request payload or files
+    // 1. Server-side session verification MUST happen FIRST before writing request payload or files
     const session = verifySession();
     if (!session.authenticated) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
