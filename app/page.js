@@ -26,6 +26,7 @@ import TypewriterHeroHeadline from '@/components/ui/TypewriterHeroHeadline';
 import ProcessStepsSequentialReveal from '@/components/ui/ProcessStepsSequentialReveal';
 import JsonLd from '@/components/seo/JsonLd';
 import { SITE_CONFIG } from '@/lib/utils';
+import { getPagesContent } from '@/lib/contentLoader';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -339,16 +340,33 @@ export default function HomePage() {
     ],
   };
 
+  const pages = getPagesContent();
+  const pageData = pages['home'] || {};
+
+  const heroImage = pageData.heroImage || '/students.jpg';
+  const badgeText = pageData.badge || 'Global Educational Support & Exam Readiness';
+  const heroHeadline = pageData.title || 'Prepare with Confidence. Learn with Integrity.';
+  const heroSubtitle =
+    pageData.subtitle ||
+    'Access personalized tutoring, structured examination preparation and practical technical guidance designed to help you develop knowledge, strengthen your skills and approach examinations with confidence.';
+  const ctaPrimaryText = pageData.ctaPrimaryText || 'Explore Our Learning Support';
+  const ctaPrimaryLink = pageData.ctaPrimaryLink || '/services';
+  const ctaSecondaryText = pageData.ctaSecondaryText || 'Explore Exam Platforms';
+  const ctaSecondaryLink = pageData.ctaSecondaryLink || '/exam-platforms';
+  const sectionImage1 = pageData.sectionImage1 || '/www.jpg';
+  const sectionImage2 = pageData.sectionImage2 || '/how.jpg';
+  const sectionImage3 = pageData.sectionImage3 || '/students.jpg';
+
   return (
     <div className="space-y-10 sm:space-y-14 pb-10">
       <JsonLd data={jsonLdData} />
 
-      {/* 1. HERO SECTION WITH STUDENTS.JPG BACKGROUND */}
+      {/* 1. HERO SECTION WITH DYNAMIC HERO IMAGE */}
       <section className="relative text-white pt-12 pb-16 lg:pt-16 lg:pb-20 overflow-hidden bg-[#0F172A]">
-        {/* Fully Visible Background Image: students .jpg */}
+        {/* Fully Visible Background Image */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-85"
-          style={{ backgroundImage: "url('/students.jpg')" }}
+          style={{ backgroundImage: `url('${heroImage}')` }}
         ></div>
 
         {/* Soft Dark Side Shade For Crisp Text Legibility */}
@@ -358,29 +376,29 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-8 space-y-6">
               <Badge variant="blue" className="bg-[#2563EB] text-white border-blue-400 px-3.5 py-1 text-xs shadow-md">
-                Global Educational Support &amp; Exam Readiness
+                {badgeText}
               </Badge>
 
-              <TypewriterHeroHeadline text="Prepare with Confidence. Learn with Integrity." />
+              <TypewriterHeroHeadline text={heroHeadline} />
 
               <h2 className="text-[#60A5FA] text-xs sm:text-sm lg:text-base font-bold tracking-wide">
                 Professional Online Tutoring and Proctored Examination Preparation
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-100 leading-relaxed max-w-2xl text-balance drop-shadow-[0_2px_6px_rgba(0,0,0,0.95)] font-normal">
-                Access personalized tutoring, structured examination preparation and practical technical guidance designed to help you develop knowledge, strengthen your skills and approach examinations with confidence. At <strong>TUTOR PROCTORED EXAMS</strong>, we empower students internationally with professional 1-on-1 tutoring, structured examination preparation, comprehensive study guidance, and pre-test technical support. Whether you are preparing for online proctored exams or navigating assessment platforms such as ProctorU, Proctorio, Respondus LockDown Browser, Examplify, or Honorlock, our educational specialists ensure you build the subject mastery and system readiness to achieve your goals independently.
+                {heroSubtitle}
               </p>
 
               {/* Action Buttons */}
               <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-                <Button href="/services" variant="primary" size="lg" icon={ArrowRight} className="bg-[#2563EB] hover:bg-[#1D4ED8] shadow-xl">
-                  Explore Our Learning Support
+                <Button href={ctaPrimaryLink} variant="primary" size="lg" icon={ArrowRight} className="bg-[#2563EB] hover:bg-[#1D4ED8] shadow-xl">
+                  {ctaPrimaryText}
                 </Button>
                 <Link
-                  href="/exam-platforms"
+                  href={ctaSecondaryLink}
                   className="px-6 py-3 rounded-xl border-2 border-white/90 bg-[#0F172A]/70 text-white font-extrabold text-sm sm:text-base hover:bg-white hover:text-[#0F172A] transition-all backdrop-blur-md shadow-lg text-center flex items-center justify-center gap-2"
                 >
-                  <span>Explore Exam Platforms</span>
+                  <span>{ctaSecondaryText}</span>
                 </Link>
               </div>
 
@@ -548,7 +566,7 @@ export default function HomePage() {
         {/* World Map Graphic Background Overlay */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-overlay"
-          style={{ backgroundImage: "url('/www.jpg')" }}
+          style={{ backgroundImage: `url('${sectionImage1}')` }}
         ></div>
 
         <PageContainer className="relative z-10">
@@ -557,7 +575,7 @@ export default function HomePage() {
             <div className="lg:col-span-5 hidden lg:block">
               <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/20 p-4 shadow-inner flex items-center justify-center">
                 <img
-                  src="/www.jpg"
+                  src={sectionImage1}
                   alt="Global Academic Network Map"
                   className="w-full h-full object-contain filter brightness-110"
                 />
