@@ -4082,17 +4082,31 @@ export default function CustomAdminCmsPage() {
 
               {/* PAGE CONTENT & SEO EDITOR MODAL */}
               {editingItemType === 'page' && (
-                <div className="space-y-4 text-xs">
-                  <div>
-                    <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
-                      Page Display Name / Title
-                    </label>
-                    <input
-                      type="text"
-                      value={editFormData.name || editFormData.pageKey || ''}
-                      onChange={(e) => setEditFormData({ ...editFormData, name: e.target.value })}
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
-                    />
+                <div className="space-y-5 text-xs">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
+                        Page Display Name
+                      </label>
+                      <input
+                        type="text"
+                        value={editFormData.name || editFormData.pageKey || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, name: e.target.value })}
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      />
+                    </div>
+                    <div>
+                      <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
+                        Page Hero Badge Text
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="e.g. Global Educational Support & Exam Readiness"
+                        value={editFormData.badge || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, badge: e.target.value })}
+                        className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      />
+                    </div>
                   </div>
 
                   <div>
@@ -4101,7 +4115,7 @@ export default function CustomAdminCmsPage() {
                     </label>
                     <input
                       type="text"
-                      placeholder="e.g. Professional Educational Support & Proctoring Guidance"
+                      placeholder="e.g. Prepare with Confidence. Learn with Integrity."
                       value={editFormData.title || ''}
                       onChange={(e) => setEditFormData({ ...editFormData, title: e.target.value })}
                       className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-slate-900 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
@@ -4121,6 +4135,243 @@ export default function CustomAdminCmsPage() {
                     />
                   </div>
 
+                  {/* HERO BACKGROUND IMAGE MANAGEMENT */}
+                  <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-3">
+                    <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                      <ImageIcon className="w-4 h-4 text-purple-600" /> Hero Background Image
+                    </span>
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        placeholder="/students.jpg or image URL"
+                        value={editFormData.heroImage || ''}
+                        onChange={(e) => setEditFormData({ ...editFormData, heroImage: e.target.value })}
+                        className="flex-grow px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => openMediaPickerFor('heroImage')}
+                        className="px-4 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl text-xs shadow-md transition-colors flex items-center gap-1.5 shrink-0"
+                      >
+                        <ImageIcon className="w-4 h-4" /> Choose Media
+                      </button>
+                    </div>
+
+                    {editFormData.heroImage && (
+                      <div className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200">
+                        <img
+                          src={editFormData.heroImage}
+                          alt="Hero Preview"
+                          className="w-16 h-12 rounded-lg object-cover bg-slate-100 border p-0.5"
+                        />
+                        <div className="flex-grow min-w-0">
+                          <span className="font-mono text-[11px] text-slate-700 truncate block">{editFormData.heroImage}</span>
+                          <span className="text-[10px] font-bold text-emerald-600">Hero Image Active</span>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => setEditFormData({ ...editFormData, heroImage: '' })}
+                          className="px-3 py-1.5 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[11px] rounded-lg hover:bg-rose-100 transition-colors"
+                        >
+                          Remove Image
+                        </button>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* FEATURED PAGE IMAGES & ASSETS SECTION */}
+                  <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-4">
+                    <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                      <FolderOpen className="w-4 h-4 text-purple-600" /> Featured Page Images &amp; Section Assets
+                    </span>
+
+                    {/* Section Image 1 */}
+                    <div className="space-y-2 pt-1 border-t border-slate-200">
+                      <label className="text-[11px] font-bold text-slate-700 block">
+                        Section Image 1 (e.g. World Map Graphic / Main Asset)
+                      </label>
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          placeholder="/www.jpg or image URL"
+                          value={editFormData.sectionImage1 || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, sectionImage1: e.target.value })}
+                          className="flex-grow px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => openMediaPickerFor('sectionImage1')}
+                          className="px-3.5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl text-xs shadow-md transition-colors flex items-center gap-1.5 shrink-0"
+                        >
+                          <ImageIcon className="w-4 h-4" /> Choose Media
+                        </button>
+                      </div>
+
+                      {editFormData.sectionImage1 && (
+                        <div className="flex items-center gap-3 p-2.5 bg-white rounded-xl border border-slate-200">
+                          <img
+                            src={editFormData.sectionImage1}
+                            alt="Section Image 1"
+                            className="w-14 h-10 rounded-lg object-cover bg-slate-100 border p-0.5"
+                          />
+                          <div className="flex-grow min-w-0">
+                            <span className="font-mono text-[10px] text-slate-600 truncate block">{editFormData.sectionImage1}</span>
+                            <span className="text-[9px] font-bold text-emerald-600">Active Section Asset</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setEditFormData({ ...editFormData, sectionImage1: '' })}
+                            className="px-2.5 py-1 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[10px] rounded-lg hover:bg-rose-100"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Section Image 2 */}
+                    <div className="space-y-2 pt-2 border-t border-slate-200">
+                      <label className="text-[11px] font-bold text-slate-700 block">
+                        Section Image 2 (e.g. How It Works / Secondary Asset)
+                      </label>
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          placeholder="/how.jpg or image URL"
+                          value={editFormData.sectionImage2 || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, sectionImage2: e.target.value })}
+                          className="flex-grow px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => openMediaPickerFor('sectionImage2')}
+                          className="px-3.5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl text-xs shadow-md transition-colors flex items-center gap-1.5 shrink-0"
+                        >
+                          <ImageIcon className="w-4 h-4" /> Choose Media
+                        </button>
+                      </div>
+
+                      {editFormData.sectionImage2 && (
+                        <div className="flex items-center gap-3 p-2.5 bg-white rounded-xl border border-slate-200">
+                          <img
+                            src={editFormData.sectionImage2}
+                            alt="Section Image 2"
+                            className="w-14 h-10 rounded-lg object-cover bg-slate-100 border p-0.5"
+                          />
+                          <div className="flex-grow min-w-0">
+                            <span className="font-mono text-[10px] text-slate-600 truncate block">{editFormData.sectionImage2}</span>
+                            <span className="text-[9px] font-bold text-emerald-600">Active Section Asset</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setEditFormData({ ...editFormData, sectionImage2: '' })}
+                            className="px-2.5 py-1 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[10px] rounded-lg hover:bg-rose-100"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Section Image 3 */}
+                    <div className="space-y-2 pt-2 border-t border-slate-200">
+                      <label className="text-[11px] font-bold text-slate-700 block">
+                        Section Image 3 (e.g. Testimonial Background / Students Photo)
+                      </label>
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          placeholder="/students.jpg or image URL"
+                          value={editFormData.sectionImage3 || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, sectionImage3: e.target.value })}
+                          className="flex-grow px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-mono text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => openMediaPickerFor('sectionImage3')}
+                          className="px-3.5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-xl text-xs shadow-md transition-colors flex items-center gap-1.5 shrink-0"
+                        >
+                          <ImageIcon className="w-4 h-4" /> Choose Media
+                        </button>
+                      </div>
+
+                      {editFormData.sectionImage3 && (
+                        <div className="flex items-center gap-3 p-2.5 bg-white rounded-xl border border-slate-200">
+                          <img
+                            src={editFormData.sectionImage3}
+                            alt="Section Image 3"
+                            className="w-14 h-10 rounded-lg object-cover bg-slate-100 border p-0.5"
+                          />
+                          <div className="flex-grow min-w-0">
+                            <span className="font-mono text-[10px] text-slate-600 truncate block">{editFormData.sectionImage3}</span>
+                            <span className="text-[9px] font-bold text-emerald-600">Active Section Asset</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => setEditFormData({ ...editFormData, sectionImage3: '' })}
+                            className="px-2.5 py-1 bg-rose-50 text-rose-600 border border-rose-200 font-bold text-[10px] rounded-lg hover:bg-rose-100"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* CALL TO ACTION BUTTONS CONFIGURATION */}
+                  <div className="p-4 bg-slate-50/80 rounded-2xl border border-slate-200 space-y-3">
+                    <span className="font-extrabold text-slate-900 block text-xs flex items-center gap-1.5">
+                      <Navigation className="w-4 h-4 text-purple-600" /> Action Buttons (Labels &amp; Destination Links)
+                    </span>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div>
+                        <label className="text-[10px] font-bold text-slate-600 block mb-1">Primary Button Label</label>
+                        <input
+                          type="text"
+                          placeholder="e.g. Explore Our Services"
+                          value={editFormData.ctaPrimaryText || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, ctaPrimaryText: e.target.value })}
+                          className="w-full px-3 py-2 rounded-lg border border-slate-200 text-xs font-bold text-slate-900 bg-white"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-[10px] font-bold text-slate-600 block mb-1">Primary Button Link</label>
+                        <input
+                          type="text"
+                          placeholder="e.g. /services"
+                          value={editFormData.ctaPrimaryLink || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, ctaPrimaryLink: e.target.value })}
+                          className="w-full px-3 py-2 rounded-lg border border-slate-200 text-xs font-mono text-purple-700 bg-white"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1 border-t border-slate-200">
+                      <div>
+                        <label className="text-[10px] font-bold text-slate-600 block mb-1">Secondary Button Label</label>
+                        <input
+                          type="text"
+                          placeholder="e.g. Explore Exam Platforms"
+                          value={editFormData.ctaSecondaryText || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, ctaSecondaryText: e.target.value })}
+                          className="w-full px-3 py-2 rounded-lg border border-slate-200 text-xs font-bold text-slate-900 bg-white"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-[10px] font-bold text-slate-600 block mb-1">Secondary Button Link</label>
+                        <input
+                          type="text"
+                          placeholder="e.g. /exam-platforms"
+                          value={editFormData.ctaSecondaryLink || ''}
+                          onChange={(e) => setEditFormData({ ...editFormData, ctaSecondaryLink: e.target.value })}
+                          className="w-full px-3 py-2 rounded-lg border border-slate-200 text-xs font-mono text-purple-700 bg-white"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* SEO METADATA OVERRIDES */}
                   <div className="border-t pt-4 space-y-3 bg-purple-50/40 p-4 rounded-2xl border border-purple-100">
                     <span className="font-extrabold text-purple-900 block text-xs flex items-center gap-1.5">
                       <Sparkles className="w-4 h-4 text-purple-600" /> SEO Metadata Overrides
