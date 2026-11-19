@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   BookOpen,
@@ -23,8 +23,19 @@ import { getBlogsContent } from '@/lib/contentLoader';
 export default function BlogIndexPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [articlesList, setArticlesList] = useState(() => getBlogsContent());
 
-  const articlesList = getBlogsContent();
+  // Real-time API synchronization with CMS saves
+  useEffect(() => {
+    fetch('/api/blog', { cache: 'no-store' })
+      .then((res) => res.json())
+      .then((resData) => {
+        if (resData?.success && resData?.data && Array.isArray(resData.data)) {
+          setArticlesList(resData.data);
+        }
+      })
+      .catch((err) => console.error('[Blog Live Sync Error]:', err));
+  }, []);
 
   // Dynamically extract unique categories from articles
   const categories = [
@@ -122,8 +133,10 @@ export default function BlogIndexPage() {
               </div>
 
               <div className="pt-4 border-t border-brand-border/60 flex items-center justify-between text-xs font-bold text-brand-blue">
-                <span>Read Full Article</span>
-                <ArrowRight className="w-4 h-4" />
+                <Link href={`/blog/${article.slug}`} className="inline-flex items-center gap-1.5 hover:underline">
+                  <span>Read Full Article</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
               </div>
             </div>
           ))}
