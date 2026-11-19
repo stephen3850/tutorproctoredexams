@@ -24,6 +24,7 @@ import {
 } from 'lucide-react';
 import PageContainer from './PageContainer';
 import { SITE_CONFIG, BLOGS_ENABLED, SERVICES_ENABLED } from '@/lib/utils';
+import { getNavigationContent } from '@/lib/contentLoader';
 
 // COMPACT DROPDOWN - 12 SERVICES
 const ALL_12_SERVICES = [
@@ -188,6 +189,24 @@ export default function Header() {
     };
   }, [mobileMenuOpen]);
 
+  // Dynamic Navigation & Top Announcement Banner Content
+  const [navData, setNavData] = useState(() => getNavigationContent());
+
+  useEffect(() => {
+    fetch('/api/admin/content?file=navigation.json', { cache: 'no-store' })
+      .then((res) => res.json())
+      .then((resData) => {
+        if (resData?.success && resData?.data?.topBanner) {
+          setNavData(resData.data);
+        }
+      })
+      .catch((err) => console.error('[Header Navigation Sync Error]:', err));
+  }, []);
+
+  const bannerText =
+    navData?.topBanner?.mainAnnouncement ||
+    'Ethical Educational Support & Proctoring Software Technical Guidance for Students Worldwide';
+
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b border-slate-200/90 transition-shadow duration-300 shadow-sm">
       {/* Top Announcement Bar (Smooth Color-Cycling Ticker) */}
@@ -199,7 +218,7 @@ export default function Header() {
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-white shrink-0" aria-hidden="true" />
                 <span className="font-bold text-white text-[11px] sm:text-xs">
-                  Ethical Educational Support & Proctoring Software Technical Guidance for Students Worldwide
+                  {bannerText}
                 </span>
               </div>
               <span className="text-white/60">|</span>
@@ -231,7 +250,7 @@ export default function Header() {
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-white shrink-0" />
                 <span className="font-bold text-white text-[11px] sm:text-xs">
-                  Ethical Educational Support & Proctoring Software Technical Guidance for Students Worldwide
+                  {bannerText}
                 </span>
               </div>
               <span className="text-white/60">|</span>
