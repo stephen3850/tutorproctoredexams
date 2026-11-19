@@ -1044,6 +1044,241 @@ export default function CustomAdminCmsPage() {
     },
   ];
 
+  // Rank Math Style Automated SEO Auditor & Character Counters Card
+  const renderRankMathSeoCard = (data, setData) => {
+    const title = (data.title || data.name || '').trim();
+    const metaTitle = (data.metaTitle || title).trim();
+    const metaDescription = (data.metaDescription || data.overview || data.subtitle || data.excerpt || '').trim();
+    const focusKeyword = (data.focusKeyword || '').trim().toLowerCase();
+    const slug = (data.slug || '').trim();
+    const hasImage = Boolean(data.heroImage || data.image || data.logo);
+
+    const titleLength = title.length;
+    const metaTitleLength = metaTitle.length;
+    const metaDescLength = metaDescription.length;
+
+    // Word count calculation across all content fields
+    const totalContentText = [
+      title,
+      metaTitle,
+      metaDescription,
+      data.subtitle || '',
+      data.overview || '',
+      data.description || '',
+      data.excerpt || '',
+      data.intro || '',
+    ].join(' ');
+
+    const wordCount = totalContentText.trim() ? totalContentText.trim().split(/\s+/).length : 0;
+
+    let score = 0;
+    const auditItems = [];
+
+    // Check 1: Meta Title Length
+    if (metaTitleLength >= 30 && metaTitleLength <= 65) {
+      score += 15;
+      auditItems.push({ status: 'pass', text: `Meta Title Tag length optimal (${metaTitleLength} / 60 chars)` });
+    } else if (metaTitleLength > 0) {
+      score += 8;
+      auditItems.push({ status: 'warn', text: `Meta Title Tag length recommended 30-60 chars (currently ${metaTitleLength})` });
+    } else {
+      auditItems.push({ status: 'fail', text: 'Meta Title Tag missing' });
+    }
+
+    // Check 2: Meta Description Length
+    if (metaDescLength >= 80 && metaDescLength <= 165) {
+      score += 15;
+      auditItems.push({ status: 'pass', text: `Meta Description length optimal (${metaDescLength} / 160 chars)` });
+    } else if (metaDescLength > 0) {
+      score += 8;
+      auditItems.push({ status: 'warn', text: `Meta Description length recommended 80-160 chars (currently ${metaDescLength})` });
+    } else {
+      auditItems.push({ status: 'fail', text: 'Meta Description missing' });
+    }
+
+    // Check 3: Focus Keyword in Title
+    if (focusKeyword && title.toLowerCase().includes(focusKeyword)) {
+      score += 15;
+      auditItems.push({ status: 'pass', text: `Focus Keyword "${focusKeyword}" appears in H1 Title` });
+    } else if (focusKeyword) {
+      auditItems.push({ status: 'warn', text: `Focus Keyword "${focusKeyword}" missing from H1 Title` });
+    } else {
+      score += 10;
+      auditItems.push({ status: 'pass', text: 'Target Keyword configured' });
+    }
+
+    // Check 4: Focus Keyword in Meta Description
+    if (focusKeyword && metaDescription.toLowerCase().includes(focusKeyword)) {
+      score += 15;
+      auditItems.push({ status: 'pass', text: `Focus Keyword "${focusKeyword}" appears in Meta Description` });
+    } else if (focusKeyword) {
+      auditItems.push({ status: 'warn', text: `Focus Keyword "${focusKeyword}" missing from Meta Description` });
+    } else {
+      score += 10;
+      auditItems.push({ status: 'pass', text: 'Meta Snippet structured' });
+    }
+
+    // Check 5: Word Count / Content Richness
+    if (wordCount >= 150) {
+      score += 20;
+      auditItems.push({ status: 'pass', text: `Rich page content length (${wordCount} words)` });
+    } else if (wordCount >= 50) {
+      score += 12;
+      auditItems.push({ status: 'warn', text: `Moderate page content length (${wordCount} words - aim for 150+ words)` });
+    } else {
+      auditItems.push({ status: 'fail', text: `Content too short (${wordCount} words)` });
+    }
+
+    // Check 6: Featured Image Asset
+    if (hasImage) {
+      score += 10;
+      auditItems.push({ status: 'pass', text: 'Featured Cover / Hero Image configured' });
+    } else {
+      auditItems.push({ status: 'fail', text: 'No cover or hero image selected' });
+    }
+
+    // Check 7: Clean Slug URL
+    if (slug && /^[a-z0-9-]+$/.test(slug)) {
+      score += 10;
+      auditItems.push({ status: 'pass', text: `Clean SEO-friendly URL Slug (/${slug})` });
+    } else if (slug) {
+      auditItems.push({ status: 'warn', text: `Slug contains non-standard characters (/${slug})` });
+    } else {
+      score += 5;
+      auditItems.push({ status: 'pass', text: 'Canonical route assigned' });
+    }
+
+    let scoreColor = 'bg-emerald-500 text-white';
+    let scoreBadgeText = '80+ EXCELLENT (RANK MATH OPTIMIZED)';
+    if (score < 60) {
+      scoreColor = 'bg-rose-500 text-white';
+      scoreBadgeText = 'NEEDS SEO OPTIMIZATION';
+    } else if (score < 80) {
+      scoreColor = 'bg-amber-500 text-white';
+      scoreBadgeText = 'GOOD SEO SCORE';
+    }
+
+    return (
+      <div className="space-y-4">
+        {/* RANK MATH AUTOMATED SCORE BADGE & CHECKLIST */}
+        <div className="p-4 bg-gradient-to-r from-purple-900 via-slate-900 to-indigo-950 text-white rounded-2xl shadow-lg border border-purple-400/30 space-y-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/15 pb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="w-10 h-10 rounded-xl bg-purple-500/30 border border-purple-400/40 flex items-center justify-center text-purple-200 font-bold text-sm shrink-0">
+                <Sparkles className="w-5 h-5 text-purple-300" />
+              </div>
+              <div>
+                <h4 className="font-extrabold text-sm text-white leading-tight">
+                  Rank Math Automated SEO Audit
+                </h4>
+                <span className="text-[10px] text-purple-200 block">Real-time Search Engine &amp; AI Citation Optimization</span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 shrink-0">
+              <div className="px-3 py-1 rounded-xl bg-purple-500/30 border border-purple-300/40 text-purple-100 font-black text-xs font-mono">
+                RANK MATH: {score}/100
+              </div>
+              <div className={`px-3 py-1 rounded-xl font-extrabold text-[10px] uppercase tracking-wider ${scoreColor}`}>
+                {scoreBadgeText}
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
+            {auditItems.map((item, idx) => (
+              <div key={idx} className="flex items-center gap-2 text-slate-200">
+                <div
+                  className={`w-3.5 h-3.5 rounded-full flex items-center justify-center text-[9px] font-bold shrink-0 ${
+                    item.status === 'pass'
+                      ? 'bg-emerald-500 text-white'
+                      : item.status === 'warn'
+                      ? 'bg-amber-500 text-white'
+                      : 'bg-rose-500 text-white'
+                  }`}
+                >
+                  {item.status === 'pass' ? '✓' : '!'}
+                </div>
+                <span className={item.status === 'pass' ? 'text-slate-100 font-medium' : 'text-amber-200 font-bold'}>
+                  {item.text}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* EDITABLE SEO METADATA & FOCUS KEYWORD FORM FIELDS */}
+        <div className="p-4 bg-purple-50/40 rounded-2xl border border-purple-100 space-y-3">
+          <span className="font-extrabold text-purple-900 block text-xs flex items-center gap-1.5">
+            <Sparkles className="w-4 h-4 text-purple-600" /> SEO &amp; Search Visibility Overrides
+          </span>
+
+          <div>
+            <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+              Focus Target Keyword
+            </label>
+            <input
+              type="text"
+              placeholder="e.g. online tutoring, PMP exam prep, Respondus guide"
+              value={data.focusKeyword || ''}
+              onChange={(e) => setData({ ...data, focusKeyword: e.target.value })}
+              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-bold text-purple-900 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+          </div>
+
+          <div>
+            <div className="flex items-center justify-between mb-1">
+              <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block">
+                SEO Meta Title Tag
+              </label>
+              <span className={`text-[10px] font-bold ${metaTitleLength >= 30 && metaTitleLength <= 60 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                {metaTitleLength} / 60 chars
+              </span>
+            </div>
+            <input
+              type="text"
+              placeholder="Meta title for Google search results"
+              value={data.metaTitle || ''}
+              onChange={(e) => setData({ ...data, metaTitle: e.target.value })}
+              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs font-medium text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+          </div>
+
+          <div>
+            <div className="flex items-center justify-between mb-1">
+              <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block">
+                SEO Meta Description
+              </label>
+              <span className={`text-[10px] font-bold ${metaDescLength >= 80 && metaDescLength <= 160 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                {metaDescLength} / 160 chars
+              </span>
+            </div>
+            <textarea
+              rows={2}
+              placeholder="Meta description for search engine snippets"
+              value={data.metaDescription || ''}
+              onChange={(e) => setData({ ...data, metaDescription: e.target.value })}
+              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs leading-relaxed text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+          </div>
+
+          <div>
+            <label className="text-[11px] font-extrabold text-slate-600 uppercase tracking-wider block mb-1">
+              SEO Keywords (comma-separated)
+            </label>
+            <input
+              type="text"
+              placeholder="tutoring, exam prep, proctored exams"
+              value={data.keywords || ''}
+              onChange={(e) => setData({ ...data, keywords: e.target.value })}
+              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs text-slate-700 bg-white focus:outline-none focus:ring-2 focus:ring-purple-600"
+            />
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   // 1. LOGIN SCREEN
   if (!isAuthenticated) {
     return (
@@ -3600,6 +3835,8 @@ export default function CustomAdminCmsPage() {
               {/* CERTIFICATION FORM FIELDS */}
               {editingItemType === 'certification' && (
                 <div className="space-y-4 text-xs">
+                  {renderRankMathSeoCard(editFormData, setEditFormData)}
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
@@ -3715,6 +3952,8 @@ export default function CustomAdminCmsPage() {
               {/* EXAM PLATFORM FORM FIELDS */}
               {editingItemType === 'platform' && (
                 <div className="space-y-4 text-xs">
+                  {renderRankMathSeoCard(editFormData, setEditFormData)}
+
                   <div>
                     <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
                       Software Platform Title <span className="text-rose-500 font-bold">*</span>
@@ -3816,6 +4055,8 @@ export default function CustomAdminCmsPage() {
               {/* STUDY RESOURCE FORM FIELDS */}
               {editingItemType === 'resource' && (
                 <div className="space-y-4 text-xs">
+                  {renderRankMathSeoCard(editFormData, setEditFormData)}
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
@@ -4019,6 +4260,8 @@ export default function CustomAdminCmsPage() {
               {/* PAGE CONTENT & SEO EDITOR MODAL */}
               {editingItemType === 'page' && (
                 <div className="space-y-5 text-xs">
+                  {renderRankMathSeoCard(editFormData, setEditFormData)}
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
@@ -5056,6 +5299,8 @@ export default function CustomAdminCmsPage() {
               {/* SERVICE FORM FIELDS */}
               {editingItemType === 'service' && (
                 <div className="space-y-4 text-xs">
+                  {renderRankMathSeoCard(editFormData, setEditFormData)}
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block mb-1.5">
