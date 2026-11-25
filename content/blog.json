@@ -119,6 +119,30 @@
       "publishDate": "2025-03-02",
       "excerpt": "Learn how to simulate real test conditions with timed mock test sets, conduct wrong-answer rationale reviews, and build test-taking pacing for high-stakes exams.",
       "intro": "Simulated practice exams and timed problem sets are proven tools for converting theoretical knowledge into high test scores."
+    },
+    {
+      "slug": "online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "title": "Online Proctored Exam Meaning: How It Works, Costs and Technical Preparation",
+      "category": "Examination Software Guidance",
+      "publishDate": "2025-03-05",
+      "excerpt": "An online proctored exam is a remote test monitored by secure software and a remote proctor through your webcam, microphone, and screen share. Learn how it works, official costs, and OnVUE system checks.",
+      "intro": "An online proctored exam is a remote test taken on a desktop or laptop computer while specialized proctoring software and a human or artificial intelligence (AI) proctor supervise you through your webcam, microphone, and screen share."
+    },
+    {
+      "slug": "onvue-system-test-failure-troubleshooting-guide",
+      "title": "OnVUE System Test Failure: How to Fix Webcam, Network & OS Permission Errors",
+      "category": "Examination Software Guidance",
+      "publishDate": "2025-03-06",
+      "excerpt": "An OnVUE system test failure occurs when Pearson VUE software cannot access your webcam/mic, detects background apps, or measures network drops. Learn how to fix macOS & Windows permission errors.",
+      "intro": "An OnVUE system test failure occurs when Pearson VUE testing software cannot access your computer webcam or microphone, detects active background applications, or measures an unstable internet upload speed."
+    },
+    {
+      "slug": "live-human-vs-automated-ai-proctoring-guide",
+      "title": "Live Human vs. Automated AI Proctoring: What Students Need to Know",
+      "category": "Examination Software Guidance",
+      "publishDate": "2025-03-07",
+      "excerpt": "Compare live human proctoring (ProctorU Live, OnVUE) with automated AI proctoring (Respondus Monitor, Honorlock). Learn how behavioral camera flags work and what AI software records.",
+      "intro": "The main difference between live human proctoring and automated AI proctoring is when and how remote supervision takes place."
     }
   ]
 }
