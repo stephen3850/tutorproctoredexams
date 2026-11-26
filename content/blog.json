@@ -143,6 +143,54 @@
       "publishDate": "2026-11-18",
       "excerpt": "Compare live human proctoring (ProctorU Live, OnVUE) with automated AI proctoring (Respondus Monitor, Honorlock). Learn how behavioral camera flags work and what AI software records.",
       "intro": "The main difference between live human proctoring and automated AI proctoring is when and how remote supervision takes place."
+    },
+    {
+      "slug": "examplify-answer-upload-submission-confirmation-guide",
+      "title": "Examplify Answer Uploads, Monitoring Uploads and Submission Confirmation Guide",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "excerpt": "Learn how to confirm Examplify answer file uploads, resolve upload errors, handle ExamMonitor video uploads, and verify your green submission confirmation screen.",
+      "intro": "When you complete an assessment in Examplify by ExamSoft, your answer file is encrypted on your local drive before being uploaded to ExamSoft servers. Understanding how answer uploads work, how to verify the green submission confirmation screen, and what to do if an upload fails ensures your exam is submitted safely."
+    },
+    {
+      "slug": "respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "title": "Respondus LockDown Browser System Requirements & Supported Devices Guide",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "excerpt": "Complete guide to Respondus LockDown Browser system requirements, supported operating systems (Windows, Mac, Chromebook, iPad), RAM, and hardware specs.",
+      "intro": "Before launching an assessment in Respondus LockDown Browser, verifying your computer specifications ensures your operating system and hardware satisfy official requirements. LockDown Browser supports standard desktop versions of Windows and macOS, as well as Chromebooks and iPads when explicitly enabled by your institution."
+    },
+    {
+      "slug": "respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "title": "Respondus Monitor Webcam & Microphone Pre-Exam Troubleshooting Guide",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "excerpt": "Learn how to fix Respondus Monitor webcam check errors, grant macOS & Windows camera permissions, resolve black video screens, and test room lighting before test day.",
+      "intro": "Respondus Monitor uses your webcam and microphone to record your examination session and perform automated pre-test checks. Resolving webcam privacy permissions, camera freezes, and room lighting issues before your exam date prevents test-day launch delays."
+    },
+    {
+      "slug": "examplify-exam-not-showing-download-troubleshooting-guide",
+      "title": "Examplify Exam Not Showing: Download Troubleshooting & Mock Exam Guide",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "excerpt": "Troubleshoot missing exams on Examplify dashboard, download limit errors, expired download windows, and taking practice mock exams before test day.",
+      "intro": "If an upcoming test does not appear on your Examplify dashboard or you encounter an exam file download error, understanding how ExamSoft downloads work helps you resolve the issue quickly before test day."
+    },
+    {
+      "slug": "examplify-controls-navigation-accessibility-guide",
+      "title": "Examplify Controls, Navigation & Accessibility Options Guide",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "excerpt": "Guide to Examplify on-screen controls, question flagging, essay word counters, text magnification, and institutional testing accommodation requests.",
+      "intro": "Examplify provides various built-in navigation tools, essay formatting options, and accessibility adjustments to help candidates navigate assessments comfortably."
+    },
+    {
+      "slug": "online-exam-disconnections-power-outages-incident-reporting-guide",
+      "title": "Online Exam Disconnections, Power Outages & Incident Reporting Guide",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "excerpt": "What to do if your internet drops or power dies during an online proctored exam. Step-by-step incident reporting and official support contact procedures.",
+      "intro": "Experiencing an unexpected Wi-Fi disconnection or power outage during an online proctored exam can be stressful. Knowing how testing software saves your progress and how to report a technical incident properly protects your test attempt."
     }
   ]
 }

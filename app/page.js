@@ -170,14 +170,14 @@ export default function HomePage() {
       description: 'Customized weekly study schedules, spaced repetition roadmaps, and time management coaching for busy students.',
       icon: Calendar,
       badge: 'Structured Study',
-      href: '/services/study-planning',
+      href: '/services/study-planning-revision-support',
     },
     {
       title: 'Software Technical Guidance',
       description: 'Legitimate guidance on hardware specs, OS updates, camera setup, and software troubleshooting prior to exam day.',
       icon: Cpu,
       badge: 'System Guidance',
-      href: '/services/examination-software-technical-guidance',
+      href: '/services/software-technical-guidance',
     },
   ];
 

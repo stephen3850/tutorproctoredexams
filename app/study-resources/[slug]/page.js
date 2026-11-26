@@ -1,9 +1,12 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, HelpCircle } from 'lucide-react';
 import PageContainer from '@/components/layout/PageContainer';
+import SectionHeading from '@/components/ui/SectionHeading';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import Badge from '@/components/ui/Badge';
+import FaqAccordion from '@/components/ui/FaqAccordion';
+import JsonLd from '@/components/seo/JsonLd';
 import StudyResourceInquiryForm from '@/components/study-resources/StudyResourceInquiryForm';
 import { getStudyResourceBySlug } from '@/lib/contentLoader';
 import { SITE_CONFIG } from '@/lib/utils';
@@ -16,16 +19,23 @@ export async function generateMetadata({ params }) {
   const slug = resolvedParams?.slug;
   const resource = getStudyResourceBySlug(slug);
 
-  const defaultTitle = resource
+  const defaultTitle = resource?.metaTitle || (resource
     ? `${resource.title} | Study Resources | TUTOR PROCTORED EXAMS`
-    : 'Study Resource | TUTOR PROCTORED EXAMS';
-  const defaultDescription =
+    : 'Study Resource | TUTOR PROCTORED EXAMS');
+  const defaultDescription = resource?.metaDescription ||
     resource?.tagline || resource?.description || resource?.overview || 'High-yield study materials and revision guides.';
   const defaultCanonical = `${SITE_CONFIG.domain}/study-resources/${slug}`;
 
   return {
     title: defaultTitle,
     description: defaultDescription,
+    keywords: [
+      resource?.focusKeyword || resource?.title || 'study materials',
+      resource?.category || 'revision resources',
+      'study guides',
+      'practice question banks',
+      'mock exams',
+    ],
     alternates: {
       canonical: defaultCanonical,
     },
@@ -54,8 +64,67 @@ export default async function StudyResourceDetailPage({ params }) {
     notFound();
   }
 
+  // Structured Data JSON-LD (WebPage, BreadcrumbList, FAQPage)
+  const jsonLdData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${SITE_CONFIG.domain}/study-resources/${resource.slug}`,
+        url: `${SITE_CONFIG.domain}/study-resources/${resource.slug}`,
+        name: resource.metaTitle || resource.title,
+        description: resource.metaDescription || resource.description || resource.overview,
+        publisher: {
+          '@type': 'EducationalOrganization',
+          name: SITE_CONFIG.name,
+          url: SITE_CONFIG.domain,
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: SITE_CONFIG.domain,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Study Resources',
+            item: `${SITE_CONFIG.domain}/study-resources`,
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: resource.title,
+            item: `${SITE_CONFIG.domain}/study-resources/${resource.slug}`,
+          },
+        ],
+      },
+      ...(resource.faqs && resource.faqs.length > 0
+        ? [
+            {
+              '@type': 'FAQPage',
+              mainEntity: resource.faqs.map((faq) => ({
+                '@type': 'Question',
+                name: faq.question,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: faq.answer,
+                },
+              })),
+            },
+          ]
+        : []),
+    ],
+  };
+
   return (
     <div className="space-y-10 pt-2 pb-16">
+      <JsonLd data={jsonLdData} />
+
       <PageContainer>
         <Breadcrumb
           items={[
@@ -96,7 +165,10 @@ export default async function StudyResourceDetailPage({ params }) {
                   {resource.availableMaterials.map((mat, idx) => (
                     <div key={idx} className="p-3 rounded-xl bg-brand-bg border border-brand-border text-xs sm:text-sm font-semibold text-brand-navy flex items-center gap-2">
                       <BookOpen className="w-4 h-4 text-brand-blue shrink-0" />
-                      <span>{typeof mat === 'string' ? mat : mat.title || mat.name}</span>
+                      <div>
+                        <strong className="text-brand-navy block">{typeof mat === 'string' ? mat : mat.title || mat.name}</strong>
+                        {typeof mat === 'object' && mat.description && <p className="text-xs text-brand-muted font-normal mt-0.5">{mat.description}</p>}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -107,6 +179,18 @@ export default async function StudyResourceDetailPage({ params }) {
           {/* REQUEST FORM CARD */}
           <StudyResourceInquiryForm resourceTitle={resource.title} />
         </div>
+
+        {/* 3. FREQUENTLY ASKED QUESTIONS */}
+        {(resource.faqs || []).length > 0 && (
+          <div className="bg-white border border-brand-border rounded-2xl p-8 sm:p-10 space-y-6 my-10">
+            <SectionHeading
+              badge="Common Questions"
+              title={`Frequently Asked Questions About ${resource.title}`}
+              subtitle="Clear answers regarding revision notes, practice question sets, and access options."
+            />
+            <FaqAccordion items={resource.faqs} />
+          </div>
+        )}
       </PageContainer>
     </div>
   );

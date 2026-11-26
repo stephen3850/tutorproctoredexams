@@ -6,7 +6,36 @@
       "category": "Academic Support",
       "tagline": "Personalized academic learning support, subject explanations, guided lessons, and study assistance.",
       "heroImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Our 1-on-1 Online Tutoring service connects students and adult learners worldwide with experienced educational specialists for personalized instruction."
+      "overview": "Our 1-on-1 Online Tutoring service connects students and adult learners worldwide with experienced educational specialists for personalized instruction.",
+      "focusKeyword": "one-on-one online tutoring",
+      "metaTitle": "One-on-One Online Tutoring | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Get personalized one-on-one online tutoring for college courses and certification exams. Master difficult concepts with qualified academic tutors.",
+      "faqs": [
+        {
+          "question": "How are 1-on-1 online tutoring sessions conducted?",
+          "answer": "Sessions are conducted online in an interactive virtual classroom with video, audio, digital whiteboard, and screen sharing tools."
+        },
+        {
+          "question": "What academic subjects and courses are available for tutoring?",
+          "answer": "We cover undergraduate mathematics, biology, chemistry, physics, nursing/A&P, business administration, computer science, and humanities."
+        },
+        {
+          "question": "Can a tutor help me prepare for specific university exams or midterm papers?",
+          "answer": "Yes! Tutors align lessons directly with your course syllabus, lecture slides, and upcoming midterm or final exam requirements."
+        },
+        {
+          "question": "How far in advance should I book tutoring before an exam?",
+          "answer": "We recommend starting 2 to 4 weeks before major exams to allow structured concept building, active recall practice, and problem drills."
+        },
+        {
+          "question": "Do tutors take exams for students or provide live test answers?",
+          "answer": "No. TUTOR PROCTORED EXAMS strictly adheres to academic integrity. Tutors do NOT take exams or provide unauthorized live test answers. Tutors teach you the material so you can test independently."
+        },
+        {
+          "question": "What technology or equipment do I need for online tutoring?",
+          "answer": "You need a desktop or laptop computer with a stable internet connection, webcam, microphone, and a modern web browser like Google Chrome or Firefox."
+        }
+      ]
     },
     {
       "slug": "academic-exam-preparation",
@@ -14,7 +43,36 @@
       "category": "Examination Support",
       "tagline": "Structured study plans, concept reviews, topic drills, and time management coaching.",
       "heroImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Comprehensive preparation for midterm and final exams across university courses."
+      "overview": "Comprehensive preparation for midterm and final exams across university courses.",
+      "focusKeyword": "academic exam preparation",
+      "metaTitle": "Academic Exam Preparation Services | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Comprehensive academic exam preparation for college midterms and final exams. Structured study plans, practice questions, and high-yield concept reviews.",
+      "faqs": [
+        {
+          "question": "What does academic exam preparation include?",
+          "answer": "It includes a comprehensive syllabus audit, high-yield topic prioritization, timed practice question drills, and test-taking pacing strategies."
+        },
+        {
+          "question": "How far in advance should I begin academic exam preparation?",
+          "answer": "We recommend starting 3 to 6 weeks before major midterms or cumulative final exams to allow adequate spaced repetition."
+        },
+        {
+          "question": "Does academic exam preparation cover standardized nursing entrance exams?",
+          "answer": "Yes! We offer dedicated preparation programs for nursing entrance exams, including ATI TEAS 7 and HESI A2."
+        },
+        {
+          "question": "Can exam preparation help reduce test anxiety?",
+          "answer": "Yes. Practicing with realistic question formats and timed mock tests under simulated conditions significantly reduces pre-test anxiety and builds confidence."
+        },
+        {
+          "question": "Will exam preparation materials match my specific university course?",
+          "answer": "Tutors review your course syllabus, textbook, and instructor guidelines to ensure revision materials align with your specific course expectations."
+        },
+        {
+          "question": "Is this service available for online proctored university courses?",
+          "answer": "Yes! We prepare you for course content delivered on proctored platforms like Respondus, Canvas, ProctorU, and Honorlock."
+        }
+      ]
     },
     {
       "slug": "practice-questions-mock-tests",
@@ -22,7 +80,36 @@
       "category": "Assessment Practice",
       "tagline": "Curated practice problem sets, timed mock test simulations, and detailed answer rationale breakdowns.",
       "heroImage": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Targeted practice tests and questions to build test-taking stamina and topic mastery."
+      "overview": "Targeted practice tests and questions to build test-taking stamina and topic mastery.",
+      "focusKeyword": "practice questions and mock tests",
+      "metaTitle": "Practice Questions & Mock Tests | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Access curated practice questions and timed mock test simulations with answer rationale breakdowns for college courses and professional certifications.",
+      "faqs": [
+        {
+          "question": "Are answer rationales provided for all practice questions?",
+          "answer": "Yes! Every practice question includes a detailed rationale explaining why the correct option is right and why distractors are incorrect."
+        },
+        {
+          "question": "How do timed mock tests simulate real exam conditions?",
+          "answer": "Mock tests replicate the exact question formats, time constraints, and domain distributions of official examinations to build testing stamina."
+        },
+        {
+          "question": "Can I access practice questions for professional certifications like PMP or CompTIA?",
+          "answer": "Yes! We offer curated practice question sets for PMP, CompTIA Security+, AAPC CPC medical coding, and NHA CCMA credentials."
+        },
+        {
+          "question": "What is the benefit of diagnostic reporting after a mock test?",
+          "answer": "Diagnostic reports highlight your score by knowledge domain, showing exactly which topics need further revision before test day."
+        },
+        {
+          "question": "Are practice questions updated to match current exam content outlines?",
+          "answer": "Yes! Practice question banks are regularly updated to reflect official Examination Content Outlines (ECO) from governing bodies."
+        },
+        {
+          "question": "How many mock tests should I take before my exam date?",
+          "answer": "We recommend taking 3 to 5 full-length timed mock tests in the final 3 weeks before your official examination."
+        }
+      ]
     },
     {
       "slug": "professional-certification-prep",
@@ -38,7 +125,36 @@
       "category": "Academic Strategy",
       "tagline": "Custom daily study schedules, active recall flashcards, spaced repetition routines, and revision tracking.",
       "heroImage": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Structured study schedules and revision techniques to optimize learning retention."
+      "overview": "Structured study schedules and revision techniques to optimize learning retention.",
+      "focusKeyword": "study planning and revision support",
+      "metaTitle": "Study Planning & Revision Support | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Organize your study schedule with active recall, spaced repetition, and personalized revision roadmaps. Eliminate cramming and prepare for test day.",
+      "faqs": [
+        {
+          "question": "What is active recall and spaced repetition?",
+          "answer": "Active recall involves testing your memory rather than re-reading notes, while spaced repetition reviews material at expanding intervals for long-term retention."
+        },
+        {
+          "question": "How is a custom study plan created?",
+          "answer": "Advisors review your available study hours, course syllabi, and test date to build a realistic, time-blocked daily and weekly revision schedule."
+        },
+        {
+          "question": "Can study planning help working professionals balancing full-time jobs?",
+          "answer": "Yes! Study plans are tailored around busy work schedules, allocating high-yield revision blocks during evenings and weekends."
+        },
+        {
+          "question": "How do weekly check-ins help with study discipline?",
+          "answer": "Weekly check-ins evaluate completed study milestones, adjust pacing for difficult topics, and provide accountability."
+        },
+        {
+          "question": "What tools are used to track revision progress?",
+          "answer": "We use time-blocking templates, flashcard revision systems, and diagnostic quiz benchmarks to monitor your learning curve."
+        },
+        {
+          "question": "Can study planning be combined with 1-on-1 tutoring?",
+          "answer": "Yes! Many students pair customized study schedules with targeted 1-on-1 tutoring sessions to address specific weak topics."
+        }
+      ]
     },
     {
       "slug": "software-technical-guidance",
@@ -46,7 +162,36 @@
       "category": "Technical Assistance",
       "tagline": "Legitimate hardware readiness checks, operating system requirements, camera permissions, and environment setup advice.",
       "heroImage": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Technical advice for online examination platforms to ensure smooth pre-exam setup."
+      "overview": "Technical advice for online examination platforms to ensure smooth pre-exam setup.",
+      "focusKeyword": "proctoring software setup help",
+      "metaTitle": "Proctoring Software Setup Help & Guidance | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Legitimate proctoring software setup help for Respondus, Examplify, Honorlock, and ProctorU. Verify OS requirements, webcam settings, and technical readiness.",
+      "faqs": [
+        {
+          "question": "Does technical guidance involve bypassing or modifying proctoring software?",
+          "answer": "No. All technical guidance is 100% legitimate and focused on system requirements, webcam permissions, and resolving software conflicts."
+        },
+        {
+          "question": "Which online examination platforms do you provide technical guidance for?",
+          "answer": "We cover Respondus LockDown Browser, Examplify (ExamSoft), Honorlock, ProctorU, Proctorio, Proctortrack, Examity, PSI, and ATI."
+        },
+        {
+          "question": "Why does my proctoring browser fail to detect my webcam or microphone?",
+          "answer": "Webcam and mic issues are usually caused by missing macOS or Windows privacy permissions or secondary background video software locking the webcam driver."
+        },
+        {
+          "question": "Can I take a proctored exam on a corporate or work laptop?",
+          "answer": "We advise against corporate laptops because administrative firewalls and background security tools frequently block proctoring server connections."
+        },
+        {
+          "question": "How far in advance should I complete a technical system test?",
+          "answer": "We recommend running equipment diagnostic checks at least 48 to 72 hours before your scheduled exam window."
+        },
+        {
+          "question": "What operating systems are supported for online proctored exams?",
+          "answer": "Most platforms require 64-bit Windows 10/11 or modern macOS versions. Chromebooks, Linux, and Windows S-Mode are generally unsupported."
+        }
+      ]
     }
   ]
 }

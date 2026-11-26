@@ -21,11 +21,11 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 export const metadata = {
-  title: 'Study Materials & Revision Resources Sales Platform | TUTOR PROCTORED EXAMS',
+  title: 'Study Materials & Revision Resources | TUTOR PROCTORED EXAMS',
   description:
-    'Explore premium study materials, revision notes, practice question banks, and exam preparation guides for PMP, CompTIA, AAPC, CPC, CCMA, CNA, CPhT, GED, HESI, and TEAS.',
+    'High-yield study materials, revision notes, formula sheets, and practice question banks for PMP, CompTIA, AAPC CPC, CCMA, CNA, CPhT, TEAS, and HESI exams.',
   keywords: [
-    'study materials sales platform',
+    'study materials directory',
     'revision resources',
     'PMP revision notes',
     'CompTIA practice questions',
@@ -34,6 +34,12 @@ export const metadata = {
   ],
   alternates: {
     canonical: `${SITE_CONFIG.domain}/study-resources`,
+  },
+  openGraph: {
+    title: 'Study Materials & Revision Resources Library',
+    description: 'Explore high-yield revision summaries, formula sheets, domain flashcards, and practice problem sets.',
+    url: `${SITE_CONFIG.domain}/study-resources`,
+    type: 'website',
   },
 };
 
@@ -48,12 +54,12 @@ export default function StudyResourcesDirectoryPage() {
         {/* 1. HERO BANNER */}
         <div className="bg-brand-navy text-white rounded-2xl p-8 sm:p-12 my-6 relative overflow-hidden">
           <div className="max-w-3xl space-y-4 relative z-10">
-            <Badge variant="blue" className="bg-brand-blue/20 text-brand-lightBlue border-brand-blue/30 px-3 py-1 text-xs">
-              Study Guides & Revision Materials
+            <Badge variant="blue" className="bg-brand-blue/20 text-brand-lightBlue border-brand-blue/30 px-3 py-1 text-xs font-bold">
+              Study Guides &amp; Revision Materials
             </Badge>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-              Study Resources Library
+              Study Resources &amp; Revision Library
             </h1>
 
             <p className="text-brand-muted/90 text-base sm:text-lg leading-relaxed text-balance">
@@ -104,6 +110,17 @@ export default function StudyResourcesDirectoryPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* 3. INDEPENDENT DISCLAIMER */}
+        <div className="bg-brand-bg border border-brand-border rounded-2xl p-8 my-10 space-y-4 text-center max-w-3xl mx-auto shadow-sm">
+          <ShieldCheck className="w-10 h-10 text-brand-blue mx-auto" />
+          <h3 className="text-xl font-bold text-brand-navy">
+            100% Independent Educational Support &amp; Materials
+          </h3>
+          <p className="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            All study materials are original revision resources created for independent student preparation. We are not affiliated with or endorsed by official certification bodies.
+          </p>
         </div>
       </PageContainer>
     </div>

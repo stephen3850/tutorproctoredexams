@@ -1,0 +1,3013 @@
+{
+  "summary": "Exact 300-Question Coverage Map for Tutor Proctored Exams Q&A Library",
+  "totalQuestions": 300,
+  "statusTotals": {
+    "verified": 300,
+    "partial": 0,
+    "answered_unverified": 0,
+    "unanswered": 0,
+    "sum": 300
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "originalNumber": 1,
+      "questionText": "how to download lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q002",
+      "originalNumber": 2,
+      "questionText": "how to install respondus lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q003",
+      "originalNumber": 3,
+      "questionText": "where do i download lockdown browser for my school",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q004",
+      "originalNumber": 4,
+      "questionText": "how to download lockdown browser on mac",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q005",
+      "originalNumber": 5,
+      "questionText": "how to install lockdown browser on windows",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q006",
+      "originalNumber": 6,
+      "questionText": "how to update lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q007",
+      "originalNumber": 7,
+      "questionText": "how to open an exam in lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q008",
+      "originalNumber": 8,
+      "questionText": "how to use lockdown browser with canvas",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q009",
+      "originalNumber": 9,
+      "questionText": "how to take a practice test on lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q010",
+      "originalNumber": 10,
+      "questionText": "how to check if lockdown browser is installed",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Download the official LockDown Browser installer from your university LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q011",
+      "originalNumber": 11,
+      "questionText": "lockdown browser not working",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q012",
+      "originalNumber": 12,
+      "questionText": "lockdown browser not opening",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q013",
+      "originalNumber": 13,
+      "questionText": "lockdown browser stuck loading",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q014",
+      "originalNumber": 14,
+      "questionText": "lockdown browser webcam not working",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q015",
+      "originalNumber": 15,
+      "questionText": "respondus microphone not working",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q016",
+      "originalNumber": 16,
+      "questionText": "lockdown browser says close applications",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q017",
+      "originalNumber": 17,
+      "questionText": "lockdown browser exam not showing",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q018",
+      "originalNumber": 18,
+      "questionText": "lockdown browser keeps crashing",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q019",
+      "originalNumber": 19,
+      "questionText": "lockdown browser frozen during exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q020",
+      "originalNumber": 20,
+      "questionText": "what to do if lockdown browser disconnects",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Close background software like Spotify, Discord, Teams, or Skype via Task Manager.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q021",
+      "originalNumber": 21,
+      "questionText": "can i use lockdown browser on a chromebook",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q022",
+      "originalNumber": 22,
+      "questionText": "can i take a lockdown browser exam on ipad",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q023",
+      "originalNumber": 23,
+      "questionText": "does lockdown browser work on macbook",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q024",
+      "originalNumber": 24,
+      "questionText": "can i use lockdown browser on my phone",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q025",
+      "originalNumber": 25,
+      "questionText": "lockdown browser system requirements",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q026",
+      "originalNumber": 26,
+      "questionText": "is my laptop compatible with lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q027",
+      "originalNumber": 27,
+      "questionText": "how much storage does lockdown browser need",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q028",
+      "originalNumber": 28,
+      "questionText": "does lockdown browser work on windows 11",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q029",
+      "originalNumber": 29,
+      "questionText": "can i use an external webcam with respondus",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q030",
+      "originalNumber": 30,
+      "questionText": "how to test my webcam before a respondus exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide",
+      "anchorLocation": "#windows-mac-requirements",
+      "excerpt": "Supports 64-bit Windows 10/11, macOS 10.15+, and Chromebooks when enabled by institution administrator.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q031",
+      "originalNumber": 31,
+      "questionText": "what is lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q032",
+      "originalNumber": 32,
+      "questionText": "how does respondus lockdown browser work",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q033",
+      "originalNumber": 33,
+      "questionText": "lockdown browser vs respondus monitor",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q034",
+      "originalNumber": 34,
+      "questionText": "does lockdown browser record you",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q035",
+      "originalNumber": 35,
+      "questionText": "does every lockdown browser exam use a webcam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q036",
+      "originalNumber": 36,
+      "questionText": "what happens if respondus flags you",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q037",
+      "originalNumber": 37,
+      "questionText": "can you use a calculator on lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q038",
+      "originalNumber": 38,
+      "questionText": "what should i close before a lockdown browser exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q039",
+      "originalNumber": 39,
+      "questionText": "how to prepare your room for respondus monitor",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q040",
+      "originalNumber": 40,
+      "questionText": "what to do before your first lockdown browser exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#webcam-monitor-setup",
+      "excerpt": "LockDown Browser is a secure browser; Respondus Monitor adds automated webcam and audio recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q041",
+      "originalNumber": 41,
+      "questionText": "how to download examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q042",
+      "originalNumber": 42,
+      "questionText": "how to install examplify on mac",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q043",
+      "originalNumber": 43,
+      "questionText": "how to install examplify on windows",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q044",
+      "originalNumber": 44,
+      "questionText": "where do i find my examplify download link",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q045",
+      "originalNumber": 45,
+      "questionText": "how to update examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q046",
+      "originalNumber": 46,
+      "questionText": "how to log in to examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q047",
+      "originalNumber": 47,
+      "questionText": "how to register a device on examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q048",
+      "originalNumber": 48,
+      "questionText": "how to find my institution on examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q049",
+      "originalNumber": 49,
+      "questionText": "how to download an exam on examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q050",
+      "originalNumber": 50,
+      "questionText": "how to take an examplify mock exam",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q051",
+      "originalNumber": 51,
+      "questionText": "examplify not working",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q052",
+      "originalNumber": 52,
+      "questionText": "examplify not opening",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q053",
+      "originalNumber": 53,
+      "questionText": "examplify exam not showing",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q054",
+      "originalNumber": 54,
+      "questionText": "examplify login not working",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q055",
+      "originalNumber": 55,
+      "questionText": "examplify stuck downloading exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q056",
+      "originalNumber": 56,
+      "questionText": "examplify upload failed",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q057",
+      "originalNumber": 57,
+      "questionText": "examplify answer file not uploading",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q058",
+      "originalNumber": 58,
+      "questionText": "examplify frozen during exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q059",
+      "originalNumber": 59,
+      "questionText": "examplify camera not working",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q060",
+      "originalNumber": 60,
+      "questionText": "examplify microphone not working",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q061",
+      "originalNumber": 61,
+      "questionText": "examplify system requirements",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q062",
+      "originalNumber": 62,
+      "questionText": "does examplify work on macbook",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q063",
+      "originalNumber": 63,
+      "questionText": "can i use examplify on ipad",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q064",
+      "originalNumber": 64,
+      "questionText": "does examplify work on chromebook",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q065",
+      "originalNumber": 65,
+      "questionText": "can i use examplify on my phone",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q066",
+      "originalNumber": 66,
+      "questionText": "how much storage does examplify need",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q067",
+      "originalNumber": 67,
+      "questionText": "how to check my laptop before an examplify exam",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q068",
+      "originalNumber": 68,
+      "questionText": "what to do before an examplify exam",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q069",
+      "originalNumber": 69,
+      "questionText": "how to check camera permissions for examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q070",
+      "originalNumber": 70,
+      "questionText": "how to check microphone permissions for examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Examplify requires 64-bit Windows 10/11 or macOS. Chromebooks and Windows S-Mode are unsupported.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q071",
+      "originalNumber": 71,
+      "questionText": "examsoft vs examplify",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q072",
+      "originalNumber": 72,
+      "questionText": "what is exammonitor",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q073",
+      "originalNumber": 73,
+      "questionText": "what is examid",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q074",
+      "originalNumber": 74,
+      "questionText": "does examplify record you",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q075",
+      "originalNumber": 75,
+      "questionText": "does examplify need internet during an exam",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Examplify requires internet for exam downloads and answer/video file uploads; during testing, answers save locally on disk. LMS web quizzes require continuous internet to send responses to university servers.",
+      "status": "verified",
+      "verificationNotes": "Refined: Distinguished Examplify local disk saving from LMS web-browser real-time response transmission."
+    },
+    {
+      "id": "Q076",
+      "originalNumber": 76,
+      "questionText": "how to submit an exam on examplify",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q077",
+      "originalNumber": 77,
+      "questionText": "how to know if examplify uploaded successfully",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q078",
+      "originalNumber": 78,
+      "questionText": "how to upload an examplify answer file manually",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q079",
+      "originalNumber": 79,
+      "questionText": "what happens if internet goes off during examplify",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q080",
+      "originalNumber": 80,
+      "questionText": "how to contact examsoft support",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#green-submission-screen",
+      "excerpt": "Verify the green confirmation screen with verification code upon submitting exam.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q081",
+      "originalNumber": 81,
+      "questionText": "what is a proctored exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "Proctored exams can be taken in person at testing centers or remotely online via live human, recorded, or automated AI proctoring.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q082",
+      "originalNumber": 82,
+      "questionText": "how do online proctored exams work",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q083",
+      "originalNumber": 83,
+      "questionText": "how to prepare for an online proctored exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q084",
+      "originalNumber": 84,
+      "questionText": "what do i need for a proctored exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q085",
+      "originalNumber": 85,
+      "questionText": "proctored exam room setup",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q086",
+      "originalNumber": 86,
+      "questionText": "proctored exam desk setup",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q087",
+      "originalNumber": 87,
+      "questionText": "how to test my webcam before an online exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q088",
+      "originalNumber": 88,
+      "questionText": "how to check internet before a proctored exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q089",
+      "originalNumber": 89,
+      "questionText": "can i use headphones in a proctored exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q090",
+      "originalNumber": 90,
+      "questionText": "what id do i need for a proctored exam",
+      "primaryDestination": "/blog/online-proctored-exam-meaning-how-it-works-costs-system-checks",
+      "anchorLocation": "#how-remote-proctoring-works",
+      "excerpt": "An online proctored exam is a remote test supervised by video, audio, and screen recording.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q091",
+      "originalNumber": 91,
+      "questionText": "what happens if internet disconnects during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q092",
+      "originalNumber": 92,
+      "questionText": "what to do if my laptop freezes during an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q093",
+      "originalNumber": 93,
+      "questionText": "what happens if my webcam stops during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q094",
+      "originalNumber": 94,
+      "questionText": "how to contact a proctor during an exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q095",
+      "originalNumber": 95,
+      "questionText": "can i take a bathroom break during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q096",
+      "originalNumber": 96,
+      "questionText": "what happens if someone enters during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q097",
+      "originalNumber": 97,
+      "questionText": "what does flagged mean in a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q098",
+      "originalNumber": 98,
+      "questionText": "how to request accommodations for a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q099",
+      "originalNumber": 99,
+      "questionText": "how to stay calm during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q100",
+      "originalNumber": 100,
+      "questionText": "how to confirm my online exam was submitted",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q101",
+      "originalNumber": 101,
+      "questionText": "how do i get my university lockdown browser link",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Respondus LockDown Browser requires a unique installer link tied directly to your institution learning management system.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q102",
+      "originalNumber": 102,
+      "questionText": "which lockdown browser version should i install",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q103",
+      "originalNumber": 103,
+      "questionText": "why is lockdown browser asking for an institution code",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q104",
+      "originalNumber": 104,
+      "questionText": "how do i reinstall lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q105",
+      "originalNumber": 105,
+      "questionText": "how do i uninstall lockdown browser after exams",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q106",
+      "originalNumber": 106,
+      "questionText": "why is lockdown browser download blocked",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q107",
+      "originalNumber": 107,
+      "questionText": "lockdown browser installer will not run",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q108",
+      "originalNumber": 108,
+      "questionText": "lockdown browser installation taking too long",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q109",
+      "originalNumber": 109,
+      "questionText": "where is lockdown browser on my laptop",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q110",
+      "originalNumber": 110,
+      "questionText": "how do i know lockdown browser is up to date",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q111",
+      "originalNumber": 111,
+      "questionText": "can i install lockdown browser on a borrowed laptop",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q112",
+      "originalNumber": 112,
+      "questionText": "can i download lockdown browser before exam day",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q113",
+      "originalNumber": 113,
+      "questionText": "do i need admin access to install lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q114",
+      "originalNumber": 114,
+      "questionText": "how do i allow lockdown browser to open on mac",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q115",
+      "originalNumber": 115,
+      "questionText": "how do i launch lockdown browser from my course",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q116",
+      "originalNumber": 116,
+      "questionText": "lockdown browser opens but my quiz will not start",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#lms-integration",
+      "excerpt": "Quizzes requiring LockDown Browser must be launched directly through your course LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q117",
+      "originalNumber": 117,
+      "questionText": "why does my quiz say lockdown browser required",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#lms-integration",
+      "excerpt": "Quizzes requiring LockDown Browser must be launched directly through your course LMS quiz page.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q118",
+      "originalNumber": 118,
+      "questionText": "how to use lockdown browser with moodle",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q119",
+      "originalNumber": 119,
+      "questionText": "how to use lockdown browser with blackboard",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q120",
+      "originalNumber": 120,
+      "questionText": "how to use lockdown browser with brightspace",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#installation-download",
+      "excerpt": "Official setup and LMS course launch instructions.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q121",
+      "originalNumber": 121,
+      "questionText": "how do i allow camera access for lockdown browser",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "macOS Ventura/Sonoma/Sequoia: System Settings > Privacy & Security > Camera. macOS Monterey/Big Sur: System Preferences > Security & Privacy > Privacy > Camera. If missing, re-run installer or reset Camera privacy permissions via tccutil reset Camera.",
+      "status": "verified",
+      "verificationNotes": "Refined: Separated OS settings paths and clarified tccutil resets Privacy & Security camera choices, not hardware drivers."
+    },
+    {
+      "id": "Q122",
+      "originalNumber": 122,
+      "questionText": "how do i allow microphone access for respondus",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q123",
+      "originalNumber": 123,
+      "questionText": "respondus webcam check stuck on spinning wheel",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q124",
+      "originalNumber": 124,
+      "questionText": "respondus camera preview is black",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q125",
+      "originalNumber": 125,
+      "questionText": "respondus says no audio detected",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q126",
+      "originalNumber": 126,
+      "questionText": "how do i select the right camera in respondus",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q127",
+      "originalNumber": 127,
+      "questionText": "can i test respondus monitor before exam day",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q128",
+      "originalNumber": 128,
+      "questionText": "why is my face not detected by respondus",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q129",
+      "originalNumber": 129,
+      "questionText": "respondus webcam image is blurry",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q130",
+      "originalNumber": 130,
+      "questionText": "respondus microphone volume too low",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#resolving-black-screens",
+      "excerpt": "Test webcam and microphone access, verify lighting, and force-close secondary video applications locking camera drivers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q131",
+      "originalNumber": 131,
+      "questionText": "can i use my laptop built in camera for respondus",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q132",
+      "originalNumber": 132,
+      "questionText": "what lighting do i need for respondus monitor",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q133",
+      "originalNumber": 133,
+      "questionText": "respondus camera works in other apps but not in exam",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q134",
+      "originalNumber": 134,
+      "questionText": "why does respondus say camera is in use",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q135",
+      "originalNumber": 135,
+      "questionText": "respondus camera permission missing on mac",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "macOS Ventura/Sonoma/Sequoia: System Settings > Privacy & Security > Camera. macOS Monterey/Big Sur: System Preferences > Security & Privacy > Privacy > Camera. If missing, re-run installer or reset Camera privacy permissions via tccutil reset Camera.",
+      "status": "verified",
+      "verificationNotes": "Refined: Separated OS settings paths and clarified tccutil resets Privacy & Security camera choices, not hardware drivers."
+    },
+    {
+      "id": "Q136",
+      "originalNumber": 136,
+      "questionText": "respondus webcam check keeps failing",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q137",
+      "originalNumber": 137,
+      "questionText": "how to do the respondus environment check",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q138",
+      "originalNumber": 138,
+      "questionText": "how to show my student id on respondus",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q139",
+      "originalNumber": 139,
+      "questionText": "respondus startup sequence will not finish",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q140",
+      "originalNumber": 140,
+      "questionText": "how do i reach respondus support during setup",
+      "primaryDestination": "/blog/respondus-monitor-webcam-microphone-troubleshooting-guide",
+      "anchorLocation": "#macos-camera-mic-permissions",
+      "excerpt": "Verify webcam permissions, lighting brightness, camera driver availability, and complete startup sequence prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q141",
+      "originalNumber": 141,
+      "questionText": "lockdown browser says unable to connect",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q142",
+      "originalNumber": 142,
+      "questionText": "lockdown browser blank screen before exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q143",
+      "originalNumber": 143,
+      "questionText": "lockdown browser stuck on login page",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q144",
+      "originalNumber": 144,
+      "questionText": "lockdown browser will not accept my school login",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q145",
+      "originalNumber": 145,
+      "questionText": "why does lockdown browser ask for a password",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#password-prompts",
+      "excerpt": "LockDown Browser automatically inserts exam passwords when launched correctly through your LMS. Never enter a password manually.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q146",
+      "originalNumber": 146,
+      "questionText": "where do i get the lockdown browser exam password",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#password-prompts",
+      "excerpt": "LockDown Browser automatically inserts exam passwords when launched correctly through your LMS. Never enter a password manually.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q147",
+      "originalNumber": 147,
+      "questionText": "lockdown browser calculator not showing",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q148",
+      "originalNumber": 148,
+      "questionText": "lockdown browser images not loading in quiz",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q149",
+      "originalNumber": 149,
+      "questionText": "lockdown browser exam page is too small",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q150",
+      "originalNumber": 150,
+      "questionText": "how to make text bigger in lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q151",
+      "originalNumber": 151,
+      "questionText": "can i use scratch paper during a respondus exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q152",
+      "originalNumber": 152,
+      "questionText": "can i wear glasses during a respondus exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q153",
+      "originalNumber": 153,
+      "questionText": "can i read questions aloud during a respondus exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q154",
+      "originalNumber": 154,
+      "questionText": "what happens if i look away during respondus",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q155",
+      "originalNumber": 155,
+      "questionText": "can i change my answers in lockdown browser",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q156",
+      "originalNumber": 156,
+      "questionText": "how do i submit a lockdown browser quiz",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q157",
+      "originalNumber": 157,
+      "questionText": "how do i know my lockdown browser exam submitted",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q158",
+      "originalNumber": 158,
+      "questionText": "lockdown browser will not close after exam",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q159",
+      "originalNumber": 159,
+      "questionText": "who should i contact if my lockdown browser test crashes",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q160",
+      "originalNumber": 160,
+      "questionText": "what details should i send it support about respondus",
+      "primaryDestination": "/blog/respondus-lockdown-browser-student-guide",
+      "anchorLocation": "#resolving-app-conflicts",
+      "excerpt": "Contact instructor or IT helpdesk if test crashes during session.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q161",
+      "originalNumber": 161,
+      "questionText": "where do i find my examsoft institution id",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#exam-download-window",
+      "excerpt": "Your institution ID is provided in your ExamSoft registration email or university portal.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q162",
+      "originalNumber": 162,
+      "questionText": "examplify cannot find my school",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Use your institution-issued registration email instructions to find your Institution ID and log in via single sign-on (SSO).",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q163",
+      "originalNumber": 163,
+      "questionText": "examplify says invalid login credentials",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Use your institution-issued registration email instructions to find your Institution ID and log in via single sign-on (SSO).",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q164",
+      "originalNumber": 164,
+      "questionText": "how do i reset my examsoft password",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Use your institution-issued registration email instructions to find your Institution ID and log in via single sign-on (SSO).",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q165",
+      "originalNumber": 165,
+      "questionText": "how do i sign out of examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Sign out, reinstall Examplify safely, check OS compatibility version, and use institution-issued credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q166",
+      "originalNumber": 166,
+      "questionText": "how do i switch institutions in examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q167",
+      "originalNumber": 167,
+      "questionText": "how do i reinstall examplify safely",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Sign out, reinstall Examplify safely, check OS compatibility version, and use institution-issued credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q168",
+      "originalNumber": 168,
+      "questionText": "examplify installer keeps failing",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Sign out, reinstall Examplify safely, check OS compatibility version, and use institution-issued credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q169",
+      "originalNumber": 169,
+      "questionText": "examplify update will not install",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Sign out, reinstall Examplify safely, check OS compatibility version, and use institution-issued credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q170",
+      "originalNumber": 170,
+      "questionText": "how do i check my examplify version",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#institution-id-login",
+      "excerpt": "Sign out, reinstall Examplify safely, check OS compatibility version, and use institution-issued credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q171",
+      "originalNumber": 171,
+      "questionText": "can i install examplify on a second laptop",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q172",
+      "originalNumber": 172,
+      "questionText": "do i need administrator access for examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q173",
+      "originalNumber": 173,
+      "questionText": "examplify registration will not finish",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q174",
+      "originalNumber": 174,
+      "questionText": "examplify institution login page is blank",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q175",
+      "originalNumber": 175,
+      "questionText": "why does examplify open a browser to log in",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Log into Examplify using your official university Institution ID and credentials.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q176",
+      "originalNumber": 176,
+      "questionText": "how do i register examplify before my mock exam",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q177",
+      "originalNumber": 177,
+      "questionText": "how do i check if my examplify account is ready",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q178",
+      "originalNumber": 178,
+      "questionText": "examplify download link has expired",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q179",
+      "originalNumber": 179,
+      "questionText": "how do i check supported macos for examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q180",
+      "originalNumber": 180,
+      "questionText": "how do i check supported windows versions for examplify",
+      "primaryDestination": "/blog/understanding-examplify",
+      "anchorLocation": "#system-compatibility-examplify",
+      "excerpt": "Verify administrator access, supported 64-bit OS versions (Windows 10/11 or macOS 12+), and active registration status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q181",
+      "originalNumber": 181,
+      "questionText": "examplify says no exams available",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q182",
+      "originalNumber": 182,
+      "questionText": "why has my exam disappeared from examplify",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q183",
+      "originalNumber": 183,
+      "questionText": "examplify download button is greyed out",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q184",
+      "originalNumber": 184,
+      "questionText": "examplify exam download keeps failing",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q185",
+      "originalNumber": 185,
+      "questionText": "how do i know an examplify exam is downloaded",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q186",
+      "originalNumber": 186,
+      "questionText": "can i download my examplify exam the day before",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q187",
+      "originalNumber": 187,
+      "questionText": "how early should i download my examplify exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q188",
+      "originalNumber": 188,
+      "questionText": "how do i remove an old exam from examplify",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q189",
+      "originalNumber": 189,
+      "questionText": "can i download an examplify exam again",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q190",
+      "originalNumber": 190,
+      "questionText": "where do i get my examplify exam password",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q191",
+      "originalNumber": 191,
+      "questionText": "examplify says incorrect exam password",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q192",
+      "originalNumber": 192,
+      "questionText": "examplify mock exam not available",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q193",
+      "originalNumber": 193,
+      "questionText": "how long does an examplify mock exam take",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q194",
+      "originalNumber": 194,
+      "questionText": "do i need to submit my examplify mock exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q195",
+      "originalNumber": 195,
+      "questionText": "how do i check my examplify mock exam uploaded",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q196",
+      "originalNumber": 196,
+      "questionText": "can i practise using examplify before the real exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q197",
+      "originalNumber": 197,
+      "questionText": "what should i test during an examplify mock exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q198",
+      "originalNumber": 198,
+      "questionText": "examplify mock exam camera check failed",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q199",
+      "originalNumber": 199,
+      "questionText": "examplify download deadline missed what now",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q200",
+      "originalNumber": 200,
+      "questionText": "who do i contact about a missing examplify exam",
+      "primaryDestination": "/blog/examplify-exam-not-showing-download-troubleshooting-guide",
+      "anchorLocation": "#why-exam-not-showing",
+      "excerpt": "Click Refresh Exam List or verify exam download window open dates.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q201",
+      "originalNumber": 201,
+      "questionText": "how to flag a question in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Flagging bookmarks a question for review, but returning to previous questions depends on whether your instructor enabled non-backtracking mode.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q202",
+      "originalNumber": 202,
+      "questionText": "how to highlight text in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q203",
+      "originalNumber": 203,
+      "questionText": "how to cross out answer choices in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q204",
+      "originalNumber": 204,
+      "questionText": "how to use notes in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q205",
+      "originalNumber": 205,
+      "questionText": "how to check time remaining in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q206",
+      "originalNumber": 206,
+      "questionText": "how to change font size in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q207",
+      "originalNumber": 207,
+      "questionText": "how to view attachments in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q208",
+      "originalNumber": 208,
+      "questionText": "how to use the calculator in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q209",
+      "originalNumber": 209,
+      "questionText": "how to navigate between questions in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q210",
+      "originalNumber": 210,
+      "questionText": "can i go back to questions in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q211",
+      "originalNumber": 211,
+      "questionText": "how to check unanswered questions in examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q212",
+      "originalNumber": 212,
+      "questionText": "can i use a screen reader with examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q213",
+      "originalNumber": 213,
+      "questionText": "how to request extra time for examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q214",
+      "originalNumber": 214,
+      "questionText": "examplify accommodation not showing",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q215",
+      "originalNumber": 215,
+      "questionText": "how to check my examplify exam time allowance",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q216",
+      "originalNumber": 216,
+      "questionText": "examplify keyboard not typing during exam",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q217",
+      "originalNumber": 217,
+      "questionText": "examplify text looks too small",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q218",
+      "originalNumber": 218,
+      "questionText": "examplify attachment will not open",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q219",
+      "originalNumber": 219,
+      "questionText": "examplify timer looks wrong who do i contact",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q220",
+      "originalNumber": 220,
+      "questionText": "can i use an external keyboard with examplify",
+      "primaryDestination": "/blog/examplify-controls-navigation-accessibility-guide",
+      "anchorLocation": "#exam-navigation-controls",
+      "excerpt": "Use built-in text magnification, highlight tools, and question navigation controls.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q221",
+      "originalNumber": 221,
+      "questionText": "examid face verification not working",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q222",
+      "originalNumber": 222,
+      "questionText": "examid cannot verify my identity",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q223",
+      "originalNumber": 223,
+      "questionText": "how to prepare for an exammonitor exam",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q224",
+      "originalNumber": 224,
+      "questionText": "exammonitor microphone check failed",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q225",
+      "originalNumber": 225,
+      "questionText": "exammonitor camera preview not showing",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q226",
+      "originalNumber": 226,
+      "questionText": "what is an examplify monitoring file",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q227",
+      "originalNumber": 227,
+      "questionText": "how long does examplify upload take",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q228",
+      "originalNumber": 228,
+      "questionText": "examplify monitoring file still uploading",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q229",
+      "originalNumber": 229,
+      "questionText": "examplify answer file uploaded but video still pending",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q230",
+      "originalNumber": 230,
+      "questionText": "can i close examplify while uploading",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q231",
+      "originalNumber": 231,
+      "questionText": "examplify upload stuck at the same percentage",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q232",
+      "originalNumber": 232,
+      "questionText": "how to reconnect internet after an examplify exam",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q233",
+      "originalNumber": 233,
+      "questionText": "how do i find my examplify upload confirmation",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q234",
+      "originalNumber": 234,
+      "questionText": "examplify says upload complete what next",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q235",
+      "originalNumber": 235,
+      "questionText": "examplify upload deadline approaching what should i do",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q236",
+      "originalNumber": 236,
+      "questionText": "what screenshot should i send examsoft support",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q237",
+      "originalNumber": 237,
+      "questionText": "how to check examplify submission status in the portal",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q238",
+      "originalNumber": 238,
+      "questionText": "can i restart my computer while examplify uploads",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q239",
+      "originalNumber": 239,
+      "questionText": "who can confirm my examplify submission was received",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q240",
+      "originalNumber": 240,
+      "questionText": "what happens if exammonitor upload fails",
+      "primaryDestination": "/blog/examplify-answer-upload-submission-confirmation-guide",
+      "anchorLocation": "#exammonitor-video-uploads",
+      "excerpt": "Answer file uploads first, followed by ExamMonitor webcam recording uploads.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q241",
+      "originalNumber": 241,
+      "questionText": "can i take a proctored exam on a shared laptop",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q242",
+      "originalNumber": 242,
+      "questionText": "do proctored exams work on school laptops",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q243",
+      "originalNumber": 243,
+      "questionText": "can i take a proctored exam using a hotspot",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q244",
+      "originalNumber": 244,
+      "questionText": "how fast should internet be for an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q245",
+      "originalNumber": 245,
+      "questionText": "what if my power goes off during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q246",
+      "originalNumber": 246,
+      "questionText": "should i plug in my laptop during an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q247",
+      "originalNumber": 247,
+      "questionText": "how to stop notifications before an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q248",
+      "originalNumber": 248,
+      "questionText": "how to stop automatic updates before exam day",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q249",
+      "originalNumber": 249,
+      "questionText": "can i use a wireless mouse during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q250",
+      "originalNumber": 250,
+      "questionText": "can i use a second monitor during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q251",
+      "originalNumber": 251,
+      "questionText": "do i need speakers for an online proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q252",
+      "originalNumber": 252,
+      "questionText": "can i use bluetooth earbuds in an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q253",
+      "originalNumber": 253,
+      "questionText": "how to check camera framing before a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q254",
+      "originalNumber": 254,
+      "questionText": "how to test microphone volume before an exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q255",
+      "originalNumber": 255,
+      "questionText": "what to do if my laptop battery is faulty before an exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q256",
+      "originalNumber": 256,
+      "questionText": "how to check available storage before an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q257",
+      "originalNumber": 257,
+      "questionText": "can i use a library computer for a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q258",
+      "originalNumber": 258,
+      "questionText": "what equipment should i test before exam day",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q259",
+      "originalNumber": 259,
+      "questionText": "how to arrange charging cables for an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q260",
+      "originalNumber": 260,
+      "questionText": "what to ask it support before a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Clear your desk, test webcam/microphone, and verify unexpired photo ID.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q261",
+      "originalNumber": 261,
+      "questionText": "can i have water during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q262",
+      "originalNumber": 262,
+      "questionText": "can i use a pen during an online proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q263",
+      "originalNumber": 263,
+      "questionText": "can i wear a smartwatch during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q264",
+      "originalNumber": 264,
+      "questionText": "where should i put my phone during a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q265",
+      "originalNumber": 265,
+      "questionText": "can i take an online exam in my bedroom",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q266",
+      "originalNumber": 266,
+      "questionText": "can i take a proctored exam in a shared room",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#physical-room-setup",
+      "excerpt": "Testing in a shared room depends on your specific programme room rules. If a private room is unavailable, contact your institution or exam provider before test day to request approved testing arrangements.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q267",
+      "originalNumber": 267,
+      "questionText": "what should i remove from my desk before an exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q268",
+      "originalNumber": 268,
+      "questionText": "can i use a digital id for a proctored exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q269",
+      "originalNumber": 269,
+      "questionText": "what happens if my id name does not match my exam account",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q270",
+      "originalNumber": 270,
+      "questionText": "how early should i log in for a proctored exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q271",
+      "originalNumber": 271,
+      "questionText": "how long does proctored exam check in take",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#exam-day-rules",
+      "excerpt": "Permitted materials and accommodations depend on instructor rules and disability services approval prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q272",
+      "originalNumber": 272,
+      "questionText": "can i reschedule an online proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#exam-day-rules",
+      "excerpt": "Exam rescheduling policies and late arrival thresholds depend on your specific institution or testing board handbook.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q273",
+      "originalNumber": 273,
+      "questionText": "what if i am late for a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#exam-day-rules",
+      "excerpt": "Exam rescheduling policies and late arrival thresholds depend on your specific institution or testing board handbook.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q274",
+      "originalNumber": 274,
+      "questionText": "can i use a formula sheet in a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#exam-day-rules",
+      "excerpt": "Permitted materials and accommodations depend on instructor rules and disability services approval prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q275",
+      "originalNumber": 275,
+      "questionText": "how to check permitted materials before an exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#exam-day-rules",
+      "excerpt": "Permitted materials and accommodations depend on instructor rules and disability services approval prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q276",
+      "originalNumber": 276,
+      "questionText": "how to request a quiet room for an online exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q277",
+      "originalNumber": 277,
+      "questionText": "how to request disability accommodations for an online exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#exam-day-rules",
+      "excerpt": "Permitted materials and accommodations depend on instructor rules and disability services approval prior to test day.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q278",
+      "originalNumber": 278,
+      "questionText": "what should i do if i feel unwell during a proctored exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q279",
+      "originalNumber": 279,
+      "questionText": "how to prepare for a timed online exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q280",
+      "originalNumber": 280,
+      "questionText": "how to manage time during an online proctored exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q281",
+      "originalNumber": 281,
+      "questionText": "does getting flagged mean i failed my exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q282",
+      "originalNumber": 282,
+      "questionText": "who reviews a proctored exam flag",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#handling-wifi-drops",
+      "excerpt": "Remain calm in front of camera, reconnect Wi-Fi/hotspot, and document support ticket numbers.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q283",
+      "originalNumber": 283,
+      "questionText": "how to explain a technical problem after an online exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Save official support ticket numbers, error screenshots, and email your instructor immediately with timestamp evidence.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q284",
+      "originalNumber": 284,
+      "questionText": "how to report a power outage during an online exam",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Save official support ticket numbers, error screenshots, and email your instructor immediately with timestamp evidence.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q285",
+      "originalNumber": 285,
+      "questionText": "what evidence should i keep after an exam technical issue",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Save official support ticket numbers, error screenshots, and email your instructor immediately with timestamp evidence.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q286",
+      "originalNumber": 286,
+      "questionText": "how to email my lecturer about an exam upload problem",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Save official support ticket numbers, error screenshots, and email your instructor immediately with timestamp evidence.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q287",
+      "originalNumber": 287,
+      "questionText": "how to request an exam incident report",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Document technical error logs, request an official support ticket number, and confirm saved answer status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q288",
+      "originalNumber": 288,
+      "questionText": "what if the proctor ends my exam early",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Document technical error logs, request an official support ticket number, and confirm saved answer status.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q289",
+      "originalNumber": 289,
+      "questionText": "what if i cannot understand my online proctor",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q290",
+      "originalNumber": 290,
+      "questionText": "how to ask a proctor for help without leaving the exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q291",
+      "originalNumber": 291,
+      "questionText": "how to check if my online exam answers were saved",
+      "primaryDestination": "/blog/online-exam-disconnections-power-outages-incident-reporting-guide",
+      "anchorLocation": "#documenting-incident-tickets",
+      "excerpt": "Examplify requires internet for exam downloads and answer/video file uploads; during testing, answers save locally on disk. LMS web quizzes require continuous internet to send responses to university servers.",
+      "status": "verified",
+      "verificationNotes": "Refined: Distinguished Examplify local disk saving from LMS web-browser real-time response transmission."
+    },
+    {
+      "id": "Q292",
+      "originalNumber": 292,
+      "questionText": "how to confirm my proctored exam has ended",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q293",
+      "originalNumber": 293,
+      "questionText": "when can i close the browser after a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q294",
+      "originalNumber": 294,
+      "questionText": "how to check when online exam results are released",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q295",
+      "originalNumber": 295,
+      "questionText": "who do i contact about missing online exam results",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q296",
+      "originalNumber": 296,
+      "questionText": "how to appeal an incorrect proctored exam flag",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q297",
+      "originalNumber": 297,
+      "questionText": "how to deal with anxiety before a webcam exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q298",
+      "originalNumber": 298,
+      "questionText": "how to practise speaking to an online proctor",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q299",
+      "originalNumber": 299,
+      "questionText": "how to make an online exam day checklist",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    },
+    {
+      "id": "Q300",
+      "originalNumber": 300,
+      "questionText": "what to do the night before a proctored exam",
+      "primaryDestination": "/blog/how-to-prepare-for-a-proctored-examination",
+      "anchorLocation": "#test-day-mindset",
+      "excerpt": "Review permitted materials, arrive early, and follow instructor rules.",
+      "status": "verified",
+      "verificationNotes": "Verified against rendered HTML output and official primary vendor documentation."
+    }
+  ]
+}

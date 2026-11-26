@@ -4,61 +4,351 @@
       "slug": "pmp",
       "title": "PMP",
       "category": "Project Management",
-      "description": "The gold standard certification for project managers across all industries worldwide."
+      "description": "The gold standard certification for project managers across all industries worldwide.",
+      "focusKeyword": "PMP exam prep",
+      "metaTitle": "PMP Exam Prep & Certification Coaching | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for the PMI PMP exam. Master official 2026 ECO domains (People 33%, Process 41%, Business 26%), predictive and agile methodologies, and situational questions.",
+      "faqs": [
+        {
+          "question": "What are the eligibility requirements for the PMP exam?",
+          "answer": "Candidates with a 4-year degree need 36 months of project leadership experience and 35 hours of project management education. High school graduates need 60 months of experience."
+        },
+        {
+          "question": "What is the structure of the official 2026 PMP exam?",
+          "answer": "The PMP exam consists of 180 questions (175 scored, 5 pretest) administered over 240 minutes, covering People (33%), Process (41%), and Business Environment (26%)."
+        },
+        {
+          "question": "How much of the PMP exam covers agile and hybrid project management?",
+          "answer": "Approximately 60% of the PMP exam evaluates agile or hybrid project environments alongside traditional predictive waterfall delivery frameworks."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS assist PMP candidates?",
+          "answer": "We offer 1-on-1 domain coaching, scenario practice question reviews, EVM math formula sheets, and custom 4 to 12-week study schedules tailored to your test date."
+        },
+        {
+          "question": "Is the 35 hours of project management education required before applying?",
+          "answer": "Yes. PMI requires completing 35 contact hours of formal project management education prior to submitting your official PMP exam application."
+        },
+        {
+          "question": "How many mock exams should I take before my PMP test date?",
+          "answer": "We recommend taking 3 to 5 full-length, 180-question timed practice exams under simulated test conditions during the final month of revision."
+        }
+      ]
     },
     {
       "slug": "capm",
       "title": "CAPM",
       "category": "Project Management",
-      "description": "Entry-level PMI project management credential establishing foundational PM and agile skills."
+      "description": "Entry-level PMI project management credential establishing foundational PM and agile skills.",
+      "focusKeyword": "CAPM exam prep",
+      "metaTitle": "CAPM Exam Prep & Certification Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Master the PMI CAPM exam. Review PMBOK 7th edition fundamentals, agile principles, and business analysis with 1-on-1 tutoring and practice questions.",
+      "faqs": [
+        {
+          "question": "What are the eligibility requirements for the CAPM exam?",
+          "answer": "Candidates need a high school diploma or global equivalent and 23 hours of formal project management education completed before taking the exam."
+        },
+        {
+          "question": "What is the format of the CAPM examination?",
+          "answer": "The CAPM exam features 150 multiple-choice questions administered over 185 minutes via Pearson VUE online proctoring or testing centers."
+        },
+        {
+          "question": "What is the difference between the CAPM and PMP certifications?",
+          "answer": "CAPM is an entry-level credential requiring no prior project management job experience, whereas PMP requires 3 to 5 years of professional project leadership experience."
+        },
+        {
+          "question": "Does the CAPM exam test agile and business analysis concepts?",
+          "answer": "Yes! The CAPM exam outline includes dedicated domain weightings for agile principles, Scrum ceremonies, and business analysis fundamentals."
+        },
+        {
+          "question": "How long does it take to prepare for the CAPM exam?",
+          "answer": "Most candidates spend 4 to 8 weeks preparing, allocating approximately 40 to 60 total hours of structured study and practice testing."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS support CAPM candidates?",
+          "answer": "We provide 1-on-1 fundamental tutoring, PMBOK concept breakdowns, math formula sheets, and timed practice question walkthroughs."
+        }
+      ]
     },
     {
       "slug": "comptia",
       "title": "CompTIA Certifications",
       "category": "Information Technology",
-      "description": "Vendor-neutral IT certifications establishing core cybersecurity, infrastructure, and helpdesk expertise."
+      "description": "Vendor-neutral IT certifications establishing core cybersecurity, infrastructure, and helpdesk expertise.",
+      "focusKeyword": "CompTIA Security+ study guide",
+      "metaTitle": "CompTIA Security+ & IT Certification Study Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for CompTIA Security+ (SY0-701), Network+, and A+ exams. Review port numbers, CLI commands, performance-based questions, and core IT domains.",
+      "faqs": [
+        {
+          "question": "Which CompTIA certification exams do you support?",
+          "answer": "We provide prep support for CompTIA Security+ (SY0-701), Network+ (N10-008), A+ Core 1 (220-1101), and A+ Core 2 (220-1102)."
+        },
+        {
+          "question": "What are Performance-Based Questions (PBQs) on CompTIA exams?",
+          "answer": "PBQs appear at the start of CompTIA exams and test hands-on CLI configuration, network setup, or firewall rules rather than multiple-choice selection."
+        },
+        {
+          "question": "What core port numbers should I memorize for Security+ and Network+?",
+          "answer": "Memorize SSH (22), DNS (53), HTTP (80), HTTPS (443), RDP (3389), SNMP (161/162), LDAPS (636), and SMTP (25/587)."
+        },
+        {
+          "question": "Is CompTIA Security+ required for government IT roles?",
+          "answer": "Yes. CompTIA Security+ is one of the most common baseline credentials fulfilling DoD 8140/8570 directive requirements for IAT Level II roles."
+        },
+        {
+          "question": "What score is required to pass CompTIA Security+ SY0-701?",
+          "answer": "CompTIA Security+ requires a minimum passing score of 750 on a scale of 100 to 900."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS help CompTIA candidates?",
+          "answer": "We provide 1-on-1 technical coaching, PBQ command walkthroughs, port memory flashcards, and timed practice exams."
+        }
+      ]
     },
     {
       "slug": "shrm",
       "title": "SHRM Certification",
       "category": "Human Resources",
-      "description": "Premier HR credentials validating behavioral competencies and HR expertise."
+      "description": "Premier HR credentials validating behavioral competencies and HR expertise.",
+      "focusKeyword": "SHRM CP exam prep",
+      "metaTitle": "SHRM-CP & SHRM-SCP Exam Prep Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for SHRM-CP and SHRM-SCP HR certification exams. Master the SHRM BASK competency model, situational judgment items, and labor law compliance.",
+      "faqs": [
+        {
+          "question": "What is the difference between SHRM-CP and SHRM-SCP?",
+          "answer": "SHRM-CP focuses on operational and tactical HR implementation, whereas SHRM-SCP is for senior executives leading strategic organizational policy."
+        },
+        {
+          "question": "What are Situational Judgment Items (SJIs) on SHRM exams?",
+          "answer": "SJIs present realistic HR workplace scenarios and require candidates to select the most effective action based on the official SHRM BASK® competency model."
+        },
+        {
+          "question": "What key federal labor laws should I review for the SHRM exam?",
+          "answer": "Review major federal HR statutes including FMLA, FLSA, ERISA, Title VII of the Civil Rights Act, ADA, OSHA, and COBRA."
+        },
+        {
+          "question": "How many questions are on the SHRM-CP exam and what is the time limit?",
+          "answer": "The SHRM-CP exam contains 134 questions (80 knowledge items, 54 situational judgment items) administered over 3 hours 40 minutes."
+        },
+        {
+          "question": "What is a passing score on the SHRM certification exam?",
+          "answer": "SHRM uses a scaled scoring system ranging from 100 to 500, with a passing threshold set at a scaled score of 200."
+        },
+        {
+          "question": "How can TUTOR PROCTORED EXAMS help with SHRM preparation?",
+          "answer": "We offer 1-on-1 BASK domain tutoring, situational judgment item strategies, labor law quick sheets, and timed practice tests."
+        }
+      ]
     },
     {
       "slug": "real-estate",
       "title": "Real Estate Licensing",
       "category": "Licensing & Real Estate",
-      "description": "Pre-licensing exam coaching for salesperson and broker state licensing exams."
+      "description": "Pre-licensing exam coaching for salesperson and broker state licensing exams.",
+      "focusKeyword": "real estate exam prep",
+      "metaTitle": "Real Estate Licensing Exam Prep Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Comprehensive real estate salesperson and broker licensing exam prep. Review national real estate principles, contracts, financing math, and state statutes.",
+      "faqs": [
+        {
+          "question": "How are real estate licensing exams structured?",
+          "answer": "Exams consist of two parts: a National Real Estate Principles portion (80-100 items) and a State Law portion (30-50 items specific to your jurisdiction)."
+        },
+        {
+          "question": "Do real estate licensing requirements vary by state?",
+          "answer": "Yes! Pre-licensing course hour requirements (ranging from 60 to 180 hours), passing score thresholds (70%-75%), and state statutes vary by state licensing commission."
+        },
+        {
+          "question": "What real estate math calculations appear on the exam?",
+          "answer": "Calculations cover commission splits, property tax proration, loan-to-value (LTV) ratios, square footage/acreage, and seller net sheets."
+        },
+        {
+          "question": "Which test vendors administer real estate licensing exams?",
+          "answer": "Most states deliver licensing exams through PSI Services, Pearson VUE, or AMP testing centers and secure remote proctoring."
+        },
+        {
+          "question": "What score is needed to pass the real estate licensing exam?",
+          "answer": "Most state commissions require a passing score of 70% to 75% correct on both the National and State portions."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS assist real estate candidates?",
+          "answer": "We provide 1-on-1 tutoring in real estate math, national principles reviews, contract law summaries, and timed practice question walkthroughs."
+        }
+      ]
     },
     {
       "slug": "aapc",
       "title": "AAPC Medical Coding",
       "category": "Healthcare & Coding",
-      "description": "Medical coding certifications validating mastery in physician practice coding."
+      "description": "Medical coding certifications validating mastery in physician practice coding.",
+      "focusKeyword": "AAPC medical coding prep",
+      "metaTitle": "AAPC Medical Coding Exam Prep Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for AAPC medical coding credentials. Master CPT, ICD-10-CM, and HCPCS Level II codebook tabbing, guidelines, and operative report coding.",
+      "faqs": [
+        {
+          "question": "What is the difference between AAPC and CPC?",
+          "answer": "AAPC is the national professional organization that awards medical coding credentials, while CPC (Certified Professional Coder) is a specific credential for outpatient coding."
+        },
+        {
+          "question": "Are codebooks allowed during official AAPC medical coding exams?",
+          "answer": "Yes! AAPC certification exams are open-book examinations requiring current-year approved physical CPT®, ICD-10-CM, and HCPCS Level II codebooks."
+        },
+        {
+          "question": "What credentials does AAPC offer besides CPC?",
+          "answer": "AAPC offers specialized credentials including CIC (Inpatient Coding), COC (Outpatient Hospital), CPMA (Auditing), and CPCO (Compliance)."
+        },
+        {
+          "question": "How long is the official AAPC CPC exam?",
+          "answer": "The CPC exam contains 100 multiple-choice questions administered over 4 hours (240 minutes) via online proctoring or test centers."
+        },
+        {
+          "question": "What score is required to pass AAPC coding certification exams?",
+          "answer": "Candidates must achieve a score of 70% or higher correct to pass AAPC certification exams."
+        },
+        {
+          "question": "How can TUTOR PROCTORED EXAMS help with AAPC exam prep?",
+          "answer": "We offer 1-on-1 codebook tabbing instruction, E/M guideline walkthroughs, operative report coding practice, and timed mock tests."
+        }
+      ]
     },
     {
       "slug": "cpc",
       "title": "CPC Certified Professional Coder",
       "category": "Healthcare & Coding",
-      "description": "The gold standard for outpatient medical coding."
+      "description": "The gold standard for outpatient medical coding.",
+      "focusKeyword": "CPC exam study guide",
+      "metaTitle": "CPC Certified Professional Coder Exam Prep | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for the AAPC CPC medical coding exam. Review CPT surgical coding, evaluation and management guidelines, and open-book operative report cases.",
+      "faqs": [
+        {
+          "question": "What setting is the CPC credential designed for?",
+          "answer": "The CPC credential validates expertise in physician office, group practice, and outpatient clinic coding settings."
+        },
+        {
+          "question": "What is the difference between CPC and CPC-A status?",
+          "answer": "CPC-A is an Apprentice designation given to new coders until 2 years of verified coding experience or approved education equivalent is submitted to AAPC."
+        },
+        {
+          "question": "What CPT codebook sections are tested on the CPC exam?",
+          "answer": "The exam covers Surgery (10000-60000 series), Evaluation & Management (99202-99499), Anesthesia, Radiology, Pathology/Lab, and Medicine."
+        },
+        {
+          "question": "How should I tab my codebooks for the CPC exam?",
+          "answer": "Tab codebooks by major anatomical sections, guidelines, E/M tables, and modifier lists to quickly locate codes during the 4-hour exam."
+        },
+        {
+          "question": "What is the passing score for the CPC examination?",
+          "answer": "A minimum score of 70% correct is required to pass the CPC exam."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS support CPC candidates?",
+          "answer": "We provide 1-on-1 operative report coding drills, E/M table reviews, codebook tabbing strategies, and timed 100-item practice tests."
+        }
+      ]
     },
     {
       "slug": "ccma",
       "title": "CCMA Certified Clinical Medical Assistant",
       "category": "Healthcare Support",
-      "description": "Clinical medical assisting certification covering patient care, phlebotomy, and EKG."
+      "description": "Clinical medical assisting certification covering patient care, phlebotomy, and EKG.",
+      "focusKeyword": "CCMA exam prep",
+      "metaTitle": "NHA CCMA Certification Exam Prep Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for the NHA CCMA clinical assistant exam. Review patient care, phlebotomy tube order of draw, 12-lead EKG placement, and clinical administration.",
+      "faqs": [
+        {
+          "question": "What organization awards the CCMA credential?",
+          "answer": "The Certified Clinical Medical Assistant (CCMA) credential is administered and awarded nationally by the National Healthcareer Association (NHA)."
+        },
+        {
+          "question": "What is the structure and passing score of the NHA CCMA exam?",
+          "answer": "The CCMA exam consists of 150 multiple-choice questions (135 scored, 15 pretest) administered over 3 hours, requiring a scaled score of 390 out of 500."
+        },
+        {
+          "question": "What key clinical skills appear on the CCMA exam?",
+          "answer": "Clinical topics include vital sign measurement, phlebotomy tube order of draw, 12-lead EKG electrode placement, infection control, and pharmacology."
+        },
+        {
+          "question": "What administrative topics are tested on the CCMA exam?",
+          "answer": "Administrative topics cover patient scheduling, EHR documentation, medical billing fundamentals, HIPAA privacy rules, and triage."
+        },
+        {
+          "question": "How far in advance should I study for the CCMA exam?",
+          "answer": "We recommend starting 4 to 6 weeks before your scheduled NHA exam date, focusing on phlebotomy, EKG, and clinical care domains."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS help CCMA candidates?",
+          "answer": "We offer 1-on-1 tutoring, EKG and phlebotomy flashcards, clinical procedure walkthroughs, and timed NHA-style mock exams."
+        }
+      ]
     },
     {
       "slug": "cna",
       "title": "CNA Certified Nursing Assistant",
       "category": "Nursing & Care",
-      "description": "State nursing assistant certification validating fundamental patient care skills."
+      "description": "State nursing assistant certification validating fundamental patient care skills.",
+      "focusKeyword": "CNA exam prep",
+      "metaTitle": "CNA Certified Nursing Assistant Exam Prep | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for state CNA written and clinical competency evaluation exams. Review vital signs, infection control, hygiene skills, and nursing fundamentals.",
+      "faqs": [
+        {
+          "question": "What are the two parts of the official CNA evaluation exam?",
+          "answer": "The CNA exam consists of a Written Knowledge Exam (60-70 multiple-choice questions) and a hands-on Clinical Skills Demonstration (3-5 random skills)."
+        },
+        {
+          "question": "Do CNA competency evaluation requirements vary by state?",
+          "answer": "Yes! State boards of nursing set specific clinical training hours and designate test vendors like Prometric, Credentia, or Headmaster."
+        },
+        {
+          "question": "What are mandatory safety skills during the CNA clinical exam?",
+          "answer": "Mandatory skills include hand hygiene, indirect care/patient privacy, infection control, and proper body mechanics during transfers."
+        },
+        {
+          "question": "What score is required to pass the written CNA exam?",
+          "answer": "Most states require 70% to 75% correct on the written exam, plus 100% safety compliance on the clinical skills evaluation."
+        },
+        {
+          "question": "How long is the written CNA exam?",
+          "answer": "The written CNA exam is usually timed for 90 minutes."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS support CNA candidates?",
+          "answer": "We provide written exam practice question sets, nursing fundamentals tutoring, and clinical skill step-by-step checklists."
+        }
+      ]
     },
     {
       "slug": "cpht",
       "title": "CPhT Certified Pharmacy Technician",
       "category": "Pharmacy & Medicine",
-      "description": "PTCB pharmacy technician certification validating pharmacy operations and pharmacology."
+      "description": "PTCB pharmacy technician certification validating pharmacy operations and pharmacology.",
+      "focusKeyword": "PTCB CPhT exam prep",
+      "metaTitle": "PTCB CPhT Pharmacy Technician Exam Prep | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Prepare for the PTCB CPhT pharmacy technician exam. Master top 200 brand and generic drugs, pharmacy math calculations, and federal pharmacy law.",
+      "faqs": [
+        {
+          "question": "What organization awards the national CPhT credential?",
+          "answer": "The Certified Pharmacy Technician (CPhT) credential is administered nationally by the Pharmacy Technician Certification Board (PTCB)."
+        },
+        {
+          "question": "What is the structure and time limit of the PTCB CPhT exam?",
+          "answer": "The PTCB exam consists of 90 multiple-choice questions (80 scored, 10 pretest) administered over 1 hour 50 minutes (110 minutes)."
+        },
+        {
+          "question": "What pharmacy math calculations appear on the PTCB exam?",
+          "answer": "Calculations cover daily dosage math, alligation grids, IV flow rates, powder volume conversions, and percentage strength."
+        },
+        {
+          "question": "What federal laws are tested on the PTCB exam?",
+          "answer": "Review the Controlled Substances Act (Schedules I-V), DEA registration, Durham-Humphrey Amendment, and USP <795>/<797> compounding standards."
+        },
+        {
+          "question": "What score is needed to pass the PTCB CPhT exam?",
+          "answer": "PTCB uses a scaled score range from 1000 to 1600, with a passing threshold set at a scaled score of 1400."
+        },
+        {
+          "question": "How does TUTOR PROCTORED EXAMS assist CPhT candidates?",
+          "answer": "We offer 1-on-1 pharmacy math tutoring, top 200 brand/generic flashcard drills, federal law summaries, and timed PTCB mock tests."
+        }
+      ]
     }
   ]
 }
