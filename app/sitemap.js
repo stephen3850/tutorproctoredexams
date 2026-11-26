@@ -1,16 +1,22 @@
 import { SITE_CONFIG } from '@/lib/utils';
-import { PLATFORMS_DATA } from '@/lib/data/platformsData';
-import { CERTIFICATIONS_DATA } from '@/lib/data/certificationsData';
-import { SERVICES_DATA } from '@/lib/data/servicesData';
-import { STUDY_RESOURCES_DATA } from '@/lib/data/studyResourcesData';
-import { BLOG_ARTICLES } from '@/lib/data/blogData';
+import {
+  getBlogsContent,
+  getServicesContent,
+  getPlatformsContent,
+  getCertificationsContent,
+  getStudyResourcesContent,
+} from '@/lib/contentLoader';
 import { getWpPosts, getWpPages } from '@/lib/wordpress';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default async function sitemap() {
   const rawBaseUrl = SITE_CONFIG.domain || 'https://tutorproctoredexams.com';
   const baseUrl = rawBaseUrl.replace(/\/+$/, '');
   const now = new Date().toISOString();
 
+  // 1. Static Core Landing Pages
   const staticRoutes = [
     { url: '', priority: 1.0, changeFrequency: 'daily' },
     { url: '/about', priority: 0.8, changeFrequency: 'monthly' },
@@ -27,37 +33,47 @@ export default async function sitemap() {
     { url: '/cookie-policy', priority: 0.3, changeFrequency: 'yearly' },
   ];
 
-  const blogRoutes = Object.values(BLOG_ARTICLES || {}).map((article) => ({
+  // 2. Dynamic Blog Guides (All 38 articles)
+  const blogArticles = getBlogsContent();
+  const blogRoutes = blogArticles.map((article) => ({
     url: `/blog/${article.slug}`,
     priority: 0.8,
     changeFrequency: 'weekly',
   }));
 
-  const serviceRoutes = Object.values(SERVICES_DATA || {}).map((service) => ({
+  // 3. Dynamic Services Pages (All 14 services)
+  const servicesList = getServicesContent();
+  const serviceRoutes = servicesList.map((service) => ({
     url: `/services/${service.slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const platformRoutes = Object.values(PLATFORMS_DATA || {}).map((platform) => ({
+  // 4. Dynamic Platform Guides (All 9 platforms)
+  const platformsList = getPlatformsContent();
+  const platformRoutes = platformsList.map((platform) => ({
     url: `/exam-platforms/${platform.slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const certificationRoutes = Object.values(CERTIFICATIONS_DATA || {}).map((cert) => ({
+  // 5. Dynamic Certification Pages (All 10 certifications)
+  const certsList = getCertificationsContent();
+  const certificationRoutes = certsList.map((cert) => ({
     url: `/certifications/${cert.slug}`,
     priority: 0.9,
     changeFrequency: 'weekly',
   }));
 
-  const studyResourceRoutes = Object.values(STUDY_RESOURCES_DATA || {}).map((resource) => ({
+  // 6. Dynamic Study Resource Pages (All 13 study resources)
+  const resourcesList = getStudyResourcesContent();
+  const studyResourceRoutes = resourcesList.map((resource) => ({
     url: `/study-resources/${resource.slug}`,
     priority: 0.8,
     changeFrequency: 'weekly',
   }));
 
-  // Fetch published WordPress routes if configured
+  // 7. Optional WordPress Posts / Pages if configured
   const wpPosts = await getWpPosts();
   const wpPostRoutes = (wpPosts || []).map((post) => ({
     url: `/blog/${post.slug}`,
@@ -74,8 +90,13 @@ export default async function sitemap() {
     lastModified: page.modified || now,
   }));
 
-  // Disallowed path patterns
-  const disallowedPrefixes = ['/admin', '/api', '/services/one-to-one-tutoring', '/services/professional-certification-preparation'];
+  // Disallowed path patterns (301 redirects, admin, API)
+  const disallowedPrefixes = [
+    '/admin',
+    '/api',
+    '/services/one-to-one-tutoring',
+    '/services/professional-certification-preparation',
+  ];
 
   // Deduplicate and filter out admin/api/redirect routes
   const routeMap = new Map();
@@ -90,15 +111,19 @@ export default async function sitemap() {
     ...wpPostRoutes,
     ...wpPageRoutes,
   ].forEach((route) => {
-    if (!route.url || disallowedPrefixes.some((prefix) => route.url === prefix || route.url.startsWith(`${prefix}/`))) {
+    if (!route.url && route.url !== '') return;
+    if (disallowedPrefixes.some((prefix) => route.url === prefix || route.url.startsWith(`${prefix}/`))) {
       return;
     }
-    routeMap.set(route.url, {
-      url: `${baseUrl}${route.url}`,
-      lastModified: route.lastModified || now,
-      changeFrequency: route.changeFrequency,
-      priority: route.priority,
-    });
+    const fullUrl = `${baseUrl}${route.url}`;
+    if (!routeMap.has(fullUrl)) {
+      routeMap.set(fullUrl, {
+        url: fullUrl,
+        lastModified: route.lastModified || now,
+        changeFrequency: route.changeFrequency,
+        priority: route.priority,
+      });
+    }
   });
 
   return Array.from(routeMap.values());

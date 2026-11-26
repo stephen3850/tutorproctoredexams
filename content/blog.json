@@ -1,6 +1,161 @@
 {
   "articles": [
     {
+      "slug": "how-to-request-approved-exam-accessibility-arrangements",
+      "title": "How to Request Approved Exam Accessibility Arrangements",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Step-by-step guide to requesting official disability accommodations, extended time, screen readers, and human readers for online proctored exams.",
+      "intro": "If you require testing accommodations—such as extended examination time, screen reader compatibility, adjustable font contrast, or an approved human reader or scribe—submitting a formal accommodation request through your university disability services office or testing board prior to scheduling your exam is essential. Official testing accommodations ensure your online proctored exam is delivered fairly and in compliance with accessibility regulations."
+    },
+    {
+      "slug": "proctorio-setup-pre-exam-problems-guide",
+      "title": "Proctorio Setup and Common Pre-Exam Problems",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Step-by-step Proctorio Chrome extension setup, resolving access code prompts, camera permission fixes, and pre-exam diagnostic checks.",
+      "intro": "Proctorio is an automated remote proctoring browser extension for Google Chrome integrated into Canvas, Blackboard, and Moodle. Resolving Chrome extension permissions, camera detection errors, and access code prompts prior to test time ensures a smooth assessment launch."
+    },
+    {
+      "slug": "examid-exammonitor-student-guide",
+      "title": "ExamID and ExamMonitor: What Students Should Know",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Comprehensive guide to ExamID facial verification and ExamMonitor video recording in Examplify. Setup, lighting, and video upload steps.",
+      "intro": "ExamID and ExamMonitor are security modules integrated into Examplify by ExamSoft. ExamID performs facial recognition identity verification before your test begins, while ExamMonitor records webcam video and audio throughout your exam session. Understanding how these features operate ensures a smooth pre-exam check-in."
+    },
+    {
+      "slug": "using-lockdown-browser-with-canvas-blackboard-moodle",
+      "title": "Using LockDown Browser with Canvas, Blackboard and Moodle",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Complete student guide to using Respondus LockDown Browser with Canvas, Blackboard, Moodle, and Brightspace learning management systems.",
+      "intro": "Respondus LockDown Browser integrates directly with major Learning Management Systems (LMS)—including Canvas, Blackboard Learn, Moodle, and D2L Brightspace. Understanding how your specific LMS launches locked assessments ensures a seamless exam start."
+    },
+    {
+      "slug": "lockdown-browser-not-opening-troubleshooting-guide",
+      "title": "LockDown Browser Not Opening: Troubleshooting Before Your Exam",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Step-by-step troubleshooting guide for Respondus LockDown Browser not opening, freezing on splash screen, or closing unexpectedly.",
+      "intro": "If Respondus LockDown Browser fails to open, freezes on the initial splash screen, or closes immediately upon launch, background application conflicts, missing OS permissions, or corrupted installation files are usually responsible. Following a structured troubleshooting sequence resolves most launch issues before test time."
+    },
+    {
+      "slug": "what-to-check-the-night-before-an-online-exam",
+      "title": "What to Check the Night Before an Online Exam",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "7 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "The ultimate night-before online exam checklist. Verify hardware, camera permissions, photo ID, workspace clearance, and rest routines.",
+      "intro": "The night before an online proctored exam should be spent reviewing high-yield summary sheets, completing a final equipment pre-check, and preparing your physical testing space. Following a structured night-before checklist prevents last-minute technical panics and ensures a smooth test launch."
+    },
+    {
+      "slug": "how-to-reduce-anxiety-before-a-proctored-exam",
+      "title": "How to Reduce Anxiety Before a Proctored Exam",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Practical strategies for managing test anxiety before online proctored exams. Technical preparation, breathing exercises, and study routines.",
+      "intro": "Test anxiety before an online proctored exam is a common experience driven by concerns over difficult content, time limits, and remote monitoring software. Implementing structured preparation, completing early technical equipment checks, and practicing box breathing techniques helps candidates enter their assessment calm and focused."
+    },
+    {
+      "slug": "how-to-manage-time-during-an-online-exam",
+      "title": "How to Manage Time During an Online Exam",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Master time management during online proctored exams. Learn question pacing rules, flagging strategies, and how non-backtracking modes affect your time.",
+      "intro": "Effective time management during an online proctored exam ensures you have adequate time to read every question stem, complete calculations, and review flagged items before the timer expires. Calculating your target time per question beforehand and practicing with timed mock tests builds exam pacing confidence."
+    },
+    {
+      "slug": "how-to-review-practice-questions-wrong-answers",
+      "title": "How to Review Practice Questions and Understand Wrong Answers",
+      "category": "Practice and Revision",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Learn how to analyze practice questions, conduct wrong-answer rationale reviews, and eliminate recurring test mistakes.",
+      "intro": "Solving practice questions is only half of effective revision; the true score gains come from conducting thorough wrong-answer rationale reviews. Analyzing why distractor options were tempting and why the correct answer is valid converts missed items into lasting knowledge."
+    },
+    {
+      "slug": "how-to-build-a-study-schedule-around-work",
+      "title": "How to Build a Study Schedule Around Work",
+      "category": "Study Strategies",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Learn how to build a realistic study schedule around a full-time job using time-blocking, active recall, and weekend revision blocks.",
+      "intro": "Balancing a full-time job with university coursework or professional certification preparation requires a realistic, time-blocked revision strategy. Rather than attempting exhausting multi-hour study sessions after a long workday, working professionals succeed by allocating focused 45-to-60-minute study blocks during high-energy windows, leveraging active recall, and protecting weekend revision hours.",
+      "focusKeyword": "build a study schedule around work",
+      "metaTitle": "How to Build a Study Schedule Around Work | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Learn how to build a realistic study schedule around a full-time job. Time-blocking strategies, active recall, and revision plans for working professionals."
+    },
+    {
+      "slug": "prepare-for-online-exam-short-time",
+      "title": "How to Prepare for an Online Exam When Time Is Short",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "How to prepare for an online exam when time is limited. Learn how to prioritize high-yield syllabus domains, use retrieval practice, and complete technical checks.",
+      "intro": "When study time is short before an upcoming test, preparing effectively requires five urgent steps: confirm the exact exam scope from your syllabus, prioritize high-yield weak topics, practise retrieving information using sample questions, debrief your errors, and reserve time for pre-exam technical checks and adequate sleep. While last-minute revision cannot replace weeks of consistent study, adopting a structured, high-efficiency revision strategy helps you maximize your available time, reduce panic, and enter your assessment with clear focus.",
+      "focusKeyword": "how to prepare for an online exam",
+      "metaTitle": "How to Prepare for an Online Exam When Time Is Short",
+      "metaDescription": "Learn how to prepare for an online exam when time is short. Prioritize topics, use practice questions and plan revision before test day."
+    },
+    {
+      "slug": "how-to-choose-an-online-exam-tutor",
+      "title": "How to Choose an Online Exam Tutor",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "9 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Learn how to choose an online exam tutor. Compare subject expertise, teaching methods, exam format familiarity, pricing, and ethical guidelines before booking.",
+      "intro": "To choose an online exam tutor effectively, you should evaluate six core factors: verified subject expertise in your specific course or certification domain, interactive teaching methods, familiarity with your assessment format, flexible scheduling availability, transparent pricing, and strict adherence to academic integrity guidelines. Selecting the right online exam tutor helps you transform complex syllabi into manageable revision blocks, master high-yield concepts, and build the test-taking stamina needed to pass independently.",
+      "focusKeyword": "how to choose an online exam tutor",
+      "metaTitle": "How to Choose an Online Exam Tutor: A Practical Guide",
+      "metaDescription": "Learn how to choose an online exam tutor. Compare subject knowledge, teaching methods, pricing and study plans before booking your first session."
+    },
+    {
+      "slug": "what-is-online-exam-help",
+      "title": "What Is Online Exam Help and What Does It Include?",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "8 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "What is online exam help? Learn what study coaching, 1-on-1 tutoring, practice questions, and pre-exam proctoring software checks include.",
+      "intro": "Online exam help refers to legitimate educational support—including 1-on-1 subject tutoring, syllabus-based revision planning, practice problem walkthroughs, timed mock exams, and pre-exam proctoring software technical checks—designed to help students prepare for upcoming assessments. The specific type of assistance allowed depends on your institution's academic policies and your exam vendor's official candidate instructions. When used properly before test day, online exam help empowers candidates to build deep subject comprehension, eliminate technical disruptions, and test with complete independent capability.",
+      "focusKeyword": "what is online exam help",
+      "metaTitle": "What Is Online Exam Help? Services Explained",
+      "metaDescription": "What is online exam help? Explore tutoring, revision plans, practice questions and technical preparation, plus tips for choosing the right support."
+    },
+    {
+      "slug": "can-someone-take-an-exam-for-you",
+      "title": "Can Someone Take an Exam for You? Your Options Explained",
+      "category": "Examination Preparation",
+      "publishDate": "2026-11-18",
+      "readTime": "9 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Can someone take an exam for you? Understand the difference between unethical impersonation and legitimate exam assistance, including 1-on-1 tutoring and technical setup.",
+      "intro": "When facing an upcoming midterm, final exam, or professional certification test, feeling overwhelmed by complex course material or tight deadlines is completely natural. Searching online to see if \"someone can take an exam for you\" is a common reaction when under severe academic pressure. However, having another person physically impersonate you or take a proctored test violates university honor codes and testing board candidate agreements. Fortunately, there are many legitimate, highly effective forms of exam support—including 1-on-1 subject tutoring, study planning, practice question walkthroughs, pre-exam technical guidance, and provider-approved accessibility accommodations—that help you prepare thoroughly and pass independently.",
+      "focusKeyword": "can someone take an exam for you",
+      "metaTitle": "Can Someone Take an Exam for You? Options Explained",
+      "metaDescription": "Can someone take an exam for you? Learn about exam rules, tutoring, approved accessibility support and practical ways to prepare for your online test."
+    },
+    {
       "slug": "how-to-prepare-for-a-proctored-examination",
       "title": "How to Prepare for a Proctored Online Examination",
       "category": "Examination Preparation",
