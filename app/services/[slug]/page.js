@@ -36,8 +36,8 @@ export async function generateMetadata({ params }) {
   const slug = resolvedParams?.slug;
   const service = getServiceBySlug(slug);
 
-  const defaultTitle = service ? `${service.title} | Educational Services | TUTOR PROCTORED EXAMS` : 'Service | TUTOR PROCTORED EXAMS';
-  const defaultDescription = service?.tagline || service?.overview || 'Educational support services and 1-on-1 tutoring.';
+  const defaultTitle = service?.metaTitle || (service ? `${service.title} | TUTOR PROCTORED EXAMS` : 'Service | TUTOR PROCTORED EXAMS');
+  const defaultDescription = service?.metaDescription || service?.tagline || service?.overview || 'Educational support services and 1-on-1 tutoring.';
   const defaultCanonical = `${SITE_CONFIG.domain}/services/${slug}`;
 
   const wpPage = await getWpPageBySlug(slug);

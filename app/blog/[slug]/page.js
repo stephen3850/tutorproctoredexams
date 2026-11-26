@@ -32,8 +32,8 @@ export async function generateMetadata({ params }) {
   const slug = resolvedParams?.slug;
   const article = getBlogBySlug(slug);
 
-  const defaultTitle = article ? `${article.title} | TUTOR PROCTORED EXAMS` : 'Article | TUTOR PROCTORED EXAMS';
-  const defaultDescription = article?.excerpt || article?.intro || 'Educational study guide and proctored examination preparation article.';
+  const defaultTitle = article?.metaTitle || (article ? `${article.title} | TUTOR PROCTORED EXAMS` : 'Article | TUTOR PROCTORED EXAMS');
+  const defaultDescription = article?.metaDescription || article?.excerpt || article?.intro || 'Educational study guide and proctored examination preparation article.';
   const defaultCanonical = `${SITE_CONFIG.domain}/blog/${slug}`;
 
   const wpPost = await getWpPostBySlug(slug);
