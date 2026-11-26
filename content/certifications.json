@@ -3,11 +3,54 @@
     {
       "slug": "pmp",
       "title": "PMP",
+      "fullName": "Project Management Professional",
       "category": "Project Management",
-      "description": "The gold standard certification for project managers across all industries worldwide.",
-      "focusKeyword": "PMP exam prep",
-      "metaTitle": "PMP Exam Prep & Certification Coaching | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for the PMI PMP exam. Master official 2026 ECO domains (People 33%, Process 41%, Business 26%), predictive and agile methodologies, and situational questions.",
+      "governingBody": "Project Management Institute (PMI)",
+      "tagline": "The gold standard certification for project managers across all industries worldwide.",
+      "logo": "/logos/pmp.svg",
+      "description": "The Project Management Professional (PMP)® certification validates your capability as a project manager, demonstrating that you have the skills to lead project teams and drive successful project outcomes using predictive, agile, and hybrid methodologies.",
+      "overview": "The Project Management Professional (PMP)® certification validates your capability as a project manager, demonstrating that you have the skills to lead project teams and drive successful project outcomes using predictive, agile, and hybrid methodologies.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Project Management Fundamentals",
+        "Project Planning and Delivery",
+        "Agile and Hybrid Approaches",
+        "Risk and Stakeholder Management",
+        "Project Performance",
+        "Leadership and Team Management",
+        "Exam Preparation Strategies"
+      ],
+      "examFormat": {
+        "totalQuestions": "180 questions (175 scored, 5 unscored pretest items)",
+        "duration": "230 minutes (with two 10-minute scheduled breaks)",
+        "passingScore": "Criterion-referenced passing score determined by PMI psychometric analysis",
+        "format": "Multiple-choice, multiple-response, matching, hotspot, and fill-in-the-blank questions",
+        "proctoring": "Delivered via Pearson VUE online proctoring (OnVUE) or at Pearson VUE testing centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "PMP ECO Domain Study Notes",
+          "desc": "Chapter summaries covering People (33%), Process (41%), and Business Environment (26%)."
+        },
+        {
+          "title": "Agile & Hybrid Framework Guide",
+          "desc": "High-yield breakdowns of Scrum, Kanban WIP limits, and servant leadership."
+        },
+        {
+          "title": "Situational Scenario Question Bank",
+          "desc": "Curated scenario practice questions with distractor rationale explanations."
+        },
+        {
+          "title": "Earned Value & Math Formula Sheets",
+          "desc": "Quick formula reference for CPI, SPI, EV, PV, AC, EAC, ETC, and Critical Path."
+        },
+        {
+          "title": "Full-Length Timed Mock Exam Sets",
+          "desc": "Simulated 180-question practice tests matching PMI exam pacing."
+        }
+      ],
       "faqs": [
         {
           "question": "What are the eligibility requirements for the PMP exam?",
@@ -33,16 +76,56 @@
           "question": "How many mock exams should I take before my PMP test date?",
           "answer": "We recommend taking 3 to 5 full-length, 180-question timed practice exams under simulated test conditions during the final month of revision."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "capm",
       "title": "CAPM",
+      "fullName": "Certified Associate in Project Management",
       "category": "Project Management",
-      "description": "Entry-level PMI project management credential establishing foundational PM and agile skills.",
-      "focusKeyword": "CAPM exam prep",
-      "metaTitle": "CAPM Exam Prep & Certification Guide | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Master the PMI CAPM exam. Review PMBOK 7th edition fundamentals, agile principles, and business analysis with 1-on-1 tutoring and practice questions.",
+      "governingBody": "Project Management Institute (PMI)",
+      "tagline": "Entry-level PMI project management credential establishing foundational PM and agile skills.",
+      "logo": "/logos/capm.svg",
+      "description": "The Certified Associate in Project Management (CAPM)® credential awarded by PMI is the premier entry-level certification for project management. It validates understanding of core project management terminology, predictive process groups, agile frameworks, and business analysis principles.",
+      "overview": "The Certified Associate in Project Management (CAPM)® credential awarded by PMI is the premier entry-level certification for project management. It validates understanding of core project management terminology, predictive process groups, agile frameworks, and business analysis principles.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Project Management Fundamentals",
+        "Project Planning",
+        "Project Scope and Scheduling",
+        "Project Resources",
+        "Project Risk",
+        "Agile Principles",
+        "Project Management Terminology"
+      ],
+      "examFormat": {
+        "totalQuestions": "150 multiple-choice questions",
+        "duration": "185 minutes",
+        "passingScore": "Criterion-referenced passing score set by PMI",
+        "format": "Computer-based exam featuring multiple-choice, matching, and scenario questions",
+        "proctoring": "Pearson VUE online proctoring (OnVUE) or testing centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "PM Fundamentals Study Guide",
+          "desc": "Chapter summaries covering PMBOK® 7th Edition concepts and process groups."
+        },
+        {
+          "title": "Agile & Business Analysis Notes",
+          "desc": "Summaries covering Scrum ceremonies, user stories, and requirements gathering."
+        },
+        {
+          "title": "CAPM Diagnostic Practice Questions",
+          "desc": "150-question practice test sets matching official PMI CAPM item types."
+        },
+        {
+          "title": "EVM Math & Glossary Reference Sheet",
+          "desc": "Formula reference guide covering basic earned value math and float calculations."
+        }
+      ],
       "faqs": [
         {
           "question": "What are the eligibility requirements for the CAPM exam?",
@@ -68,16 +151,56 @@
           "question": "How does TUTOR PROCTORED EXAMS support CAPM candidates?",
           "answer": "We provide 1-on-1 fundamental tutoring, PMBOK concept breakdowns, math formula sheets, and timed practice question walkthroughs."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "comptia",
       "title": "CompTIA Certifications",
+      "fullName": "CompTIA Security+, A+, Network+",
       "category": "Information Technology",
-      "description": "Vendor-neutral IT certifications establishing core cybersecurity, infrastructure, and helpdesk expertise.",
-      "focusKeyword": "CompTIA Security+ study guide",
-      "metaTitle": "CompTIA Security+ & IT Certification Study Guide | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for CompTIA Security+ (SY0-701), Network+, and A+ exams. Review port numbers, CLI commands, performance-based questions, and core IT domains.",
+      "governingBody": "CompTIA",
+      "tagline": "Vendor-neutral IT certifications establishing core cybersecurity, infrastructure, and helpdesk expertise.",
+      "logo": "/logos/comptia.svg",
+      "description": "CompTIA certifications—including Security+, A+, and Network+—are recognized globally as foundational credentials for IT and cybersecurity professionals. They validate hands-on technical skills in networking, system administration, hardware troubleshooting, and threat mitigation.",
+      "overview": "CompTIA certifications—including Security+, A+, and Network+—are recognized globally as foundational credentials for IT and cybersecurity professionals. They validate hands-on technical skills in networking, system administration, hardware troubleshooting, and threat mitigation.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Security+: General Security Concepts, Threats, Vulnerabilities, Ops & GRC",
+        "Network+: Networking Fundamentals, Implementations, Ops & Security",
+        "A+: Mobile Devices, Hardware, OS, Software Troubleshooting & Security",
+        "Technical Concepts & Port Numbers",
+        "Hardware & System Diagnostics",
+        "Software & CLI Troubleshooting",
+        "Exam Preparation Strategies"
+      ],
+      "examFormat": {
+        "totalQuestions": "Up to 90 questions per exam (Multiple-choice and PBQs)",
+        "duration": "90 minutes per exam session",
+        "passingScore": "Security+ (750), Network+ (720), A+ (675 for Core 1, 700 for Core 2)",
+        "format": "Multiple-choice and Performance-Based Questions (PBQs)",
+        "proctoring": "Pearson VUE online proctoring or testing centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "Security+ SY0-701 Domain Notes",
+          "desc": "Summaries covering zero-trust, threats, vulnerabilities, and incident response."
+        },
+        {
+          "title": "Port Number & Protocol Flashcards",
+          "desc": "Quick recall guide for SSH (22), DNS (53), RDP (3389), HTTPS (443), SNMP (161)."
+        },
+        {
+          "title": "Performance-Based Question (PBQ) Guide",
+          "desc": "CLI command walkthroughs (ipconfig, ping, netstat) and firewall config scenarios."
+        },
+        {
+          "title": "CompTIA Full-Length Practice Exams",
+          "desc": "Timed practice test simulations with comprehensive answer rationales."
+        }
+      ],
       "faqs": [
         {
           "question": "Which CompTIA certification exams do you support?",
@@ -103,16 +226,56 @@
           "question": "How does TUTOR PROCTORED EXAMS help CompTIA candidates?",
           "answer": "We provide 1-on-1 technical coaching, PBQ command walkthroughs, port memory flashcards, and timed practice exams."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "shrm",
-      "title": "SHRM Certification",
+      "title": "SHRM-CP / SHRM-SCP",
+      "fullName": "Society for Human Resource Management Certifications",
       "category": "Human Resources",
-      "description": "Premier HR credentials validating behavioral competencies and HR expertise.",
-      "focusKeyword": "SHRM CP exam prep",
-      "metaTitle": "SHRM-CP & SHRM-SCP Exam Prep Guide | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for SHRM-CP and SHRM-SCP HR certification exams. Master the SHRM BASK competency model, situational judgment items, and labor law compliance.",
+      "governingBody": "SHRM",
+      "tagline": "Premier global HR credentials validating strategic leadership, behavioral competencies, and HR expertise.",
+      "logo": "/logos/shrm.svg",
+      "description": "The SHRM-CP (Certified Professional) and SHRM-SCP (Senior Certified Professional) credentials establish global recognition for HR practitioners. They validate behavioral competencies and technical HR knowledge required to lead organizational strategy, employee relations, talent acquisition, and compliance.",
+      "overview": "The SHRM-CP (Certified Professional) and SHRM-SCP (Senior Certified Professional) credentials establish global recognition for HR practitioners. They validate behavioral competencies and technical HR knowledge required to lead organizational strategy, employee relations, talent acquisition, and compliance.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "HR Competencies",
+        "Workforce Management",
+        "Talent Acquisition",
+        "Employee Relations",
+        "Organizational Effectiveness",
+        "HR Strategy",
+        "People Management"
+      ],
+      "examFormat": {
+        "totalQuestions": "134 questions (80 knowledge-based, 54 situational judgment items)",
+        "duration": "3 hours 40 minutes (220 minutes)",
+        "passingScore": "Scaled score of 200 out of 200-500 scale",
+        "format": "Computer-based exam featuring Knowledge Items and SJIs",
+        "proctoring": "Prometric live online proctoring or test centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "SHRM BASK® Competency Notes",
+          "desc": "Summaries covering Leadership, Ethical Practice, DEI, and Business Acumen."
+        },
+        {
+          "title": "Situational Judgment Item (SJI) Guide",
+          "desc": "Scenario practice questions applying the official \"SHRM Mindset\"."
+        },
+        {
+          "title": "Labor Law & Compliance Quick Reference",
+          "desc": "Quick reference guide covering FMLA, FLSA, ERISA, Title VII, and ADA."
+        },
+        {
+          "title": "SHRM Full-Length Mock Exams",
+          "desc": "134-item simulated exams matching official SHRM testing time."
+        }
+      ],
       "faqs": [
         {
           "question": "What is the difference between SHRM-CP and SHRM-SCP?",
@@ -138,51 +301,111 @@
           "question": "How can TUTOR PROCTORED EXAMS help with SHRM preparation?",
           "answer": "We offer 1-on-1 BASK domain tutoring, situational judgment item strategies, labor law quick sheets, and timed practice tests."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "real-estate",
-      "title": "Real Estate Licensing",
-      "category": "Licensing & Real Estate",
-      "description": "Pre-licensing exam coaching for salesperson and broker state licensing exams.",
-      "focusKeyword": "real estate exam prep",
-      "metaTitle": "Real Estate Licensing Exam Prep Guide | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Comprehensive real estate salesperson and broker licensing exam prep. Review national real estate principles, contracts, financing math, and state statutes.",
+      "title": "Real Estate License",
+      "fullName": "Real Estate Salesperson & Broker Licensing Exam",
+      "category": "Real Estate",
+      "governingBody": "State Licensing Commissions / PSI / Pearson VUE",
+      "tagline": "Comprehensive prep for real estate salesperson and broker licensing examinations.",
+      "logo": "/logos/real-estate.svg",
+      "description": "The Real Estate Licensing Exam is required to legally practice as a licensed real estate salesperson or broker. The exam tests national real estate principles, land use controls, contracts, financing math, agency law, and specific real estate statutes.",
+      "overview": "The Real Estate Licensing Exam is required to legally practice as a licensed real estate salesperson or broker. The exam tests national real estate principles, land use controls, contracts, financing math, agency law, and specific real estate statutes.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Real Estate Principles",
+        "Property Ownership",
+        "Contracts",
+        "Property Law",
+        "Real Estate Finance",
+        "Transactions",
+        "Licensing Examination Preparation"
+      ],
+      "examFormat": {
+        "totalQuestions": "100-150 multiple-choice items (National & State portions)",
+        "duration": "3.5 to 4 hours (210-240 minutes)",
+        "passingScore": "70% to 75% correct score depending on state board",
+        "format": "Computer-based exam with National Principles and State Law sections",
+        "proctoring": "PSI, Pearson VUE, or AMP proctored test centers and online proctoring"
+      },
+      "coachingIncludes": [
+        {
+          "title": "National Principles Study Guide",
+          "desc": "Notes covering property rights, title transfer, deeds, and agency duties."
+        },
+        {
+          "title": "Real Estate Math Formula Sheet",
+          "desc": "Step-by-step formula guide for commission splits, proration, LTV ratios, and acreage."
+        },
+        {
+          "title": "Contracts & Financing Quick Reference",
+          "desc": "Summaries covering purchase agreements, mortgage types, and Fair Housing laws."
+        },
+        {
+          "title": "National & State Practice Exams",
+          "desc": "Timed practice exams matching PSI and Pearson VUE formats."
+        }
+      ],
       "faqs": [
         {
-          "question": "How are real estate licensing exams structured?",
-          "answer": "Exams consist of two parts: a National Real Estate Principles portion (80-100 items) and a State Law portion (30-50 items specific to your jurisdiction)."
-        },
-        {
-          "question": "Do real estate licensing requirements vary by state?",
-          "answer": "Yes! Pre-licensing course hour requirements (ranging from 60 to 180 hours), passing score thresholds (70%-75%), and state statutes vary by state licensing commission."
-        },
-        {
-          "question": "What real estate math calculations appear on the exam?",
-          "answer": "Calculations cover commission splits, property tax proration, loan-to-value (LTV) ratios, square footage/acreage, and seller net sheets."
-        },
-        {
-          "question": "Which test vendors administer real estate licensing exams?",
-          "answer": "Most states deliver licensing exams through PSI Services, Pearson VUE, or AMP testing centers and secure remote proctoring."
-        },
-        {
-          "question": "What score is needed to pass the real estate licensing exam?",
-          "answer": "Most state commissions require a passing score of 70% to 75% correct on both the National and State portions."
-        },
-        {
-          "question": "How does TUTOR PROCTORED EXAMS assist real estate candidates?",
-          "answer": "We provide 1-on-1 tutoring in real estate math, national principles reviews, contract law summaries, and timed practice question walkthroughs."
+          "question": "Does this cover real estate math calculations?",
+          "answer": "Yes! We provide step-by-step formula sheets for commission splits, tax proration, and area math."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "aapc",
       "title": "AAPC Medical Coding",
+      "fullName": "AAPC Medical Coding & Compliance Prep",
       "category": "Healthcare & Coding",
-      "description": "Medical coding certifications validating mastery in physician practice coding.",
-      "focusKeyword": "AAPC medical coding prep",
-      "metaTitle": "AAPC Medical Coding Exam Prep Guide | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for AAPC medical coding credentials. Master CPT, ICD-10-CM, and HCPCS Level II codebook tabbing, guidelines, and operative report coding.",
+      "governingBody": "AAPC",
+      "tagline": "Preparation resources for AAPC credentials including CPC, CIC, COC, and CPMA.",
+      "logo": "/logos/aapc.svg",
+      "description": "AAPC is a premier education and credentialing organization for medical coders, billers, auditors, and practice managers. Preparing for an AAPC exam requires deep familiarity with official CPT®, ICD-10-CM, and HCPCS Level II codebooks, guidelines, and reimbursement principles.",
+      "overview": "AAPC is a premier education and credentialing organization for medical coders, billers, auditors, and practice managers. Preparing for an AAPC exam requires deep familiarity with official CPT®, ICD-10-CM, and HCPCS Level II codebooks, guidelines, and reimbursement principles.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Medical Coding Fundamentals",
+        "ICD-10-CM Coding Guidelines",
+        "CPT Procedure Coding",
+        "HCPCS Level II Coding",
+        "Medical Terminology",
+        "Anatomy and Physiology",
+        "Coding Guidelines & Compliance"
+      ],
+      "examFormat": {
+        "totalQuestions": "100 multiple-choice questions",
+        "duration": "4 hours (240 minutes)",
+        "passingScore": "70% or higher correct score",
+        "format": "Open physical codebook exam testing CPT, ICD-10-CM, and HCPCS",
+        "proctoring": "Meazure Learning online proctoring or test centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "Codebook Tabbing & Highlighting Guide",
+          "desc": "Diagrams for tabbing CPT®, ICD-10-CM, and HCPCS Level II codebooks."
+        },
+        {
+          "title": "Evaluation & Management (E/M) Sheet",
+          "desc": "Medical Decision Making (MDM) complexity charts and E/M guidelines."
+        },
+        {
+          "title": "Operative Report Practice Cases",
+          "desc": "Real surgical notes with step-by-step code assignment explanations."
+        },
+        {
+          "title": "100-Question AAPC Mock Exams",
+          "desc": "Simulated 4-hour open-book mock tests with detailed answer rationales."
+        }
+      ],
       "faqs": [
         {
           "question": "What is the difference between AAPC and CPC?",
@@ -208,16 +431,56 @@
           "question": "How can TUTOR PROCTORED EXAMS help with AAPC exam prep?",
           "answer": "We offer 1-on-1 codebook tabbing instruction, E/M guideline walkthroughs, operative report coding practice, and timed mock tests."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "cpc",
-      "title": "CPC Certified Professional Coder",
+      "title": "CPC Certified Coder",
+      "fullName": "Certified Professional Coder",
       "category": "Healthcare & Coding",
-      "description": "The gold standard for outpatient medical coding.",
-      "focusKeyword": "CPC exam study guide",
-      "metaTitle": "CPC Certified Professional Coder Exam Prep | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for the AAPC CPC medical coding exam. Review CPT surgical coding, evaluation and management guidelines, and open-book operative report cases.",
+      "governingBody": "AAPC",
+      "tagline": "The gold standard medical coding certification for physician offices and outpatient clinics.",
+      "logo": "/logos/cpc.svg",
+      "description": "The Certified Professional Coder (CPC)® credential is the standard for medical coding in physician office and outpatient settings. CPC coders read clinical documentation, extract key procedures and diagnoses, and assign accurate CPT®, ICD-10-CM, and HCPCS Level II codes.",
+      "overview": "The Certified Professional Coder (CPC)® credential is the standard for medical coding in physician office and outpatient settings. CPC coders read clinical documentation, extract key procedures and diagnoses, and assign accurate CPT®, ICD-10-CM, and HCPCS Level II codes.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "CPT Coding (10000 - 60000 Series)",
+        "ICD-10-CM Diagnosis Coding",
+        "HCPCS Coding & Modifiers",
+        "Medical Terminology",
+        "Anatomy and Physiology",
+        "Coding Compliance",
+        "CPC Exam Preparation"
+      ],
+      "examFormat": {
+        "totalQuestions": "100 multiple-choice questions",
+        "duration": "4 hours (240 minutes)",
+        "passingScore": "70% correct score required to pass",
+        "format": "Open physical codebook exam divided into anatomical sections and E/M",
+        "proctoring": "Meazure Learning live online proctoring or test centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "CPT Surgical Body Systems Summary",
+          "desc": "High-yield notes for Integumentary, Musculoskeletal, Digestive, and Urinary."
+        },
+        {
+          "title": "Anatomy & Med Term Reference Guide",
+          "desc": "Anatomical illustrations, prefix/suffix glossaries, and disease definitions."
+        },
+        {
+          "title": "Operative Report Practice Exercises",
+          "desc": "Clinical operative note coding exercises with comprehensive rationales."
+        },
+        {
+          "title": "CPC Timed Practice Exams",
+          "desc": "100-item practice exams divided into anatomical body systems and E/M."
+        }
+      ],
       "faqs": [
         {
           "question": "What setting is the CPC credential designed for?",
@@ -243,16 +506,55 @@
           "question": "How does TUTOR PROCTORED EXAMS support CPC candidates?",
           "answer": "We provide 1-on-1 operative report coding drills, E/M table reviews, codebook tabbing strategies, and timed 100-item practice tests."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "ccma",
-      "title": "CCMA Certified Clinical Medical Assistant",
-      "category": "Healthcare Support",
-      "description": "Clinical medical assisting certification covering patient care, phlebotomy, and EKG.",
-      "focusKeyword": "CCMA exam prep",
-      "metaTitle": "NHA CCMA Certification Exam Prep Guide | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for the NHA CCMA clinical assistant exam. Review patient care, phlebotomy tube order of draw, 12-lead EKG placement, and clinical administration.",
+      "title": "CCMA Clinical Assistant",
+      "fullName": "Certified Clinical Medical Assistant",
+      "category": "Healthcare & Medical Assisting",
+      "governingBody": "NHA",
+      "tagline": "Accredited clinical credential validating medical assistant patient care and administrative skills.",
+      "logo": "/logos/ccma.svg",
+      "description": "The Certified Clinical Medical Assistant (CCMA) credential awarded by NHA validates that healthcare professionals possess the clinical skills, medical terminology knowledge, phlebotomy, EKG, and administrative competence needed in modern ambulatory care settings.",
+      "overview": "The Certified Clinical Medical Assistant (CCMA) credential awarded by NHA validates that healthcare professionals possess the clinical skills, medical terminology knowledge, phlebotomy, EKG, and administrative competence needed in modern ambulatory care settings.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Clinical Procedures",
+        "Patient Care & Vital Signs",
+        "Medical Terminology",
+        "Anatomy and Physiology",
+        "Clinical Administration",
+        "Medical Assisting Fundamentals"
+      ],
+      "examFormat": {
+        "totalQuestions": "150 multiple-choice questions (135 scored, 15 pretest items)",
+        "duration": "3 hours (180 minutes)",
+        "passingScore": "Scaled score of 390 or higher out of 500",
+        "format": "Multiple-choice computer-based examination",
+        "proctoring": "PSI online proctoring or school testing locations"
+      },
+      "coachingIncludes": [
+        {
+          "title": "Clinical Patient Care & Vitals Guide",
+          "desc": "Notes covering physical exam assistance, infection control, and pharmacology."
+        },
+        {
+          "title": "Phlebotomy Order of Draw & EKG Cards",
+          "desc": "Color-coded tube order of draw and 12-lead EKG placement flashcards."
+        },
+        {
+          "title": "Basic Science & Anatomy Summary",
+          "desc": "Anatomy and physiology, disease processes, and medical terminology summaries."
+        },
+        {
+          "title": "150-Question NHA CCMA Mock Exams",
+          "desc": "Timed full-length mock exams matching NHA test plan weightings."
+        }
+      ],
       "faqs": [
         {
           "question": "What organization awards the CCMA credential?",
@@ -278,16 +580,55 @@
           "question": "How does TUTOR PROCTORED EXAMS help CCMA candidates?",
           "answer": "We offer 1-on-1 tutoring, EKG and phlebotomy flashcards, clinical procedure walkthroughs, and timed NHA-style mock exams."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "cna",
-      "title": "CNA Certified Nursing Assistant",
-      "category": "Nursing & Care",
-      "description": "State nursing assistant certification validating fundamental patient care skills.",
-      "focusKeyword": "CNA exam prep",
-      "metaTitle": "CNA Certified Nursing Assistant Exam Prep | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for state CNA written and clinical competency evaluation exams. Review vital signs, infection control, hygiene skills, and nursing fundamentals.",
+      "title": "CNA Nursing Assistant",
+      "fullName": "Certified Nursing Assistant",
+      "category": "Healthcare & Nursing",
+      "governingBody": "State Board of Nursing / Prometric / Credentia",
+      "tagline": "Essential healthcare credential validating direct patient care, infection control, and clinical nursing skills.",
+      "logo": "/logos/cna.svg",
+      "description": "The Certified Nursing Assistant (CNA) exam validates foundational patient care skills, safety protocols, infection control, and basic nursing concepts. Passing the state CNA competency exam is required to earn certification and practice in hospitals and care facilities.",
+      "overview": "The Certified Nursing Assistant (CNA) exam validates foundational patient care skills, safety protocols, infection control, and basic nursing concepts. Passing the state CNA competency exam is required to earn certification and practice in hospitals and care facilities.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Patient Care & Hygiene",
+        "Nursing Fundamentals",
+        "Safety and Infection Prevention",
+        "Vital Signs Measurement",
+        "Patient Communication",
+        "Basic Nursing Skills"
+      ],
+      "examFormat": {
+        "totalQuestions": "60-70 written items + 3-5 clinical skills evaluation",
+        "duration": "90 minutes written + 30-45 minutes clinical skills evaluation",
+        "passingScore": "State-specific passing score (70%-75% written + 100% safety skills)",
+        "format": "Computer-based written exam plus live clinical skills demonstration",
+        "proctoring": "Prometric, Credentia, or Headmaster state test centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "CNA Written Knowledge Study Guide",
+          "desc": "Revision notes covering infection control, vital signs, ADLs, and hygiene."
+        },
+        {
+          "title": "Clinical Skills Step-by-Step Checklist",
+          "desc": "Detailed checklists for mandatory clinical skills (hand hygiene, blood pressure, bed bath)."
+        },
+        {
+          "title": "Infection Control Flashcards",
+          "desc": "Standard precautions, PPE order, Heimlich maneuver, and patient rights."
+        },
+        {
+          "title": "State Competency Practice Question Banks",
+          "desc": "Timed practice exams matching Prometric and Credentia test formats."
+        }
+      ],
       "faqs": [
         {
           "question": "What are the two parts of the official CNA evaluation exam?",
@@ -313,16 +654,55 @@
           "question": "How does TUTOR PROCTORED EXAMS support CNA candidates?",
           "answer": "We provide written exam practice question sets, nursing fundamentals tutoring, and clinical skill step-by-step checklists."
         }
-      ]
+      ],
+      "published": true
     },
     {
       "slug": "cpht",
-      "title": "CPhT Certified Pharmacy Technician",
-      "category": "Pharmacy & Medicine",
-      "description": "PTCB pharmacy technician certification validating pharmacy operations and pharmacology.",
-      "focusKeyword": "PTCB CPhT exam prep",
-      "metaTitle": "PTCB CPhT Pharmacy Technician Exam Prep | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Prepare for the PTCB CPhT pharmacy technician exam. Master top 200 brand and generic drugs, pharmacy math calculations, and federal pharmacy law.",
+      "title": "CPhT Pharmacy Technician",
+      "fullName": "Certified Pharmacy Technician",
+      "category": "Healthcare & Pharmacy",
+      "governingBody": "Pharmacy Technician Certification Board (PTCB)",
+      "tagline": "Nationally recognized credential for pharmacy technicians in retail, hospital, and compounding settings.",
+      "logo": "/logos/cpht.svg",
+      "description": "The Certified Pharmacy Technician (CPhT) credential administered by PTCB is the national standard for pharmacy technicians. It validates competence in pharmacy calculations, pharmacology terminology, medication safety, federal drug laws, and compounding principles.",
+      "overview": "The Certified Pharmacy Technician (CPhT) credential administered by PTCB is the national standard for pharmacy technicians. It validates competence in pharmacy calculations, pharmacology terminology, medication safety, federal drug laws, and compounding principles.",
+      "focusKeyword": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "keyDomains": [
+        "Pharmacy Fundamentals",
+        "Medication Safety & Top 200 Drugs",
+        "Pharmaceutical Calculations",
+        "Pharmacology Basics",
+        "Pharmacy Law & DEA Regulations",
+        "Prescription Processing"
+      ],
+      "examFormat": {
+        "totalQuestions": "90 multiple-choice questions (80 scored, 10 unscored pretest items)",
+        "duration": "1 hour 50 minutes (110 minutes total seat time)",
+        "passingScore": "Scaled score of 1400 out of 1000-1600 scale",
+        "format": "Computer-based exam featuring multiple-choice items and math calculations",
+        "proctoring": "Pearson VUE online proctoring or testing centers"
+      },
+      "coachingIncludes": [
+        {
+          "title": "Top 200 Drug Brand & Generic Flashcards",
+          "desc": "Brand/generic names, drug classifications, indications, and side effects."
+        },
+        {
+          "title": "Pharmacy Math Formula Sheet",
+          "desc": "Step-by-step formula walkthroughs for dosage math, alligations, and IV drip rates."
+        },
+        {
+          "title": "Federal Pharmacy Law & DEA Guide",
+          "desc": "Controlled Substances Act schedules I-V, DEA forms, and USP <795>/<797> rules."
+        },
+        {
+          "title": "PTCB 90-Question Mock Exam Sets",
+          "desc": "Simulated practice exams matching official PTCB test computer interfaces."
+        }
+      ],
       "faqs": [
         {
           "question": "What organization awards the national CPhT credential?",
@@ -348,7 +728,8 @@
           "question": "How does TUTOR PROCTORED EXAMS assist CPhT candidates?",
           "answer": "We offer 1-on-1 pharmacy math tutoring, top 200 brand/generic flashcard drills, federal law summaries, and timed PTCB mock tests."
         }
-      ]
+      ],
+      "published": true
     }
   ]
 }
