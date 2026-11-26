@@ -2,71 +2,83 @@
   "platforms": [
     {
       "slug": "respondus-lockdown-browser",
-      "title": "Respondus LockDown Browser",
       "name": "Respondus LockDown Browser",
+      "title": "Respondus LockDown Browser Help & Setup Guide",
+      "shortName": "Respondus",
       "category": "Custom Browser Security",
-      "tagline": "Custom web browser that locks down the testing environment within learning management systems.",
       "vendor": "Respondus Inc.",
-      "logo": "",
-      "description": "Respondus LockDown Browser is a specialized, locked browser designed for taking assessments in learning management systems such as Canvas, Blackboard, Brightspace, and Moodle. When an exam requires LockDown Browser, students are prevented from printing, copying, visiting other websites, or accessing other applications during the test session.",
-      "overview": "Respondus LockDown Browser is a specialized, locked browser designed for taking assessments in learning management systems such as Canvas, Blackboard, Brightspace, and Moodle. When an exam requires LockDown Browser, students are prevented from printing, copying, visiting other websites, or accessing other applications during the test session.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
+      "logo": "/logos/pmp.svg",
+      "focusKeyword": "Respondus LockDown Browser help",
+      "metaTitle": "Respondus LockDown Browser Help & Setup | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Get Respondus LockDown Browser help with downloads, system checks, Windows, Mac and Canvas setup, plus guidance for preparing before your exam.",
+      "tagline": "Find complete Respondus LockDown Browser setup advice, system checks, Windows and Mac troubleshooting, Canvas/Blackboard launch instructions, and pre-exam preparation coaching.",
+      "description": "Find complete Respondus LockDown Browser setup advice, system checks, Windows and Mac troubleshooting, Canvas/Blackboard launch instructions, and pre-exam preparation coaching.",
+      "overview": "Respondus LockDown Browser is a custom web browser that locks down the testing environment within Learning Management Systems (LMS) such as Canvas, Blackboard, Brightspace, and Moodle. When an assessment requires LockDown Browser, students cannot print, copy, visit other websites, or open secondary desktop applications during testing. While LockDown Browser secures the local computer environment, Respondus Monitor is an optional automated add-on that records webcam video and audio. Software requirements and permitted aids depend entirely on your institution's and course instructor's exam settings. We help students prepare for exams that use Respondus LockDown Browser through subject tutoring, practice-question walkthroughs and pre-exam technical guidance.",
+      "keyFeatures": [
+        "Blocks web browsers, messaging apps, and screen-sharing utilities during testing",
+        "Disables task switching, right-click menus, and copy-paste keyboard shortcuts",
+        "Integrates directly with university Canvas, Blackboard, Moodle, and Brightspace courses",
+        "Optional Respondus Monitor automated webcam recording and facial detection checks"
+      ],
       "systemRequirements": {
-        "windows": "Windows 11 or Windows 10 (version 1607 or higher). Standard desktop edition.",
-        "macOS": "macOS 10.15 (Catalina) to macOS 14 (Sonoma) or newer.",
-        "chromebook": "ChromeOS with the official Respondus extension enabled by institution administrator.",
-        "iOS": "iPadOS 12.0+ (Only if specifically allowed by the instructor/institution).",
+        "windows": "64-bit Windows 11 or Windows 10 (version 1607 or higher). Standard desktop edition.",
+        "macOS": "macOS 10.15 (Catalina) to macOS 15 (Sequoia) or newer.",
+        "chromebook": "ChromeOS with the official Respondus extension explicitly enabled by institution administrator.",
+        "iOS": "iPadOS 12.0+ (Only if specifically enabled by course instructor in LMS LockDown Browser Dashboard).",
         "hardware": "1024x768 minimum resolution, 4 GB RAM, 200 MB free storage, functional webcam and microphone for Respondus Monitor."
       },
-      "keyFeatures": [
-        "Blocks access to web browsers, messaging apps, and screen-sharing software",
-        "Disables task switching, right-click menus, and copy-paste shortcuts",
-        "Integrates directly with university Canvas, Blackboard, and Moodle courses",
-        "Optional Respondus Monitor automated webcam recording and flags"
-      ],
       "troubleshooting": [
         {
           "issue": "Error: \"You must close the following applications before starting...\"",
-          "solution": "Open Task Manager (Windows) or Activity Monitor (macOS) and end processes like Spotify, Teams, Skype, or screen-recording software."
+          "solution": "Open Task Manager (Windows) or Activity Monitor (macOS) and end processes like Spotify, Teams, Skype, Discord, or Grammarly prior to launching your test."
         },
         {
-          "issue": "Webcam check fails or shows a black preview screen",
-          "solution": "Check OS privacy permissions under System Settings > Privacy & Security > Camera to ensure LockDown Browser is allowed access."
+          "issue": "Webcam check fails or shows a black camera preview screen",
+          "solution": "Verify OS privacy permissions. On macOS Ventura/Sonoma/Sequoia, check System Settings > Privacy & Security > Camera. On macOS Monterey, check System Preferences > Security & Privacy. On Windows 11/10, check Settings > Privacy > Camera."
         },
         {
-          "issue": "Stuck on \"Loading Exam\" or white screen",
-          "solution": "Clear your default web browser cache, restart your router, and relaunch LockDown Browser directly from your LMS quiz page."
+          "issue": "Stuck on \"Loading Exam\" or password prompt appears",
+          "solution": "Never enter a password manually. Clear your default browser cache, restart your router, and launch the exam directly from your course LMS quiz page."
         }
       ],
       "faqs": [
         {
-          "question": "Can I use a regular Chrome or Safari browser for Respondus exams?",
-          "answer": "No. Respondus LockDown Browser is a dedicated application that must be downloaded from your university LMS and launched specifically for locked assessments."
+          "question": "Where can I download Respondus LockDown Browser?",
+          "answer": "You must download LockDown Browser using the unique installer link provided on your university or college LMS quiz page (Canvas, Blackboard, Moodle, or Brightspace). Do not download generic installers from third-party websites, as each university installer contains institution-specific configuration files."
         },
         {
-          "question": "Does Respondus LockDown Browser work on Chromebooks?",
-          "answer": "Yes, but only if your university administrator has explicitly enabled the Chromebook extension for your course LMS."
+          "question": "How do students use Respondus LockDown Browser?",
+          "answer": "Students log into their university LMS using Google Chrome or Safari, navigate to their course quiz page, and click \"Take the Quiz\". The quiz automatically prompts LockDown Browser to open, lock down desktop applications, and initiate pre-test webcam checks if required."
         },
         {
-          "question": "Why does LockDown Browser ask me to close background applications?",
-          "answer": "LockDown Browser blocks screen-sharing, messaging, and cloud-sync software (like Discord, Spotify, Teams, or Skype) to ensure a secure testing environment."
+          "question": "How do I run the system or webcam check?",
+          "answer": "Before launching your exam, run your instructor's non-graded Practice Quiz in Canvas or Blackboard. The Practice Quiz guides you through the automated startup sequence: Webcam Check, Student Photo, Photo ID Capture, Environment Scan, and Facial Detection Check."
         },
         {
-          "question": "What should I do if my webcam check fails during Respondus Monitor setup?",
-          "answer": "Check your OS privacy settings under System Settings > Privacy & Security > Camera to verify LockDown Browser has explicit permission to access your webcam."
+          "question": "Why is LockDown Browser not working on Windows 11?",
+          "answer": "On Windows 11, launch failures are usually caused by background communications apps (Discord, Teams, Spotify), missing camera permissions (Settings > Privacy & Security > Camera > Allow desktop apps), or third-party antivirus overlays. Running the installer as Administrator resolves most setup blocks."
         },
         {
-          "question": "Is Respondus LockDown Browser free for students?",
-          "answer": "Yes. The LockDown Browser installer is free for students when downloaded through their official university learning management system (Canvas, Blackboard, or Moodle)."
+          "question": "Why is LockDown Browser not working on my Mac?",
+          "answer": "On macOS, launch failures usually stem from missing camera/microphone permissions. On macOS Ventura/Sonoma/Sequoia, check System Settings > Privacy & Security > Camera. On macOS Monterey, check System Preferences > Security & Privacy > Camera. If missing, re-run your university installer or reset camera privacy permissions via Terminal using tccutil reset Camera."
         },
         {
-          "question": "How can TUTOR PROCTORED EXAMS help with Respondus exams?",
-          "answer": "We provide 1-on-1 subject tutoring, study guides, practice question reviews, and system compatibility checks to help you prepare thoroughly before test day."
+          "question": "How do I launch a Canvas exam using LockDown Browser?",
+          "answer": "Log into Canvas using Google Chrome or Safari, navigate to your course, open the Quizzes tab, select your exam, and click \"Take the Quiz\". Canvas will automatically launch LockDown Browser and lock your screen."
+        },
+        {
+          "question": "Where is the LockDown Browser Dashboard?",
+          "answer": "The LockDown Browser Dashboard is an instructor-only tool located inside Canvas, Blackboard, or Moodle. Course instructors use the Dashboard to enable LockDown Browser, require Respondus Monitor, set calculator permissions, or allow iPad access for specific quizzes."
+        },
+        {
+          "question": "How do I contact official Respondus support?",
+          "answer": "Students can visit the official Respondus Knowledge Base at https://web.respondus.com/he/lockdownbrowser/ or submit a technical support ticket at https://support.respondus.com/. For active exam emergencies or password issues, contact your university IT helpdesk or course professor immediately."
+        },
+        {
+          "question": "Can Tutor Proctored Exams help me prepare for a Respondus exam?",
+          "answer": "Yes! We help students prepare for exams that use Respondus LockDown Browser through subject tutoring, practice-question walkthroughs and pre-exam technical guidance. Explore our Software Technical Guidance, Academic Exam Preparation, and One-on-One Tutoring services."
         }
-      ],
-      "published": true
+      ]
     },
     {
       "slug": "examplify",

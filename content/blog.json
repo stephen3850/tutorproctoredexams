@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "slug": "respondus-lockdown-browser-not-working",
+      "title": "Respondus LockDown Browser Not Working? Windows, Mac & Canvas Help",
+      "category": "Examination Software Guidance",
+      "publishDate": "2026-11-18",
+      "readTime": "9 min read",
+      "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
+      "excerpt": "Step-by-step troubleshooting guide for Respondus LockDown Browser not working on Windows, Mac, or Canvas. Learn setup fixes, webcam checks, and support routes.",
+      "intro": "If Respondus LockDown Browser is not working, failing to launch, or freezing before your test begins, the appropriate fix depends on your specific error code, operating system, institution link, and course exam configuration. Before attempting disruptive technical changes, perform structured pre-exam diagnostic steps. During an active proctored examination session, always notify your proctor or course instructor via proctor chat before closing software or rebooting your computer.",
+      "focusKeyword": "Respondus LockDown Browser not working",
+      "metaTitle": "Respondus LockDown Browser Not Working? Setup Help",
+      "metaDescription": "Respondus LockDown Browser not working? Find verified Windows, Mac and Canvas setup guidance, webcam checks and official support options."
+    },
+    {
       "slug": "how-to-request-approved-exam-accessibility-arrangements",
       "title": "How to Request Approved Exam Accessibility Arrangements",
       "category": "Examination Preparation",
