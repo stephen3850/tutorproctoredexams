@@ -31,6 +31,21 @@ import { getWpPageBySlug, extractWpSeo } from '@/lib/wordpress';
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
+function getPlatformOrCertLink(item) {
+  if (!item) return null;
+  const lower = item.toLowerCase();
+  if (lower.includes('respondus')) return { label: item, href: '/exam-platforms/respondus-lockdown-browser' };
+  if (lower.includes('honorlock')) return { label: item, href: '/exam-platforms/honorlock' };
+  if (lower.includes('examplify')) return { label: item, href: '/exam-platforms/examplify' };
+  if (lower.includes('proctoru')) return { label: item, href: '/exam-platforms/proctoru-meazure-learning' };
+  if (lower.includes('pmp')) return { label: item, href: '/certifications/pmp' };
+  if (lower.includes('comptia')) return { label: item, href: '/certifications/comptia' };
+  if (lower.includes('aapc') && !lower.includes('cpc')) return { label: item, href: '/certifications/aapc' };
+  if (lower.includes('cpc')) return { label: item, href: '/certifications/cpc' };
+  if (lower.includes('ccma')) return { label: item, href: '/certifications/ccma' };
+  return null;
+}
+
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams?.slug;
@@ -193,11 +208,26 @@ export default async function ServiceDetailPage({ params }) {
               <div className="pt-4 border-t border-brand-border/60">
                 <h3 className="text-lg font-bold text-brand-navy mb-3">Relevant Platforms & Certifications</h3>
                 <div className="flex flex-wrap gap-2">
-                  {service.relatedPlatformsOrCerts.map((item, idx) => (
-                    <span key={idx} className="px-3 py-1 rounded-full bg-brand-bg text-brand-navy text-xs font-semibold border border-brand-border">
-                      {item}
-                    </span>
-                  ))}
+                  {service.relatedPlatformsOrCerts.map((item, idx) => {
+                    const linkObj = getPlatformOrCertLink(item);
+                    if (linkObj) {
+                      return (
+                        <Link
+                          key={idx}
+                          href={linkObj.href}
+                          className="px-3 py-1 rounded-full bg-brand-lightBlue text-brand-blue hover:bg-brand-blue hover:text-white transition-colors text-xs font-bold border border-brand-blue/30 inline-flex items-center gap-1"
+                        >
+                          <span>{item}</span>
+                          <ArrowRight className="w-3 h-3" />
+                        </Link>
+                      );
+                    }
+                    return (
+                      <span key={idx} className="px-3 py-1 rounded-full bg-brand-bg text-brand-navy text-xs font-semibold border border-brand-border">
+                        {item}
+                      </span>
+                    );
+                  })}
                 </div>
               </div>
             )}
