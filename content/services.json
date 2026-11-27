@@ -573,51 +573,54 @@
     },
     {
       "slug": "online-course-help",
-      "title": "Online Course/Class Help",
+      "title": "Online Class Help, Assignment Support & Study Planning",
       "category": "Online Learning & Exam Services",
-      "tagline": "Comprehensive study coaching, module breakdowns, and structured learning assistance for university online courses.",
+      "tagline": "Comprehensive study coaching, module breakdowns, assignment feedback, and workload organization for university online classes.",
       "heroImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Online Course/Class Help connects students with dedicated academic tutors to navigate complex online university modules, weekly assignments, discussion board preparation, and lab concepts. We help you stay organized, master challenging course topics, and maintain steady academic momentum throughout the term.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
+      "overview": "Our Online Class Help service connects university students and adult learners worldwide with credentialed academic tutors for ongoing coursework support, assignment rubric analysis, research guidance, and weekly workload planning. Unlike one-off exam preparation, online class support assists you throughout the term—helping you break down complex course modules, outline discussion prompts, organize assignment timelines, and refine your own written drafts. We work with students across various time zones, including adult learners in Canada and the UAE. To discuss your course syllabus and receive a custom support quote, submit an inquiry on our Contact page or message us on WhatsApp.",
+      "focusKeyword": "online class help",
+      "metaTitle": "Online Class Help & Assignment Support | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Get online class help with coursework tutoring, assignment feedback and deadline planning. Discuss your course, time zone and support needs.",
       "suitableFor": [
-        "Undergraduate and graduate students taking online university courses",
-        "Adult learners balancing full-time jobs with online degree programs",
-        "Students struggling with self-paced learning structures or complex course rubrics"
+        "Undergraduate and graduate students managing multiple online university courses",
+        "Adult learners in Canada, the UAE, and worldwide balancing employment with degree programs",
+        "Students needing help interpreting complex assignment rubrics or organizing long-term term papers",
+        "Learners seeking weekly 1-on-1 tutoring to keep up with fast-paced online course modules"
       ],
       "whatItIncludes": [
-        "Weekly module breakdown and key concept walkthroughs",
-        "Discussion prompt preparation and research guidance",
-        "Assignment rubric analysis and feedback on draft submissions",
-        "Personalized study schedules aligned with course deadlines"
+        "Weekly 1-on-1 virtual tutoring sessions covering core course module concepts",
+        "Assignment rubric analysis, research outline guidance, and constructive draft feedback",
+        "Discussion board topic breakdown and argument structuring",
+        "Time-blocked weekly workload schedules and assignment milestone planning",
+        "Flexible scheduling tailored around your local time zone (e.g. UAE GST, Canadian EST/PST/CST/AST)"
       ],
       "howItWorks": [
         {
           "step": "01",
-          "name": "Syllabus Review",
-          "desc": "We audit your course outline, weekly modules, and assignment rubrics."
+          "name": "Syllabus & Assignment Audit",
+          "desc": "Share your course outline, upcoming assignment briefs, grading rubrics, and local time zone."
         },
         {
           "step": "02",
-          "name": "Tutor Assignment",
-          "desc": "Matched with an experienced subject tutor in your field of study."
+          "name": "Workload & Gap Review",
+          "desc": "An educational advisor reviews your deadlines and identifies challenging module topics."
         },
         {
           "step": "03",
-          "name": "Weekly Coaching",
-          "desc": "Participate in structured 1-on-1 sessions reviewing weekly module concepts."
+          "name": "Weekly Tutoring Schedule",
+          "desc": "Set up regular 1-on-1 tutoring sessions tailored to your assignment submission dates."
         },
         {
           "step": "04",
-          "name": "Grade Tracking",
-          "desc": "Evaluate ongoing understanding and prepare for course milestones."
+          "name": "Draft Review & Progress Checks",
+          "desc": "Receive feedback on your research outlines and track course milestone completion."
         }
       ],
       "benefits": [
-        "Stay accountable and ahead of course assignment deadlines",
-        "Gain deep conceptual understanding of complex module topics",
-        "Improve academic writing and analytical reasoning skills"
+        "Stay organized and eliminate last-minute assignment submission panic",
+        "Develop strong academic research, analytical reasoning, and writing skills",
+        "Master challenging course concepts through interactive 1-on-1 explanations",
+        "Manage heavy workloads ethically while preserving complete academic integrity"
       ],
       "relatedPlatformsOrCerts": [
         "Canvas",
@@ -627,8 +630,40 @@
       ],
       "faqs": [
         {
-          "question": "How does Online Course Help work?",
-          "answer": "You meet weekly with a specialist tutor who helps you break down course modules, clarify reading materials, and prepare assignments ethically."
+          "question": "What does online class help include?",
+          "answer": "Online class help includes 1-on-1 subject tutoring, weekly module walkthroughs, assignment rubric breakdowns, research planning, constructive draft feedback, and weekly workload scheduling."
+        },
+        {
+          "question": "Can I get help understanding an assignment brief or rubric?",
+          "answer": "Yes! Tutors help you analyze complex instructor rubrics, break down assignment requirements, and structure a clear research outline before you write."
+        },
+        {
+          "question": "Can a tutor review my own assignment draft and give feedback?",
+          "answer": "Yes! Tutors review your completed draft writing, providing feedback on structural flow, argument clarity, grammar, and citation formatting so you can submit your best independent work."
+        },
+        {
+          "question": "What does online class management mean?",
+          "answer": "Online class management means workload organization: auditing your syllabus deadlines, creating time-blocked weekly study schedules, breaking major projects into smaller milestones, and prioritizing competing coursework."
+        },
+        {
+          "question": "Can I request help with one module or ongoing coursework?",
+          "answer": "Yes! You can request short-term assistance for a single challenging module or book recurring weekly 1-on-1 tutoring throughout your full academic semester."
+        },
+        {
+          "question": "How much does online class support cost?",
+          "answer": "Quotes depend on your specific course level, assignment complexity, and requested tutoring frequency. Submit your syllabus on our Contact page or WhatsApp for a custom quote."
+        },
+        {
+          "question": "Is any guidance available free?",
+          "answer": "Yes! We publish free study guides, time-management articles, and proctoring setup checklists in our Blog library to help students plan their revision."
+        },
+        {
+          "question": "Can students in Canada and the UAE request online class help?",
+          "answer": "Yes! We support online students globally. Remote tutoring sessions and check-ins are scheduled around your specific local time zone (such as UAE Gulf Standard Time or Canadian regional time zones)."
+        },
+        {
+          "question": "What should I share before my first session?",
+          "answer": "Share your course syllabus, assignment prompt/rubric, submission deadlines, local time zone, and specific areas where you want focused instruction."
         }
       ],
       "published": true
