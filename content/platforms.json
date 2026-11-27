@@ -150,71 +150,79 @@
     },
     {
       "slug": "honorlock",
-      "title": "Honorlock",
       "name": "Honorlock",
-      "category": "Chrome Extension Proctoring",
-      "tagline": "Cloud-based online proctoring extension for Google Chrome serving higher education.",
+      "title": "Honorlock Help, Setup & Exam Preparation",
+      "shortName": "Honorlock",
+      "category": "Online Proctoring Software",
       "vendor": "Honorlock Inc.",
-      "logo": "",
-      "description": "Honorlock is an online proctoring service that operates as a Google Chrome browser extension. It is widely used by US colleges and universities to provide automated and live-triggered proctoring for exams within Canvas, Blackboard, Brightspace, and ulterior assessment systems without requiring software downloads outside Google Chrome.",
-      "overview": "Honorlock is an online proctoring service that operates as a Google Chrome browser extension. It is widely used by US colleges and universities to provide automated and live-triggered proctoring for exams within Canvas, Blackboard, Brightspace, and ulterior assessment systems without requiring software downloads outside Google Chrome.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
-      "systemRequirements": {
-        "windows": "Windows 10 or Windows 11.",
-        "macOS": "macOS 10.14 or newer.",
-        "chromebook": "ChromeOS 90+ fully supported via Google Chrome browser extension.",
-        "iOS": "Not supported for taking exams; Chrome extension required on desktop/laptop/Chromebook.",
-        "hardware": "Google Chrome browser (latest version), functional webcam, microphone, stable internet connection (min 1.5 Mbps upload/download)."
-      },
+      "logo": "/logos/mock.svg",
+      "focusKeyword": "Honorlock help for students",
+      "metaTitle": "Honorlock Help for Students: Setup & Practice | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Find Honorlock help for students: setup, system checks, practice-test guidance, app requirements and official support, plus pre-exam preparation.",
+      "tagline": "Find student-focused Honorlock help covering browser setup, system checks, practice tests, app requirements, LTI access, and official support options.",
+      "description": "Find student-focused Honorlock help covering browser setup, system checks, practice tests, app requirements, LTI access, and official support options.",
+      "overview": "Honorlock is an online proctoring service that uses a Chrome extension, while some institutions also require the Honorlock Application or other configured components. Honorlock verifies student identity, verifies computer system readiness, and monitors test sessions using automated AI recording with live proctor intervention when flagged. System requirements, secondary device rules, and permitted reference aids depend on your specific university and course instructor's exam settings. We help students prepare for exams that use Honorlock through subject tutoring, practice-question walkthroughs and pre-exam technical guidance.",
       "keyFeatures": [
-        "Zero software download required—runs entirely within Google Chrome",
-        "AI-assisted audio and webcam monitoring with live proctor intervention",
-        "ID verification and 360-degree room environment scans",
-        "Multi-device detection technology to protect test integrity"
+        "Uses a Google Chrome extension with optional Honorlock Application components depending on institution setup",
+        "Automated AI webcam, audio, and screen recording with live proctor intervention when flagged",
+        "Integrates seamlessly with university Canvas, Blackboard, Brightspace, and Moodle courses via LTI",
+        "Secondary device detection features configured according to institutional guidelines"
       ],
+      "systemRequirements": {
+        "windows": "Supported on Windows laptops running Google Chrome or required Honorlock components per institution rules.",
+        "macOS": "Supported on Mac laptops running Google Chrome or required Honorlock components per institution rules.",
+        "chromebook": "Supported on Chromebooks per institution configuration.",
+        "iOS": "The device used to take the assessment must meet the requirements for your institution’s Honorlock configuration. If a phone is required as a secondary camera, it serves that separate role; follow your institution’s instructions for both devices.",
+        "hardware": "Webcam, microphone, and stable internet connection as specified by official Honorlock system requirements."
+      },
       "troubleshooting": [
         {
-          "issue": "Chrome extension popup fails to load or hangs on \"Connecting...\"",
-          "solution": "Disable third-party ad blockers or privacy extensions in Chrome, clear cache, and ensure Google Chrome is updated."
+          "issue": "Error: \"Honorlock extension not detected\" or popup freezes",
+          "solution": "Ensure you are using Google Chrome. Verify the official Honorlock extension is enabled under chrome://extensions and temporarily disable third-party ad blockers."
         },
         {
           "issue": "Webcam or microphone not detected by Honorlock",
-          "solution": "Click the lock icon in the Chrome address bar and ensure Camera and Microphone permissions are set to \"Allow\"."
+          "solution": "Click the lock icon in the Chrome address bar, verify Camera and Microphone permissions are set to \"Allow\", and close background video apps (Zoom, Teams)."
         },
         {
-          "issue": "Prompted for a password during an exam launch",
-          "solution": "You should not enter a password manually. Honorlock automatically inserts the password when launched correctly through your LMS."
+          "issue": "Exam prompts for a password unexpectedly",
+          "solution": "Never enter a password manually. Honorlock inserts passwords automatically. Clear Chrome cache, disable conflicting extensions, and launch directly from your LMS quiz link."
         }
       ],
       "faqs": [
         {
-          "question": "Does Honorlock work on Safari, Edge, or Firefox?",
-          "answer": "No. Honorlock operates exclusively within the Google Chrome web browser using the official Honorlock Chrome extension."
+          "question": "How does Honorlock work for students?",
+          "answer": "Honorlock uses a Chrome extension, while some institutions also require the Honorlock Application or other configured components. Before launching your test, it verifies your webcam, microphone, network connection, and photo ID. During testing, it uses automated AI recording and screen monitoring, allowing live proctors to intervene if flagged."
         },
         {
-          "question": "Can I take an Honorlock exam on a Chromebook?",
-          "answer": "Yes! Chromebooks are fully supported for Honorlock as long as you use the official Google Chrome browser with the extension installed."
+          "question": "How do I complete an Honorlock system check or test run?",
+          "answer": "Students can run an official equipment system check at https://honorlock.com/support/ to verify webcam, microphone, network speed, and browser compatibility. To complete a full test run, log into your course LMS and take your instructor’s ungraded Honorlock Practice Exam before test day."
         },
         {
-          "question": "Why is Honorlock prompting me for an exam password?",
-          "answer": "You should not enter a password manually. Temporarily disable ad-blockers, clear Chrome cache, or launch the exam directly from your LMS quiz page so Honorlock inserts the password automatically."
+          "question": "Is there a free Honorlock practice exam?",
+          "answer": "Honorlock does not host a universal free practice exam on its public website. Practice exams and test runs are created directly by your course instructor inside your university LMS (such as Canvas or Blackboard) so students can familiarize themselves with the check-in workflow."
         },
         {
-          "question": "What is required during an Honorlock 360-degree room scan?",
-          "answer": "You must slowly rotate your webcam to show your entire desk surface, under the desk, and the room perimeter to verify no unauthorized study aids are present."
+          "question": "Do I need the Honorlock app or a browser extension?",
+          "answer": "Honorlock uses a Chrome extension. Some institutions also require the Honorlock Application or other configured components. Follow your institution’s instructions for your specific assessment."
         },
         {
-          "question": "Does Honorlock require downloading an executable .exe or .dmg file?",
-          "answer": "No. Honorlock runs entirely inside Google Chrome without requiring external desktop software installations."
+          "question": "What is Honorlock LTI, and where do I access it?",
+          "answer": "Honorlock LTI (Learning Tools Interoperability) is the software integration connecting Honorlock directly to your course LMS portal (Canvas, Blackboard, or Brightspace). Students access Honorlock LTI automatically when clicking on their course quiz link."
         },
         {
-          "question": "How can TUTOR PROCTORED EXAMS help me prepare for Honorlock exams?",
-          "answer": "We provide subject tutoring, mock practice tests, time management coaching, and guidance on satisfying room and hardware requirements."
+          "question": "How do I contact Honorlock student support or live chat?",
+          "answer": "Honorlock provides 24/7 student support via live chat directly inside the software interface during check-in or at https://honorlock.com/support/. You can also access student support guides at https://honorlock.com/students/."
+        },
+        {
+          "question": "How does Honorlock detect phone use, and what does it access?",
+          "answer": "Honorlock states that it does not scan other devices on your network. Its published description discusses identifying attempts to search online for exam content. Monitoring features depend on the assessment configuration; consult its official privacy statement (https://honorlock.com/student-privacy-statement/) and your institution’s instructions."
+        },
+        {
+          "question": "Can Tutor Proctored Exams help me prepare for an Honorlock exam?",
+          "answer": "Yes! We help students prepare for exams that use Honorlock through subject tutoring, practice-question walkthroughs and pre-exam technical guidance. Explore our Software Technical Guidance, Academic Exam Preparation, Practice Questions & Mock Tests, and One-on-One Tutoring services."
         }
-      ],
-      "published": true
+      ]
     },
     {
       "slug": "proctoru-meazure-learning",

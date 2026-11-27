@@ -6,7 +6,7 @@
       "category": "Academic Support",
       "tagline": "Personalized academic learning support, subject explanations, guided lessons, and study assistance.",
       "heroImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Our 1-on-1 Online Tutoring service connects students and adult learners worldwide with experienced educational specialists for personalized instruction. We focus on clarifying complex academic topics, bridging knowledge gaps, and building long-term confidence across undergraduate STEM, business, healthcare, and humanities subjects.",
+      "overview": "Our 1-on-1 Online Tutoring service connects students and adult learners worldwide with experienced educational specialists for personalized instruction. Before taking a university test or proctored assessment (delivered on platforms like Honorlock, Respondus, or ProctorU), 1-on-1 tutoring helps you review difficult topics, explain practice-question reasoning, identify knowledge gaps, and build the conceptual confidence needed to test independently.",
       "focusKeyword": "",
       "metaTitle": "",
       "metaDescription": "",
@@ -59,6 +59,14 @@
       ],
       "faqs": [
         {
+          "question": "Can I get 1-on-1 tutoring for a course that uses Honorlock proctoring?",
+          "answer": "Yes! 1-on-1 tutoring focuses on learning the academic subject matter prior to your test date. Your tutor helps you review difficult topics, solve practice calculation problems, and master course guidelines before you take your exam."
+        },
+        {
+          "question": "What factors affect the cost of a 1-on-1 tutoring quote?",
+          "answer": "Tutoring quotes depend on your course academic level, total requested session hours, and subject complexity. Submit your course syllabus on our Contact page or message us on WhatsApp for a transparent quote."
+        },
+        {
           "question": "How are 1-on-1 online tutoring sessions conducted?",
           "answer": "Sessions are conducted online in an interactive virtual classroom with video, audio, digital whiteboard, and screen sharing tools."
         },
@@ -67,24 +75,12 @@
           "answer": "We cover undergraduate mathematics, biology, chemistry, physics, nursing/A&P, business administration, computer science, and humanities."
         },
         {
-          "question": "Can a tutor help me prepare for specific university exams or midterm papers?",
-          "answer": "Yes! Tutors align lessons directly with your course syllabus, lecture slides, and upcoming midterm or final exam requirements."
-        },
-        {
           "question": "How far in advance should I book tutoring before an exam?",
           "answer": "We recommend starting 2 to 4 weeks before major exams to allow structured concept building, active recall practice, and problem drills."
         },
         {
           "question": "Do tutors take exams for students or provide live test answers?",
           "answer": "No. TUTOR PROCTORED EXAMS strictly adheres to academic integrity. Tutors do NOT take exams or provide unauthorized live test answers. Tutors teach you the material so you can test independently."
-        },
-        {
-          "question": "What technology or equipment do I need for online tutoring?",
-          "answer": "You need a desktop or laptop computer with a stable internet connection, webcam, microphone, and a modern web browser like Google Chrome or Firefox."
-        },
-        {
-          "question": "What factors affect the cost of an online exam coaching quote?",
-          "answer": "Coaching quotes depend on your specific subject complexity, total requested 1-on-1 tutoring hours, and whether you require software technical diagnostic checks. Submit your course syllabus on our Contact page or message us on WhatsApp for a transparent, custom quote."
         }
       ],
       "published": true
@@ -95,7 +91,7 @@
       "category": "Academic Support",
       "tagline": "We can help you prepare for your exams",
       "heroImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Academic Exam Preparation provides structured revision frameworks and test-taking strategies to help college students excel on midterms, finals, and standardized university assessments. We combine core subject reviews with proven time-management techniques so you enter your exam fully prepared.",
+      "overview": "Academic Exam Preparation provides structured revision frameworks, syllabus audits, topic prioritization, and practice question drills to help college students excel on midterms, finals, and standardized university assessments. For assessments that use proctoring tools such as Honorlock or Respondus LockDown Browser, our preparation separates academic learning from technical setup: we build your subject mastery and pacing, while directing you to exact setup guides for the software, browser permissions and system checks required for your assessment.",
       "focusKeyword": "",
       "metaTitle": "",
       "metaDescription": "",
@@ -148,6 +144,10 @@
       ],
       "faqs": [
         {
+          "question": "How does academic exam preparation handle courses proctored by Honorlock?",
+          "answer": "We separate subject learning from software setup. Academic exam preparation builds your domain knowledge and test pacing, while directing you to exact setup guides for Chrome extension permissions and system pre-checks before test time."
+        },
+        {
           "question": "What does academic exam preparation include?",
           "answer": "It includes a comprehensive syllabus audit, high-yield topic prioritization, timed practice question drills, and test-taking pacing strategies."
         },
@@ -162,10 +162,6 @@
         {
           "question": "Can exam preparation help reduce test anxiety?",
           "answer": "Yes. Practicing with realistic question formats and timed mock tests under simulated conditions significantly reduces pre-test anxiety and builds confidence."
-        },
-        {
-          "question": "Will exam preparation materials match my specific university course?",
-          "answer": "Tutors review your course syllabus, textbook, and instructor guidelines to ensure revision materials align with your specific course expectations."
         },
         {
           "question": "Is this service available for online proctored university courses?",
@@ -639,52 +635,53 @@
     },
     {
       "slug": "online-exam-help",
-      "title": "Online Exam Help & Preparation Services",
+      "title": "Online Exam Help & Personalized Preparation",
       "category": "Online Learning & Exam Services",
       "tagline": "Comprehensive study coaching, module breakdowns, formula walkthroughs, and technical readiness for university online exams.",
       "heroImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Online Exam Help provides legitimate, pre-exam academic tutoring, structured revision roadmaps, formula walkthroughs, and technical readiness checks for college midterms, final examinations, and standardized assessments. We empower students to master course content, eliminate exam anxiety, and test with complete independent confidence.",
+      "overview": "Our Online Exam Help service assists university students and certification candidates preparing for upcoming assessments through personalized 1-on-1 subject tutoring, time-blocked study planning, practice question walkthroughs, and pre-exam computer readiness checks. We clearly separate subject learning from software setup: our tutors teach you course concepts and calculation methods so you can test with independent confidence, while our Software Technical Guidance helps you review your device, required software, camera and microphone settings against your institution’s instructions before test day. To discuss your exam scope and receive a custom preparation quote, connect with our advisory team through our Contact form or WhatsApp.",
       "focusKeyword": "online exam help",
-      "metaTitle": "Online Exam Help & Preparation Services | TUTOR PROCTORED EXAMS",
-      "metaDescription": "Get expert online exam help before test day. 1-on-1 subject tutoring, practice questions, study planning, and proctoring software technical guidance.",
+      "metaTitle": "Online Exam Help: Tutoring, Practice & Preparation | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Get online exam help with subject tutoring, revision plans, practice-question reviews and pre-exam technical guidance. Discuss your needs and request a quote.",
       "suitableFor": [
         "University students preparing for high-stakes online midterms, quizzes, or cumulative final exams",
         "Learners struggling with time management, complex problem sets, or scenario-based questions",
-        "Students taking proctored exams on Canvas, Blackboard, Respondus, ProctorU, Examplify, or Honorlock",
-        "Distance education candidates requiring structured 1-on-1 revision and study schedules"
+        "Candidates preparing for proctored exams on Canvas, Blackboard, Respondus LockDown Browser, Examplify, Honorlock, or ProctorU",
+        "Working professionals balancing full-time employment with professional certification preparation"
       ],
       "whatItIncludes": [
-        "1-on-1 virtual tutoring sessions with qualified academic subject specialists",
-        "Syllabus-aligned high-yield concept reviews and problem walkthroughs",
-        "Timed mock practice questions with comprehensive answer rationale breakdowns",
-        "Pre-exam hardware, webcam, microphone, and proctoring browser setup checks"
+        "1-on-1 virtual tutoring sessions with credentialed academic subject specialists",
+        "Syllabus-aligned high-yield concept reviews, formula drills, and problem walkthroughs",
+        "Timed practice question banks accompanied by comprehensive written answer rationales",
+        "Custom time-blocked revision plans integrating active recall and spaced repetition",
+        "Pre-exam computer diagnostic checks reviewing OS permissions, webcam settings, and background process conflicts"
       ],
       "howItWorks": [
         {
           "step": "01",
           "name": "Syllabus & Exam Audit",
-          "desc": "We review your course outline, exam scope, and instructor study guide."
+          "desc": "Share your course outline, covered chapters, testing software name, and upcoming exam date."
         },
         {
           "step": "02",
-          "name": "Personalized Study Plan",
-          "desc": "Develop a time-blocked revision roadmap leading to your test date."
+          "name": "Identify Knowledge Gaps",
+          "desc": "Review past quiz scores or complete a short diagnostic problem set to highlight weak domains."
         },
         {
           "step": "03",
-          "name": "Interactive Tutoring",
-          "desc": "Work through active problem-solving sessions and formula drills."
+          "name": "Custom Preparation Plan",
+          "desc": "Agree on a time-blocked study roadmap combining 1-on-1 tutoring, practice drills, or technical pre-checks."
         },
         {
           "step": "04",
-          "name": "Technical Readiness Check",
-          "desc": "Verify webcam permissions, OS updates, and proctoring software compatibility."
+          "name": "Review Progress & Readiness",
+          "desc": "Track score improvements during practice question debriefs and verify computer compatibility before test day."
         }
       ],
       "benefits": [
         "Build deep subject comprehension rather than relying on last-minute cramming",
-        "Improve question-elimination speed and pacing under timed conditions",
-        "Avoid test-day technical lockouts and camera permission errors",
+        "Improve question-elimination speed and pacing under timed examination conditions",
+        "Avoid test-day technical disruptions and camera permission blocks",
         "Test with total independent capability, peace of mind, and academic integrity"
       ],
       "relatedPlatformsOrCerts": [
@@ -697,32 +694,40 @@
       ],
       "faqs": [
         {
-          "question": "What does Online Exam Help include?",
-          "answer": "Online Exam Help includes 1-on-1 subject tutoring, study planning, practice question walkthroughs, and pre-exam proctoring software technical checks."
+          "question": "What does online exam help include?",
+          "answer": "Online exam help encompasses 1-on-1 subject tutoring, syllabus-aligned revision planning, practice problem walkthroughs with rationale explanations, timed mock tests, and pre-exam proctoring software technical diagnostic checks."
         },
         {
-          "question": "Does Online Exam Help involve taking tests for students or providing live exam answers?",
-          "answer": "No. TUTOR PROCTORED EXAMS strictly adheres to academic integrity. We do NOT take exams for students or provide live test answers. All support is 100% legitimate pre-exam tutoring and technical guidance."
+          "question": "Can I get help with one difficult topic?",
+          "answer": "Yes! You can request targeted 1-on-1 tutoring sessions focused on specific challenging concepts, complex formulas, or specific calculation modules without committing to a full-course package."
         },
         {
-          "question": "How far in advance of my exam should I request online exam help?",
-          "answer": "We recommend requesting support 2 to 4 weeks before major midterm or final exams to allow adequate spaced repetition and mock testing."
+          "question": "What subjects can you help me prepare for?",
+          "answer": "We provide pre-exam tutoring across undergraduate mathematics, statistics, chemistry, physics, biology, nursing/pharmacology, accounting, business administration, computer science, and professional credentials (PMP, CompTIA, AAPC CPC, CCMA)."
         },
         {
-          "question": "Which exam platforms and learning management systems do you support?",
-          "answer": "We support university courses delivered on Canvas, Blackboard, Brightspace, Moodle, Respondus LockDown Browser, Examplify, Honorlock, and ProctorU."
+          "question": "How much does online exam tutoring cost?",
+          "answer": "Preparation support quotes depend on your specific subject complexity, total requested 1-on-1 tutoring hours, and required technical diagnostic pre-checks. Submit your course syllabus on our Contact page or message us on WhatsApp for a transparent, custom quote."
         },
         {
-          "question": "Can I get help with specific math, science, or healthcare calculations?",
-          "answer": "Yes! Tutors provide step-by-step walkthroughs for college algebra, statistics, chemistry, physics, and nursing dosage calculations."
+          "question": "Is any preparation guidance available free?",
+          "answer": "Yes! We publish free educational study guides, proctoring software setup checklists, and troubleshooting articles in our Blog library to help students complete self-guided technical setup."
         },
         {
-          "question": "How do I request online exam help for my course?",
-          "answer": "Click \"Contact Us\" or \"Submit an Inquiry\" to share your course syllabus and test date with an educational advisor within 1 business day."
+          "question": "Can I request support close to my exam date?",
+          "answer": "Yes. While starting 2 to 4 weeks before major exams is recommended for optimal retention, short-notice requests can be accommodated for intensive 1-on-1 formula reviews, practice drills, and computer pre-checks."
         },
         {
-          "question": "What factors affect the cost of an online exam coaching quote?",
-          "answer": "Coaching quotes depend on your specific subject complexity, total requested 1-on-1 tutoring hours, and whether you require software technical diagnostic checks. Submit your course syllabus on our Contact page or message us on WhatsApp for a transparent, custom quote."
+          "question": "Can I get preparation for an exam using Honorlock or Respondus?",
+          "answer": "Yes! Honorlock and Respondus LockDown Browser are the proctoring tools used by your university to deliver your assessment, while our tutoring focuses on mastering the underlying course subject before test day. Read our platform guides for Respondus LockDown Browser and Honorlock setup."
+        },
+        {
+          "question": "How does tutoring differ from software technical guidance?",
+          "answer": "Academic tutoring focuses on learning course subject matter, formulas, and question-solving techniques. Software technical guidance focuses on reviewing laptop hardware, webcam/mic privacy permissions, browser extensions, and background application conflicts before test day."
+        },
+        {
+          "question": "What should I share before requesting a quote?",
+          "answer": "When requesting a quote, provide your exact course title, syllabus outline, upcoming exam date, test format (e.g. multiple-choice, essay, calculations), permitted aids (calculator, formula sheet), and specific topics needing review."
         }
       ],
       "published": true
