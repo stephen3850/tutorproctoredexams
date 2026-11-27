@@ -308,16 +308,16 @@
     },
     {
       "slug": "how-to-prepare-for-a-proctored-examination",
-      "title": "How to Prepare for a Proctored Online Examination",
+      "title": "Online Proctored Exam Preparation Checklist",
       "category": "Examination Preparation",
       "publishDate": "2026-11-18",
       "readTime": "6 min read",
       "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
       "excerpt": "A comprehensive guide covering physical room preparation, technical system pre-checks, identification verification, and mindset strategies for online proctored exams.",
       "intro": "Online proctored examinations have become a standard delivery model for higher education and professional credentialing worldwide. Preparing for a proctored test requires a balanced approach that combines subject mastery with room setup and technical readiness.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
+      "focusKeyword": "online proctored exam preparation checklist",
+      "metaTitle": "Online Proctored Exam Preparation Checklist | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Complete online proctored exam checklist: room setup, webcam lighting, physical photo ID preparation, and technical pre-checks before test time.",
       "sections": [
         {
           "id": "physical-room-setup",
@@ -342,54 +342,105 @@
       ],
       "faqs": [
         {
-          "question": "What happens if my internet connection drops during a proctored exam?",
-          "answer": "Do not panic. Most platforms automatically save answer selections periodically. Immediately attempt to reconnect, or contact your proctor/technical support desk through your phone hotspot if permitted by course guidelines."
+          "question": "What is the most important thing to check before an online proctored exam?",
+          "answer": "The most critical step is completing your proctoring software system pre-check 24 to 48 hours early to verify webcam permissions, microphone levels, and internet upload speed."
         },
         {
-          "question": "Can I use scratch paper during a proctored exam?",
-          "answer": "Scratch paper policies vary by instructor and testing vendor. Always review your course syllabus or candidate handbook beforehand to determine if physical scratch paper or a digital whiteboard is permitted."
+          "question": "What items are required on my desk during a proctored exam?",
+          "answer": "Your desk should hold only your laptop/computer, AC power cord, unexpired government-issued photo ID or student ID, and any items explicitly permitted by your instructor (such as an approved whiteboard)."
+        },
+        {
+          "question": "How do I pass an environmental 360-degree room scan?",
+          "answer": "Slowly pan your webcam 360 degrees around the room, showing your full desk surface, under the desk, and room perimeters. Ensure no secondary monitors, smartwatches, or papers are visible."
+        },
+        {
+          "question": "Can I take an online proctored exam in a shared room or living room?",
+          "answer": "Testing in a shared room depends on your specific institution's rules. Some exam programs require a private space with no other people present. If a private room is unavailable, request approved testing arrangements in advance."
+        },
+        {
+          "question": "What photo IDs are accepted for online proctored exams?",
+          "answer": "Most testing vendors accept unexpired government-issued IDs (driver's license, passport, state ID) or official university student photo IDs."
+        },
+        {
+          "question": "Where can I get help preparing for an upcoming proctored exam?",
+          "answer": "Explore our Software Technical Guidance and Academic Exam Preparation services for 1-on-1 tutoring, study planning, and technical diagnostic pre-checks."
         }
       ],
       "published": true
     },
     {
       "slug": "respondus-lockdown-browser-student-guide",
-      "title": "Respondus LockDown Browser: A Student Preparation Guide",
+      "title": "Respondus LockDown Browser: Download & Student Setup Guide",
       "category": "Examination Software Guidance",
-      "publishDate": "2026-11-18",
-      "readTime": "7 min read",
+      "publishDate": "2025-01-10",
+      "readTime": "8 min read",
       "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
-      "excerpt": "Step-by-step checklist for system readiness, installer downloads, webcam permission setup, and background application troubleshooting for Respondus LockDown Browser.",
-      "intro": "Respondus LockDown Browser is a custom browser used by hundreds of US universities to secure online test environments within Canvas, Blackboard, Brightspace, and Moodle. This guide outlines essential setup steps and troubleshooting advice for students.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
+      "excerpt": "Step-by-step student guide for Respondus LockDown Browser downloads, Canvas/Blackboard quiz launches, camera permission setup, and pre-exam readiness checks.",
+      "intro": "Respondus LockDown Browser is a specialized, secure web browser used by colleges and universities to lock down the computer environment during online assessments in Canvas, Blackboard, Brightspace, and Moodle. When LockDown Browser is active, students cannot print, copy, access external websites, or run secondary desktop applications. While LockDown Browser secures your local desktop, Respondus Monitor is an optional automated add-on that records webcam video and audio. This student guide outlines how to obtain your institution-specific download link, complete pre-exam system checks, launch LMS quizzes, and obtain official technical support.",
+      "focusKeyword": "Respondus LockDown Browser student guide",
+      "metaTitle": "Respondus LockDown Browser: Download & Student Setup Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "Respondus LockDown Browser student guide: find institution download links, Canvas/Blackboard setup, webcam checks, and technical support options.",
       "sections": [
         {
-          "id": "installation-download",
-          "title": "1. Downloading the Official University Version",
-          "content": "\n          <p>Respondus LockDown Browser requires a unique installer link tied directly to your institution’s learning management system (LMS). Generic downloads from secondary sites will not connect to your university quiz portal.</p>\n          <p>Log into your university Canvas or Blackboard account, navigate to your course quiz page, and click the designated \"Download Respondus LockDown Browser\" link provided by your professor.</p>\n        "
+          "id": "understanding-lockdown-vs-monitor",
+          "title": "1. What Is LockDown Browser vs. Respondus Monitor?",
+          "content": "\n        <p>Understanding the difference between Respondus LockDown Browser and Respondus Monitor is essential before test day:</p>\n        <ul>\n          <li><strong>Respondus LockDown Browser:</strong> A custom web browser application that locks down your desktop computer during an assessment. It prevents task switching, screen recording, messaging apps, and copy-paste shortcuts.</li>\n          <li><strong>Respondus Monitor:</strong> An optional automated video proctoring add-on that uses your webcam and microphone to record your test session. Monitor performs automated identity checks, environment scans, and flags unusual movements for instructor review.</li>\n        </ul>\n        <p>For detailed 64-bit OS compatibility rules, read our <a href=\"/blog/respondus-lockdown-browser-system-requirements-supported-devices-guide\">Respondus LockDown Browser System Requirements & Supported Devices Guide</a>.</p>\n      "
         },
         {
-          "id": "webcam-monitor-setup",
-          "title": "2. Respondus Monitor & Webcam Permissions",
-          "content": "\n          <p>If your course utilizes Respondus Monitor (webcam recording), you must grant LockDown Browser camera and microphone permissions under macOS System Preferences or Windows Privacy & Security settings before launching your quiz.</p>\n        "
+          "id": "obtaining-university-download",
+          "title": "2. Obtaining Your Institution-Specific Download Link",
+          "content": "\n        <p>Every college, university, and testing center has a unique, institution-specific version of Respondus LockDown Browser containing customized server configuration files. <strong>Never download generic LockDown Browser files from third-party software websites</strong>, as generic installers will not connect to your university quiz portal.</p>\n        <p>To obtain your correct installer: log into your university Canvas, Blackboard, Brightspace, or Moodle portal using Google Chrome or Safari, open your course page, navigate to your upcoming quiz, and click the designated \"Download Respondus LockDown Browser\" link provided by your professor.</p>\n      "
         },
         {
-          "id": "resolving-app-conflicts",
-          "title": "3. Resolving Background Application Conflicts",
-          "content": "\n          <p>LockDown Browser will block execution if background software like Spotify, Discord, Skype, Microsoft Teams, or screen-capture utilities are running. Close these applications via Task Manager (Windows) or Activity Monitor (macOS) before opening LockDown Browser.</p>\n        "
+          "id": "pre-exam-readiness-checklist",
+          "title": "3. Pre-Exam Student Readiness Checklist",
+          "content": "\n        <p>Complete this quick 5-step checklist 24 to 48 hours before your scheduled exam time:</p>\n        <ul>\n          <li><code>[ ]</code> <strong>Complete a Practice Quiz:</strong> Take your instructor's non-graded LockDown Browser Practice Quiz in your LMS to verify software setup and camera checks.</li>\n          <li><code>[ ]</code> <strong>Close Background Applications:</strong> Open Task Manager (Windows) or Activity Monitor (macOS) and end background applications (Spotify, Teams, Discord, Zoom, Grammarly).</li>\n          <li><code>[ ]</code> <strong>Verify Webcam & Mic Permissions:</strong> Ensure LockDown Browser is granted camera and microphone access under Windows Privacy Settings or macOS System Settings.</li>\n          <li><code>[ ]</code> <strong>Prepare Physical Photo ID:</strong> Place an unexpired government-issued driver's license or student photo ID neatly on your desk.</li>\n          <li><code>[ ]</code> <strong>Position Desk Lighting:</strong> Ensure overhead lighting directly illuminates your face without bright backlighting glare.</li>\n        </ul>\n      "
         },
         {
-          "id": "pre-exam-dry-run",
-          "title": "4. Performing a Pre-Exam Practice Test",
-          "content": "\n          <p>Always complete an ungraded practice quiz in your LMS course at least 48 hours before your real exam date to verify system stability and camera check completion.</p>\n        "
+          "id": "launching-lms-exams",
+          "title": "4. How to Launch Exams in Canvas, Blackboard & Moodle",
+          "content": "\n        <p>The correct method for opening a LockDown Browser assessment depends on your university's LMS configuration:</p>\n        <ul>\n          <li><strong>Canvas & Blackboard:</strong> Log into Canvas or Blackboard in standard Google Chrome or Safari, navigate to your quiz, and click \"Take the Quiz\". The LMS will automatically launch LockDown Browser and lock your screen.</li>\n          <li><strong>Moodle & Brightspace:</strong> Log into your student portal, open the quiz link, and click \"Attempt quiz now\". Moodle will prompt LockDown Browser to open.</li>\n        </ul>\n        <p>If you encounter launch failures or password prompts, read our troubleshooting guide on <a href=\"/blog/respondus-lockdown-browser-not-working\">Respondus LockDown Browser Not Working? Setup & Camera Help</a>.</p>\n      "
+        },
+        {
+          "id": "camera-and-system-permissions",
+          "title": "5. Verifying Camera & Microphone Permissions",
+          "content": "\n        <p>If Respondus Monitor is required for your exam, verify camera and microphone permissions before opening the browser:</p>\n        <ul>\n          <li><strong>macOS Ventura, Sonoma, Sequoia (13, 14, 15+):</strong> Open System Settings > Privacy & Security > Camera (and Microphone), and verify LockDown Browser is toggled ON.</li>\n          <li><strong>Windows 11/10 Settings:</strong> Open Settings > Privacy & Security > Camera, enable \"Let desktop apps access your camera\", and close secondary video apps.</li>\n        </ul>\n        <p>For camera positioning and lighting advice, visit our <a href=\"/blog/respondus-monitor-webcam-microphone-troubleshooting-guide\">Respondus Monitor Webcam & Microphone Troubleshooting Guide</a>.</p>\n      "
+        },
+        {
+          "id": "where-to-get-official-support",
+          "title": "6. Where to Obtain Official Respondus & University Help",
+          "content": "\n        <p>Determine the correct support channel based on your situation:</p>\n        <ul>\n          <li><strong>Official Respondus Technical Support:</strong> Visit the <a href=\"https://web.respondus.com/he/lockdownbrowser/\" target=\"_blank\" rel=\"noopener noreferrer\">Respondus Official Knowledgebase</a> or submit a ticket at <a href=\"https://support.respondus.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Respondus Support Portal</a>.</li>\n          <li><strong>Your University IT Helpdesk / Instructor:</strong> Contact your university IT helpdesk or professor for missing quiz links, expired download windows, or active exam password prompts.</li>\n        </ul>\n      "
+        },
+        {
+          "id": "how-we-help-prepare",
+          "title": "7. How We Help Students Prepare Before Exam Day",
+          "content": "\n        <p>At TUTOR PROCTORED EXAMS, we provide independent, student-centered pre-exam tutoring, time-blocked revision roadmaps, practice question walkthroughs, and computer readiness pre-checks.</p>\n        <p>Explore our specialized <a href=\"/services/software-technical-guidance\">Software Technical Guidance</a>, <a href=\"/services/academic-exam-preparation\">Academic Exam Preparation</a>, and <a href=\"/exam-platforms/respondus-lockdown-browser\">Respondus Platform Overview</a> pages to get started.</p>\n      "
         }
       ],
       "faqs": [
         {
-          "question": "Does Respondus LockDown Browser work on Chromebooks?",
-          "answer": "Yes, if your university administrator has enabled the Chromebook extension for your course LMS."
+          "question": "What is Respondus LockDown Browser?",
+          "answer": "Respondus LockDown Browser is a custom secure web browser used by universities to lock down the desktop testing environment within Canvas, Blackboard, Brightspace, and Moodle courses."
+        },
+        {
+          "question": "Where do I download Respondus LockDown Browser?",
+          "answer": "Download LockDown Browser directly from your university LMS course page (Canvas/Blackboard) using the unique download link provided by your professor. Avoid generic third-party website installers."
+        },
+        {
+          "question": "Does Respondus LockDown Browser always require a webcam?",
+          "answer": "No. A webcam is required only if your course instructor has enabled Respondus Monitor (automated video recording) for that specific quiz."
+        },
+        {
+          "question": "How do I access my course exam using LockDown Browser?",
+          "answer": "Log into your university LMS in standard Google Chrome or Safari, navigate to your course quiz, and click \"Take the Quiz\". The LMS will automatically launch LockDown Browser."
+        },
+        {
+          "question": "What should I check before test day?",
+          "answer": "Complete your instructor's non-graded Practice Quiz 24 to 48 hours early, close background applications (Teams, Spotify, Discord), verify webcam permissions, and prepare your physical photo ID."
+        },
+        {
+          "question": "Where do I get help if Respondus setup fails?",
+          "answer": "Access official troubleshooting guides on the Respondus Knowledgebase at https://web.respondus.com/he/lockdownbrowser/ or contact your university IT helpdesk for quiz link issues."
         }
       ],
       "published": true
@@ -544,16 +595,16 @@
     },
     {
       "slug": "understanding-examplify",
-      "title": "Understanding Examplify and Examination Requirements",
+      "title": "Understanding Examplify: Downloads, Login & Student Guide",
       "category": "Examination Software Guidance",
       "publishDate": "2026-11-18",
       "readTime": "6 min read",
       "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
       "excerpt": "Essential guide to ExamSoft Examplify offline exam downloads, system requirements for law and nursing students, and answer upload procedures.",
       "intro": "Examplify (by ExamSoft) is a secure assessment tool widely used in US law schools, nursing programs, and state bar examinations. Learn how to prepare your laptop for Examplify assessments.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
+      "focusKeyword": "Examplify student guide",
+      "metaTitle": "Understanding Examplify: Downloads, Login & Student Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "ExamSoft Examplify student guide: find institution IDs, offline exam downloads, camera setup, encrypted answer uploads, and submission verification.",
       "sections": [
         {
           "id": "exam-download-window",
@@ -573,8 +624,28 @@
       ],
       "faqs": [
         {
-          "question": "Do I need internet during an Examplify exam?",
-          "answer": "Usually no. Internet is only required to download the exam file before starting and to upload your answers when finished."
+          "question": "Where do I find my Examplify Institution ID?",
+          "answer": "Your Examplify Institution ID is provided on your university or law school ExamSoft portal login page. Type your school name into the Examplify login screen to auto-fill the Institution ID."
+        },
+        {
+          "question": "Does Examplify work offline during an exam?",
+          "answer": "Yes! Examplify requires internet before the test to download your encrypted exam file, and again after submitting to upload your answer file. During test-taking itself, answer data is saved locally on your hard drive offline."
+        },
+        {
+          "question": "How do I know my Examplify answer file uploaded successfully?",
+          "answer": "Upon completing your exam, a green confirmation screen appears displaying a unique upload confirmation code and date/time stamp. You will also receive an automated email confirmation from ExamSoft."
+        },
+        {
+          "question": "Why is my exam not showing in Examplify?",
+          "answer": "Exams fail to appear if the download window set by your instructor has not opened yet, if your account is not registered in the course roster, or if your version of Examplify needs an update."
+        },
+        {
+          "question": "What are the system requirements for Examplify?",
+          "answer": "Examplify requires 64-bit Windows 11/10 or modern macOS. Chromebooks, iPads (unless explicitly configured for select nursing/medical programs), Android tablets, and Windows S-Mode are unsupported."
+        },
+        {
+          "question": "Where can I get Examplify technical setup help?",
+          "answer": "Explore our Software Technical Guidance service for pre-exam computer readiness checks, or visit the official ExamSoft support portal at https://examsoft.com/."
         }
       ],
       "published": true
@@ -815,16 +886,16 @@
     },
     {
       "slug": "proctoru-meazure-learning-technical-preparation-guide",
-      "title": "ProctorU / Meazure Learning: Technical Setup & Troubleshooting Guide",
+      "title": "ProctorU / Meazure Learning: Technical Setup & Student Guide",
       "category": "Examination Software Guidance",
       "publishDate": "2026-11-18",
       "readTime": "7 min read",
       "author": "TUTOR PROCTORED EXAMS Academic Editorial Team",
       "excerpt": "Step-by-step technical guide for passing ProctorU equipment checks, installing Guardian Browser, setting camera/mic permissions, and resolving launch errors on Windows & Mac.",
       "intro": "ProctorU (by Meazure Learning) is a leading live and automated online proctoring service utilized by universities and professional certification boards. Proper equipment setup ensures a smooth exam launch.",
-      "focusKeyword": "",
-      "metaTitle": "",
-      "metaDescription": "",
+      "focusKeyword": "ProctorU Meazure Learning technical guide",
+      "metaTitle": "ProctorU / Meazure Learning: Technical Setup & Student Guide | TUTOR PROCTORED EXAMS",
+      "metaDescription": "ProctorU and Meazure Learning student guide: Guardian browser setup, equipment diagnostic checks, room scan preparation, and live proctor support.",
       "sections": [
         {
           "id": "guardian-browser-installation",
@@ -844,8 +915,28 @@
       ],
       "faqs": [
         {
-          "question": "Can I take a ProctorU exam on a dual-monitor setup?",
-          "answer": "No. ProctorU requires disconnecting all secondary monitors before launching your test session."
+          "question": "What is the Guardian Browser for ProctorU exams?",
+          "answer": "Guardian Browser is a secure web browser developed by Meazure Learning / ProctorU specifically for proctored testing. It manages camera permissions, screen locks, and live proctor chat."
+        },
+        {
+          "question": "How do I complete a ProctorU equipment system test?",
+          "answer": "Log into your ProctorU account and click \"Test Your Equipment\" to test your webcam, microphone, internet bandwidth, and OS permissions before test day."
+        },
+        {
+          "question": "Does ProctorU require a live human proctor?",
+          "answer": "ProctorU offers both Live+ (live human proctoring) and Review+ (automated recording with post-exam human review), depending on your university or testing board settings."
+        },
+        {
+          "question": "What if ProctorU live proctor chat freezes during check-in?",
+          "answer": "If live chat freezes during check-in, refresh your Guardian Browser page or access ProctorU support at https://www.meazurelearning.com/ to re-connect with a support technician."
+        },
+        {
+          "question": "Can I take a ProctorU exam on a Chromebook or iPad?",
+          "answer": "Chromebook support depends on whether your institution uses Guardian Browser or the Chrome extension delivery mode. iPads and mobile phones are unsupported for taking assessments."
+        },
+        {
+          "question": "Where can I get technical guidance before my ProctorU exam?",
+          "answer": "Explore our Software Technical Guidance service for pre-test equipment checks and computer diagnostic assistance."
         }
       ],
       "published": true
